@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', async () => {
     try {
         const response = await fetch("http://localhost:3001/data");
@@ -5,6 +6,26 @@ document.addEventListener('DOMContentLoaded', async () => {
         let filteredData = [...data]; // Keep original data separate
         const leaderboardBody = document.getElementById('leaderboard-body');
         const sectionFilter = document.getElementById('section-filter');
+
+        const arrows = {
+            asc: '▲',
+            desc: '▼'
+        };
+
+        let totalSolvedDirection = 'desc';
+        let easySolvedDirection = 'desc';
+        let mediumSolvedDirection = 'desc';
+        let hardSolvedDirection = 'desc';
+        let sectionDirection = 'asc';
+
+        const renderHeaderArrows = () => {
+            document.getElementById('sort-total').innerHTML = `Total Solved ${arrows[totalSolvedDirection]}`;
+            document.getElementById('sort-easy').innerHTML = `Easy ${arrows[easySolvedDirection]}`;
+            document.getElementById('sort-medium').innerHTML = `Medium ${arrows[mediumSolvedDirection]}`;
+            document.getElementById('sort-hard').innerHTML = `Hard ${arrows[hardSolvedDirection]}`;
+        };
+
+        const renderDataArrows = (direction) => direction === 'asc' ? arrows.asc : arrows.asc; // Always showing upward arrow
 
         // Populate section filter dropdown
         const populateSectionFilter = () => {
@@ -62,10 +83,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                             : `<div class="text-red-500">${student.name}</div>`}
                     </td>
                     <td class="p-4">${student.section || 'N/A'}</td>
-                    <td class="p-4">${student.totalSolved || 'N/A'}</td>
-                    <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
-                    <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'}</td>
-                    <td class="p-4 text-red-400">${student.hardSolved || 'N/A'}</td>
+                    <td class="p-4">${student.totalSolved || 'N/A'} ${renderDataArrows(totalSolvedDirection)}</td>
+                    <td class="p-4 text-green-400">${student.easySolved || 'N/A'} ${renderDataArrows(easySolvedDirection)}</td>
+                    <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'} ${renderDataArrows(mediumSolvedDirection)}</td>
+                    <td class="p-4 text-red-400">${student.hardSolved || 'N/A'} ${renderDataArrows(hardSolvedDirection)}</td>
                 `;
                 leaderboardBody.appendChild(row);
             });
@@ -80,12 +101,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
 
         // Sorting logic with ascending and descending functionality
-        let totalSolvedDirection = 'desc';
-        let easySolvedDirection = 'desc';
-        let mediumSolvedDirection = 'desc';
-        let hardSolvedDirection = 'desc';
-        let sectionDirection = 'asc';
-
         const sortData = (data, field, direction, isNumeric = false) => {
             return data.sort((a, b) => {
                 const valA = a[field] || (isNumeric ? 0 : 'Z');
@@ -102,6 +117,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Initialize the page
         populateSectionFilter();
+        renderHeaderArrows();
         renderLeaderboard(data);
 
         // Event Listeners
@@ -122,24 +138,28 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('sort-total').addEventListener('click', () => {
             totalSolvedDirection = totalSolvedDirection === 'desc' ? 'asc' : 'desc';
             const sortedData = sortData(filteredData, 'totalSolved', totalSolvedDirection, true);
+            renderHeaderArrows();
             renderLeaderboard(sortedData);
         });
 
         document.getElementById('sort-easy').addEventListener('click', () => {
             easySolvedDirection = easySolvedDirection === 'desc' ? 'asc' : 'desc';
             const sortedData = sortData(filteredData, 'easySolved', easySolvedDirection, true);
+            renderHeaderArrows();
             renderLeaderboard(sortedData);
         });
 
         document.getElementById('sort-medium').addEventListener('click', () => {
             mediumSolvedDirection = mediumSolvedDirection === 'desc' ? 'asc' : 'desc';
             const sortedData = sortData(filteredData, 'mediumSolved', mediumSolvedDirection, true);
+            renderHeaderArrows();
             renderLeaderboard(sortedData);
         });
 
         document.getElementById('sort-hard').addEventListener('click', () => {
             hardSolvedDirection = hardSolvedDirection === 'desc' ? 'asc' : 'desc';
             const sortedData = sortData(filteredData, 'hardSolved', hardSolvedDirection, true);
+            renderHeaderArrows();
             renderLeaderboard(sortedData);
         });
 
