@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Function to export data to CSV
         const exportToCSV = (data) => {
-            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Easy', 'Medium', 'Hard', 'LeetCode URL'];
+            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Easy', 'Medium', 'Hard', 'PreSolved','LeetCode URL'];
             const csvRows = data.map((student, index) => {
                 return [
                     index + 1,
@@ -31,10 +31,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                     student.easySolved || 'N/A',
                     student.mediumSolved || 'N/A',
                     student.hardSolved || 'N/A',
+                    student.PreSolved || 'N/A',
                     student.url
                 ].join(',');
             });
             
+
             const csvContent = [headers.join(','), ...csvRows].join('\n');
             const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
             const link = document.createElement('a');
@@ -66,6 +68,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
                     <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'}</td>
                     <td class="p-4 text-red-400">${student.hardSolved || 'N/A'}</td>
+                     <td class="p-4 text-red-400">${student.PreSolved || 'N/A'}</td>
+
                 `;
                 leaderboardBody.appendChild(row);
             });
@@ -85,7 +89,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         let mediumSolvedDirection = 'desc';
         let hardSolvedDirection = 'desc';
         let sectionDirection = 'asc';
-
+        let PreSolved='desc';
         const sortData = (data, field, direction, isNumeric = false) => {
             return data.sort((a, b) => {
                 const valA = a[field] || (isNumeric ? 0 : 'Z');
@@ -140,6 +144,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('sort-hard').addEventListener('click', () => {
             hardSolvedDirection = hardSolvedDirection === 'desc' ? 'asc' : 'desc';
             const sortedData = sortData(filteredData, 'hardSolved', hardSolvedDirection, true);
+            renderLeaderboard(sortedData);
+        });
+        document.getElementById('sort-hard').addEventListener('click', () => {
+            hardSolvedDirection = hardSolvedDirection === 'desc' ? 'asc' : 'desc';
+            const sortedData = sortData(filteredData, 'PreSolved', PreSolvedDirection, true);
             renderLeaderboard(sortedData);
         });
 
