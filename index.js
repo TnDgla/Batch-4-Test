@@ -14,6 +14,7 @@ async function fetchAndSaveData() {
     const names = fs.readFileSync('name.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const urls = fs.readFileSync('urls.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const sections = fs.readFileSync('sections.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
+    
 
     if (rolls.length !== names.length || names.length !== urls.length || names.length !== sections.length) {
       console.error('Error: The number of rolls, names, URLs, and sections do not match.');
