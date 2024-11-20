@@ -76,6 +76,7 @@ async function fetchAndSaveData() {
   } catch (error) {
     console.error('Error processing data:', error);
   }
+  // fs.writeFileSync(oldData.json)
 }
 
 app.get('/data', (req, res) => {
