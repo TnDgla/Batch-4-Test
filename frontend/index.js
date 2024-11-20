@@ -3,8 +3,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         const response = await fetch("http://localhost:3001/data");
         const data = await response.json();
         let filteredData = [...data]; // Keep original data separate
+        
         const leaderboardBody = document.getElementById('leaderboard-body');
         const sectionFilter = document.getElementById('section-filter');
+
+        //SearchBar
+        const searchBar = document.getElementById('searchbar');
+        searchBar.addEventListener('input', (e) => {
+            const q = e.target.value.toLowerCase().trim();
+            const filtered = data.filter(student => 
+            (student.name && student.name.toLowerCase.include(q)) ||
+            (student.rollno && student.rollno.toLowerCase.include(q))
+            );
+            renderLeaderboard(filtered);
+        })
 
         // Populate section filter dropdown
         const populateSectionFilter = () => {
@@ -47,12 +59,15 @@ document.addEventListener('DOMContentLoaded', async () => {
             document.body.removeChild(link);
         };
 
+        // console.log(filteredData2[0]);
+
         // Function to render the leaderboard
         const renderLeaderboard = (sortedData) => {
             leaderboardBody.innerHTML = '';
             sortedData.forEach((student, index) => {
                 const row = document.createElement('tr');
                 row.classList.add('border-b', 'border-gray-700');
+                var n = student.roll;
                 row.innerHTML = `
                     <td class="p-4">${index + 1}</td>
                     <td class="p-4">${student.roll}</td>
@@ -62,6 +77,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                             : `<div class="text-red-500">${student.name}</div>`}
                     </td>
                     <td class="p-4">${student.section || 'N/A'}</td>
+                    <td class="p-4">${student.totalSolved || 'N/A'}</td>
                     <td class="p-4">${student.totalSolved || 'N/A'}</td>
                     <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
                     <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'}</td>
@@ -119,7 +135,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             renderLeaderboard(sortedData);
         });
 
-        document.getElementById('sort-total').addEventListener('click', () => {
+        document.getElementById('sort-total-after').addEventListener('click', () => {
             totalSolvedDirection = totalSolvedDirection === 'desc' ? 'asc' : 'desc';
             const sortedData = sortData(filteredData, 'totalSolved', totalSolvedDirection, true);
             renderLeaderboard(sortedData);
