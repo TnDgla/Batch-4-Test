@@ -18,9 +18,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             });
         };
 
-        // Function to export data to CSV
+     
+
+            // Function to export data to CSV
         const exportToCSV = (data) => {
-            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Easy', 'Medium', 'Hard', 'LeetCode URL'];
+            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Easy', 'Medium', 'Hard', 'LeetCode URL','Old solved'];
             const csvRows = data.map((student, index) => {
                 return [
                     index + 1,
@@ -31,7 +33,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                     student.easySolved || 'N/A',
                     student.mediumSolved || 'N/A',
                     student.hardSolved || 'N/A',
-                    student.url
+                    student.url,
+                    student.oldSolved || 'N/A'
                 ].join(',');
             });
             
@@ -66,6 +69,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
                     <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'}</td>
                     <td class="p-4 text-red-400">${student.hardSolved || 'N/A'}</td>
+                    <td class="p-4 text-purple-400">${student.oldSolved || 'N/A'}</td>
                 `;
                 leaderboardBody.appendChild(row);
             });
@@ -85,6 +89,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         let mediumSolvedDirection = 'desc';
         let hardSolvedDirection = 'desc';
         let sectionDirection = 'asc';
+        let oldSolvedDirection='desc';
 
         const sortData = (data, field, direction, isNumeric = false) => {
             return data.sort((a, b) => {
@@ -140,6 +145,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('sort-hard').addEventListener('click', () => {
             hardSolvedDirection = hardSolvedDirection === 'desc' ? 'asc' : 'desc';
             const sortedData = sortData(filteredData, 'hardSolved', hardSolvedDirection, true);
+            renderLeaderboard(sortedData);
+        });
+        document.getElementById('sort-total').addEventListener('click', () => {
+            oldSolvedDirection = oldSolvedDirection === 'desc' ? 'asc' : 'desc';
+            const sortedData = sortData(filteredData, 'oldSolved', oldSolvedDirection, true);
             renderLeaderboard(sortedData);
         });
 
