@@ -14,6 +14,7 @@ async function fetchAndSaveData() {
     const names = fs.readFileSync('name.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const urls = fs.readFileSync('urls.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const sections = fs.readFileSync('sections.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
+    const residence = fs.readFileSync('residence.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
 
     if (rolls.length !== names.length || names.length !== urls.length || names.length !== sections.length) {
       console.error('Error: The number of rolls, names, URLs, and sections do not match.');
@@ -28,9 +29,11 @@ async function fetchAndSaveData() {
       const name = names[i];
       const url = urls[i];
       const section = sections[i];
-      let studentData = { roll, name, url, section };
+      const Residence =residence[i];
+      let studentData = { roll, name, url, section, Residence};
 
-      console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}`);
+      console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}, Residence: ${Residence}`);
+      console.log(studentData);
 
       // Check if URL is a LeetCode URL
       if (url.startsWith('https://leetcode.com/u/')) {
@@ -63,7 +66,6 @@ async function fetchAndSaveData() {
       }
       combinedData.push(studentData);
     }
-
     // Sort the data by totalSolved in descending order, treating 'NA' or invalid values as 0
     combinedData.sort((a, b) => {
       const aTotalSolved = isNaN(a.totalSolved) ? 0 : a.totalSolved;
