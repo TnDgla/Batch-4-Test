@@ -85,6 +85,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         let mediumSolvedDirection = 'desc';
         let hardSolvedDirection = 'desc';
         let sectionDirection = 'asc';
+        let hostelSolved='desc';
+        let dayscholarsolved='desc';
 
         const sortData = (data, field, direction, isNumeric = false) => {
             return data.sort((a, b) => {
@@ -112,11 +114,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('export-btn').addEventListener('click', () => {
             exportToCSV(filteredData); // Export only filtered data
         });
+        document.getElementById('sort-residence').addEventListener('click',() =>{
+            if(hostelSolved=='desc'){
+                hostelSolved='asc';
+                dayscholarsolved='desc';
+                sortData(data,'hostel',hostelSolved);
+                renderLeaderboard(data);
+            }
+        });
 
         document.getElementById('sort-section').addEventListener('click', () => {
             sectionDirection = sectionDirection === 'desc' ? 'asc' : 'desc';
             const sortedData = sortData(filteredData, 'section', sectionDirection, false);
             renderLeaderboard(sortedData);
+            const hostelSolved= renderLeaderboard(sortData(filteredData, 'hostel', hostelSolved, false);
         });
 
         document.getElementById('sort-total').addEventListener('click', () => {
