@@ -14,16 +14,24 @@ async function fetchAndSaveData() {
     const names = fs.readFileSync('name.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const urls = fs.readFileSync('urls.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const sections = fs.readFileSync('sections.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
-
+    const oldData = fs.readFileSync('oldData.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     if (rolls.length !== names.length || names.length !== urls.length || names.length !== sections.length) {
       console.error('Error: The number of rolls, names, URLs, and sections do not match.');
       return;
     }
-
     console.log('Input files read successfully.');
     const combinedData = [];
+    let old={};
+    console.log(typeof(oldData[0]));
+    for(let i=0;i<oldData.length;i++){
+      let key=oldData[i].substring(1,11);
+      let ob=oldData[i].substring(13,oldData[i].length-1);
+      old[key]=ob;
+    }
+    console.log(old);
 
     for (let i = 0; i < rolls.length; i++) {
+
       const roll = rolls[i];
       const name = names[i];
       const url = urls[i];
@@ -45,7 +53,8 @@ async function fetchAndSaveData() {
             studentData = {
               ...studentData,
               username,
-              totalSolved: data[username].submitStatsGlobal.acSubmissionNum[0].count || 0,
+              totalSolvedBefore: old[roll],
+              totalSolvedUpdated: data[username].submitStatsGlobal.acSubmissionNum[0].count || 0,
               easySolved: data[username].submitStatsGlobal.acSubmissionNum[1].count || 0,
               mediumSolved: data[username].submitStatsGlobal.acSubmissionNum[2].count || 0,
               hardSolved: data[username].submitStatsGlobal.acSubmissionNum[3].count || 0,
@@ -64,11 +73,11 @@ async function fetchAndSaveData() {
       combinedData.push(studentData);
     }
 
-    // Sort the data by totalSolved in descending order, treating 'NA' or invalid values as 0
+    // Sort the data by totalSolvedBefore in descending order, treating 'NA' or invalid values as 0
     combinedData.sort((a, b) => {
-      const aTotalSolved = isNaN(a.totalSolved) ? 0 : a.totalSolved;
-      const bTotalSolved = isNaN(b.totalSolved) ? 0 : b.totalSolved;
-      return bTotalSolved - aTotalSolved;
+      const atotalSolvedUpdated = isNaN(a.totalSolvedUpdated) ? 0 : a.totalSolvedUpdated;
+      const btotalSolvedUpdated = isNaN(b.totalSolvedUpdated) ? 0 : b.totalSolvedUpdated;
+      return btotalSolvedUpdated - atotalSolvedUpdated;
     });
 
     fs.writeFileSync('data.json', JSON.stringify(combinedData, null, 2));
