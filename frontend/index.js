@@ -634,6 +634,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const leaderboardBody = document.getElementById('leaderboard-body');
         const sectionFilter = document.getElementById('section-filter');
+        const hostelFilter = document.getElementById('hostel-filter');
 
         const populateSectionFilter = () => {
             const sections = [...new Set(data.map(student => student.section || 'N/A'))].sort();
@@ -643,6 +644,16 @@ document.addEventListener('DOMContentLoaded', async () => {
                 option.value = section;
                 option.textContent = section;
                 sectionFilter.appendChild(option);
+            });
+        };
+        const populateResFilter = () => {
+            const hostel = [...new Set(data.map(student => student.hostel || 'N/A'))].sort();
+            hostelFilter.innerHTML = '<option value="all">Res</option>';
+            hostel.forEach(hostel => {
+                const option = document.createElement('option');
+                option.value = hostel;
+                option.textContent = hostel;
+                hostelFilter.appendChild(option);
             });
         };
 
@@ -708,6 +719,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             renderLeaderboard(filteredData);
         };
 
+        const filterDatas = (hostel) => {
+            filteredData = hostel === 'all'
+                ? [...data]
+                : data.filter(student => (student.hostel || 'N/A') === hostel);
+            renderLeaderboard(filteredData);
+        };
+
         // Sorting logic with ascending and descending functionality
         let totalSolvedDirection = 'desc';
         let easySolvedDirection = 'desc';
@@ -732,15 +750,25 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Initialize the page
         populateSectionFilter();
+        populateResFilter();
         renderLeaderboard(filteredData);
 
         // Event Listeners
         sectionFilter.addEventListener('change', (e) => {
             filterData(e.target.value);
         });
+        hostelFilter.addEventListener('change', (e)=>{
+            filterData(e.target.value);
+        })
 
         document.getElementById('export-btn').addEventListener('click', () => {
             exportToCSV(filteredData); // Export only filtered data
+        });
+
+        document.getElementById('sort-section').addEventListener('click', () => {
+            sectionDirection = sectionDirection === 'desc' ? 'asc' : 'desc';
+            const sortedData = sortData(filteredData, 'section', sectionDirection, false);
+            renderLeaderboard(sortedData);
         });
 
         document.getElementById('sort-section').addEventListener('click', () => {
