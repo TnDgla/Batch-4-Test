@@ -8,20 +8,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Populate section filter dropdown
         const populateSectionFilter = () => {
-            const sections = [...new Set(data.map(student => student.section ||student.acco|| 'N/A'))].sort();
+            const sections = [...new Set(data.map(student => student.section || 'N/A'))].sort();
             sectionFilter.innerHTML = '<option value="all">All Sections</option>';
             sections.forEach(section => {
                 const option = document.createElement('option');
                 option.value = section;
                 option.textContent = section;
-                // const option2 = document.createElement('option2');
-                // option.value = acco;
-                // option.textContent = acco;
                 sectionFilter.appendChild(option);
-                // sectionFilter.appendChild(option2);
-
             });
-
         };
         //Search bar
         // Function to filter student data based on search input
@@ -33,23 +27,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             const filteredData = data.filter(student => {
                 const name = student.name.toLowerCase();
                 const roll = student.roll.toLowerCase();
-                const acco = student.acco.toLowerCase();
-                return name.includes(searchText) || roll.includes(searchText) || acco.includes(searchText);
+                return name.includes(searchText) || roll.includes(searchText);
             });
             renderLeaderboard(filteredData);
         })
 
         // Represent total number of students section wise in pie chart
         const ctx = document.getElementById('myChart');
-
-        const hosteller = data.filter(student => {
-            const acco = student.acco.toLowerCase();
-            return acco.includes('hostellers');
-        })
-        const dayscholar = data.filter(student => {
-            const acco = student.acco.toLowerCase();
-            return acco.includes('day scholars');
-        })
         const DSection = data.filter(student => {
             const section = student.section.toLowerCase();
             return section.includes('d');
@@ -70,27 +54,24 @@ document.addEventListener('DOMContentLoaded', async () => {
             const section = student.section.toLowerCase();
             return section.includes('a(h)');
         })
-        console.log(DSection.length, CSection.length, ESection.length, ACSection.length, AHSection.length, hosteller.length, dayscholar.length);
+        // console.log(DSection.length, CSection.length, ESection.length, ACSection.length, AHSection.length);
         const pieData = {
             labels: [
-                // 'D',
-                // 'E',
-                // 'C',
-                // 'AC',
-                // 'A(H)',
-                'Hosteler',
-                'Day Scholar'
-
+                'D',
+                'E',
+                'C',
+                'AC',
+                'A(H)'
             ],
             datasets: [{
                 label: '',
-                data: [hosteller.length, dayscholar.length],
+                data: [DSection.length, ESection.length, CSection.length,ACSection.length, AHSection.length],
                 backgroundColor: [
                     'blue',
                     'green',
-                    // 'yellow',
-                    // 'red',
-                    // 'lime'
+                    'yellow',
+                    'red',
+                    'lime'
                 ],
                 hoverOffset: 4
             }]
@@ -102,7 +83,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Function to export data to CSV
         const exportToCSV = (data) => {
-            const headers = ['Rank', 'Roll Number', 'Name','Accommodation', 'Section', 'Total Solved', 'Easy', 'Medium', 'Hard', 'LeetCode URL'];
+            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Easy', 'Medium', 'Hard', 'LeetCode URL'];
             const csvRows = data.map((student, index) => {
                 return [
                     index + 1,
@@ -116,7 +97,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     student.url
                 ].join(',');
             });
-
+            
             const csvContent = [headers.join(','), ...csvRows].join('\n');
             const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
             const link = document.createElement('a');
@@ -139,11 +120,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <td class="p-4">${index + 1}</td>
                     <td class="p-4">${student.roll}</td>
                     <td class="p-4">
-                        ${student.url.startsWith('https://leetcode.com/u/')
-                    ? `<a href="${student.url}" target="_blank" class="text-blue-400">${student.name}</a>`
-                    : `<div class="text-red-500">${student.name}</div>`}
+                        ${student.url.startsWith('https://leetcode.com/u/') 
+                            ? `<a href="${student.url}" target="_blank" class="text-blue-400">${student.name}</a>`
+                            : `<div class="text-red-500">${student.name}</div>`}
                     </td>
-                    <td class="p-4">${student.acco || 'N/A'}</td>
                     <td class="p-4">${student.section || 'N/A'}</td>
                     <td class="p-4">${student.totalSolved || 'N/A'}</td>
                     <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
@@ -156,7 +136,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Filter function
         const filterData = (section) => {
-            filteredData = section === 'all'
+            filteredData = section === 'all' 
                 ? [...data]
                 : data.filter(student => (student.section || 'N/A') === section);
             renderLeaderboard(filteredData);
@@ -201,11 +181,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             const sortedData = sortData(filteredData, 'section', sectionDirection, false);
             renderLeaderboard(sortedData);
         });
-        document.getElementById('sort-acco').addEventListener('click', () => {
-            accoDirection = accoDirection === 'desc' ? 'asc' : 'desc';
-            const sortedData = sortData(filteredData, 'acco', sectionDirection, false);
-            renderLeaderboard(sortedData);
-        });
 
         document.getElementById('sort-total').addEventListener('click', () => {
             totalSolvedDirection = totalSolvedDirection === 'desc' ? 'asc' : 'desc';
@@ -235,3 +210,39 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error('Error fetching data:', error);
     }
 });
+
+
+
+
+// row.addEventListener("click", () => {
+//     row.style.position='fixed';
+//     row.style.border='solid 5px';
+//     row.style.color='red';
+// });
+
+
+
+
+
+
+
+// document.getElementById('submission').addEventListener('click', () => {
+//     const user1 = filteredData.find(user => user.name === "user1");
+//     const user2 = filteredData.find(user => user.name === "user2");
+//
+//     if (user1 && user2) {
+//         console.log(`${user1.totalSolved} > ${user2.totalSolved}`);
+//     } else {
+//         console.log("One or both users not found.");
+//     }
+// });
+
+
+
+// git add .
+//     git commit -m 'test done'
+// git push origin
+//
+// 1. go to the repo and create pull request
+// 2. add title and description (sc of your work)
+// 3. create PR

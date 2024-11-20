@@ -14,7 +14,7 @@ async function fetchAndSaveData() {
     const names = fs.readFileSync('name.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const urls = fs.readFileSync('urls.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const sections = fs.readFileSync('sections.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
-
+    const acc = fs.readFileSync('Accomodation.txt','utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     if (rolls.length !== names.length || names.length !== urls.length || names.length !== sections.length) {
       console.error('Error: The number of rolls, names, URLs, and sections do not match.');
       return;
@@ -28,14 +28,16 @@ async function fetchAndSaveData() {
       const name = names[i];
       const url = urls[i];
       const section = sections[i];
-      let studentData = { roll, name, url, section };
+      const acco = acc[i];
 
-      console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}`);
+      let studentData = { roll, name, url, section, acco };
+
+      console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}, acc: ${acco}`);
 
       // Check if URL is a LeetCode URL
       if (url.startsWith('https://leetcode.com/u/')) {
         var username = url.split('/u/')[1];
-        if(username.charAt(username.length-1) == '/') username = username.substring(0, username.length-1);
+        if(username.charAt(username.length-1) === '/') username = username.substring(0, username.length-1);
         console.log(`Fetching data for LeetCode username: ${username}`);
 
         try {
@@ -89,3 +91,14 @@ setInterval(fetchAndSaveData, 60 * 60 * 1000);
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
+
+
+
+
+// git add .
+//     git commit -m 'test done'
+// git push origin
+//
+// 1. go to the repo and create pull request
+// 2. add title and description (sc of your work)
+// 3. create PR
