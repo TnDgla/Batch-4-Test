@@ -78,6 +78,10 @@ async function fetchAndSaveData() {
   }
 }
 
+app.get('/', (req, res) => {
+  res.send('Hello this is root');
+});
+
 app.get('/data', (req, res) => {
   res.sendFile(__dirname + '/data.json');
 });

@@ -3,6 +3,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         const response = await fetch("http://localhost:3001/data");
         const data = await response.json();
         let filteredData = [...data]; // Keep original data separate
+         filteredData = data.map((student) => {
+            return {
+                ...student, previousTotal: oldData[student.roll] || 0
+            }
+        })
+
         const leaderboardBody = document.getElementById('leaderboard-body');
         const sectionFilter = document.getElementById('section-filter');
 
@@ -20,14 +26,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Function to export data to CSV
         const exportToCSV = (data) => {
-            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Easy', 'Medium', 'Hard', 'LeetCode URL'];
+            const headers = ['Rank', 'Roll Number', 'Name', 'Section','Total Solved Before', 'Total Solved Updated', 'Easy', 'Medium', 'Hard', 'LeetCode URL'];
             const csvRows = data.map((student, index) => {
                 return [
                     index + 1,
                     student.roll,
                     student.name,
                     student.section || 'N/A',
-                    student.totalSolved || 'N/A',
+                    student.totalSolvedBefore || 'N/A',
+                    student.totalSolvedUpdated || 'N/A',
                     student.easySolved || 'N/A',
                     student.mediumSolved || 'N/A',
                     student.hardSolved || 'N/A',
@@ -62,7 +69,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                             : `<div class="text-red-500">${student.name}</div>`}
                     </td>
                     <td class="p-4">${student.section || 'N/A'}</td>
-                    <td class="p-4">${student.totalSolved || 'N/A'}</td>
+                    <td class="p-4">${student.totalSolvedBefore || 'N/A'}</td>
+                    <td class="p-4">${student.totalSolvedUpdated || 'N/A'}</td>
                     <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
                     <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'}</td>
                     <td class="p-4 text-red-400">${student.hardSolved || 'N/A'}</td>
@@ -80,7 +88,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
 
         // Sorting logic with ascending and descending functionality
-        let totalSolvedDirection = 'desc';
+        let totalSolvedBeforeDirection = 'desc';
+        let totalSolvedUpdatedDirection = 'desc';
         let easySolvedDirection = 'desc';
         let mediumSolvedDirection = 'desc';
         let hardSolvedDirection = 'desc';
@@ -120,8 +129,14 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
 
         document.getElementById('sort-total').addEventListener('click', () => {
-            totalSolvedDirection = totalSolvedDirection === 'desc' ? 'asc' : 'desc';
-            const sortedData = sortData(filteredData, 'totalSolved', totalSolvedDirection, true);
+            totalSolvedBeforeDirection = totalSolvedBeforeDirection === 'desc' ? 'asc' : 'desc';
+            const sortedData = sortData(filteredData, 'totalSolvedBefore', totalSolvedBeforeDirection, true);
+            renderLeaderboard(sortedData);
+        });
+
+        document.getElementById('sort-total').addEventListener('click', () => {
+            totalSolvedUpdatedDirection = totalSolvedUpdatedDirection === 'desc' ? 'asc' : 'desc';
+            const sortedData = sortData(filteredData, 'totalSolvedUpdated', totalSolvedUpdatedDirection, true);
             renderLeaderboard(sortedData);
         });
 
@@ -142,6 +157,25 @@ document.addEventListener('DOMContentLoaded', async () => {
             const sortedData = sortData(filteredData, 'hardSolved', hardSolvedDirection, true);
             renderLeaderboard(sortedData);
         });
+
+        const look = document.getElementById('search');
+        const lookFile = document.getElementById('leaderboard-body');
+
+        look.addEventListener('input', function() {
+        const query = look.value.toLowerCase();
+        const rows = lookFile.querySelectorAll('tr');
+
+        rows.forEach(row => {
+        const names = row.cells[2].textContent.toLowerCase();
+        const rolls = row.cells[1].textContent.toLowerCase(); 
+        
+        if (names.includes(query) || rolls.includes(query)) {
+            row.style.display = '';
+        } else {
+            row.style.display = 'none';
+        }
+    });
+});
 
     } catch (error) {
         console.error('Error fetching data:', error);
