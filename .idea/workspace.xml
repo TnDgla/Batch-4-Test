@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9b7a061-7cc0-4e18-8105-0713672fa57c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Accomodation.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DCode/index (1).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DCode/indexd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.MD" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="c9b7a061-7cc0-4e18-8105-0713672fa57c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +13,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/100bhagya-Sharma/Batch-4-Test.git",
+    "accountId": "cfcb23db-fe22-4dd9-b696-fe35c0b1f08e"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -65,7 +59,7 @@
       <workItem from="1732087556497" duration="25000" />
       <workItem from="1732087587676" duration="1697000" />
       <workItem from="1732101447499" duration="4325000" />
-      <workItem from="1732111335714" duration="3487000" />
+      <workItem from="1732111335714" duration="3811000" />
     </task>
     <servers />
   </component>
