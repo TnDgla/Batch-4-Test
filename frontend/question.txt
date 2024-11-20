@@ -1,0 +1,6 @@
+ques->
+make a column for appraised questions on leetcode profile after the dsa classes as their i nothing in web dev classes.
+ques->
+make another column for identifying day scholars and hostellers
+ques->
+make a pie chart between day scholars and hostellers that how many questions they have performed before and after the classes.
