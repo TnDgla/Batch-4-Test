@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const leaderboardBody = document.getElementById('leaderboard-body');
         const sectionFilter = document.getElementById('section-filter');
 
-        // Populate section filter dropdown
+        // Populate section filter dropdown changes
         const populateSectionFilter = () => {
             const sections = [...new Set(data.map(student => student.section || 'N/A'))].sort();
             sectionFilter.innerHTML = '<option value="all">All Sections</option>';
