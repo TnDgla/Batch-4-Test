@@ -689,7 +689,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     </td>
                     <td class="p-4">${student.section || 'N/A'}</td>
                     <td class="p-4">${student.totalSolved || 'N/A'} &nbsp; &nbsp; 
-                        ${student.totalSolved - oldData[student.roll]} &uarr;
+                        <b style="color: #66FF00; font-size: smaller"> ${student.totalSolved - oldData[student.roll]} &uarr; </b>
                     </td>
                     <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
                     <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'}</td>
