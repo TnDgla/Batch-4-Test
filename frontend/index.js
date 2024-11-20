@@ -628,21 +628,21 @@ document.addEventListener('DOMContentLoaded', async () => {
         const leaderboardBody = document.getElementById('leaderboard-body');
         const sectionFilter = document.getElementById('section-filter');
 
-        const fs = require('fs');
-        function mergeTextFiles(file1, file2, outputFile) {
+        // const fs = require('fs');
+        // function mergeTextFiles(file1, file2, outputFile) {
 
-            const content1 = fs.readFileSync(file1, 'utf-8');
-            const content2 = fs.readFileSync(file2, 'utf-8');
+        //     const content1 = fs.readFileSync(file1, 'utf-8');
+        //     const content2 = fs.readFileSync(file2, 'utf-8');
 
-            const data1 = content1.split(',');
-            const data2 = content2.split(',');
+        //     const data1 = content1.split(',');
+        //     const data2 = content2.split(',');
 
-            const mergedData = data1.concat(data2);
-            const mergedContent = mergedData.join(',');
-            fs.writeFileSync(outputFile, mergedContent);
-          }
+        //     const mergedData = data1.concat(data2);
+        //     const mergedContent = mergedData.join(',');
+        //     fs.writeFileSync(outputFile, mergedContent);
+        //   }
 
-          mergeTextFiles('rollsorted.txt', 'hosteler-dayschlor.txt', 'merged.txt');
+        //   mergeTextFiles('rollsorted.txt', 'hosteler-dayschlor.txt', 'merged.txt');
 
         // Populate section filter dropdown
         const populateSectionFilter = () => {
