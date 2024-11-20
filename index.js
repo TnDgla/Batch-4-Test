@@ -14,9 +14,10 @@ async function fetchAndSaveData() {
     const names = fs.readFileSync('name.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const urls = fs.readFileSync('urls.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const sections = fs.readFileSync('sections.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
+    const points = fs.readFileSync('points.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
 
-    if (rolls.length !== names.length || names.length !== urls.length || names.length !== sections.length) {
-      console.error('Error: The number of rolls, names, URLs, and sections do not match.');
+    if (rolls.length !== names.length || names.length !== urls.length || names.length !== sections.length || names.length !== points.length) {
+      console.error('Error: The number of rolls, names, URLs, points and sections do not match.');
       return;
     }
 
@@ -28,9 +29,10 @@ async function fetchAndSaveData() {
       const name = names[i];
       const url = urls[i];
       const section = sections[i];
-      let studentData = { roll, name, url, section };
+      const points = points[i];
+      let studentData = { roll, name, url, section, points };
 
-      console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}`);
+      console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}, points: ${points}}`);
 
       // Check if URL is a LeetCode URL
       if (url.startsWith('https://leetcode.com/u/')) {
@@ -49,6 +51,7 @@ async function fetchAndSaveData() {
               easySolved: data[username].submitStatsGlobal.acSubmissionNum[1].count || 0,
               mediumSolved: data[username].submitStatsGlobal.acSubmissionNum[2].count || 0,
               hardSolved: data[username].submitStatsGlobal.acSubmissionNum[3].count || 0,
+              points: data[username].submitStatsGlobal.acSubmissionNum[4].count || 0,
             };
             console.log(`Data for ${username} fetched and processed successfully.`);
           } else {
