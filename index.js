@@ -14,8 +14,8 @@ async function fetchAndSaveData() {
     const names = fs.readFileSync('name.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const urls = fs.readFileSync('urls.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const sections = fs.readFileSync('sections.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
-
-    if (rolls.length !== names.length || names.length !== urls.length || names.length !== sections.length) {
+    const residence = fs.readFileSync('residence.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
+    if (rolls.length !== names.length || names.length !== urls.length || names.length !== sections.length || residence.length !== names.length) {
       console.error('Error: The number of rolls, names, URLs, and sections do not match.');
       return;
     }
@@ -28,9 +28,10 @@ async function fetchAndSaveData() {
       const name = names[i];
       const url = urls[i];
       const section = sections[i];
-      let studentData = { roll, name, url, section };
+      const resi = residence[i];
+      let studentData = { roll, name, url, section, resi };
 
-      console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}`);
+      console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}, residence : ${resi}`);
 
       // Check if URL is a LeetCode URL
       if (url.startsWith('https://leetcode.com/u/')) {
@@ -70,7 +71,7 @@ async function fetchAndSaveData() {
       const bTotalSolved = isNaN(b.totalSolved) ? 0 : b.totalSolved;
       return bTotalSolved - aTotalSolved;
     });
-
+    console.log(combinedData)
     fs.writeFileSync('data.json', JSON.stringify(combinedData, null, 2));
     console.log('Data saved to data.json successfully.');
   } catch (error) {
