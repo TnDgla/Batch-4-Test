@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         let filteredData = [...data]; // Keep original data separate
         const leaderboardBody = document.getElementById('leaderboard-body');
         const sectionFilter = document.getElementById('section-filter');
+        const ResidenceFilter=document.getElementById('Residence-filter');
 
         // Populate section filter dropdown
         const populateSectionFilter = () => {
@@ -17,6 +18,19 @@ document.addEventListener('DOMContentLoaded', async () => {
                 sectionFilter.appendChild(option);
             });
         };
+
+        //populating Residence filter dropdown
+        const populateResidenceFilter = () => {
+            const Residence = [...new Set(data.map(student => student.Residence || 'N/A'))].sort();
+            ResidenceFilter.innerHTML = '<option value="all">All Residences</option>';
+            Residence.forEach(Residence => {
+                const option = document.createElement('option');
+                option.value = Residence;
+                // option.textContent=Residence;
+                // ResidenceFilter.appendChild(option);
+            });
+        };
+
 
         // Function to export data to CSV
         const exportToCSV = (data) => {
@@ -78,6 +92,14 @@ document.addEventListener('DOMContentLoaded', async () => {
                 : data.filter(student => (student.section || 'N/A') === section);
             renderLeaderboard(filteredData);
         };
+        //Filter for Residence
+        const filterRData = (Residence) => {
+            filteredData = Residence === 'all' 
+                ? [...data]
+                : data.filter(student => (student.Residence || 'N/A') === Residence);
+            renderLeaderboard(filteredData);
+        };
+        
 
         // Sorting logic with ascending and descending functionality
         let totalSolvedDirection = 'desc';
@@ -102,6 +124,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Initialize the page
         populateSectionFilter();
+        //populateResidenceFilter();
         renderLeaderboard(data);
 
         // Event Listeners

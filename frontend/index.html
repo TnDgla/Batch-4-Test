@@ -21,6 +21,15 @@
                         <button id="export-btn" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded flex items-center transition duration-150 ease-in-out">
                             <i class="fas fa-download mr-2"></i> Export to CSV
                         </button>
+                        <!-- my code -->
+
+                        <select id="residence-filter" class="bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="all">All Residence</option>
+                        </select>
+                        <button id="export-btn" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded flex items-center transition duration-150 ease-in-out">
+                            <i class="fas fa-download mr-2"></i> Export to CSV
+                        </button>
+
                     </div>
                 </div>
                 <table class="min-w-full bg-gray-900 rounded-lg overflow-hidden shadow-md">
@@ -56,6 +65,12 @@
                             <th class="p-4 text-left text-xs font-medium text-red-400 uppercase tracking-wider">
                                 Hard
                                 <button id="sort-hard" class="ml-2 hover:text-white">
+                                    <i class="fas fa-sort"></i>
+                                </button>
+                            </th>
+                            <th class="p-4 text-left text-xs font-medium text-gray-300 uppercase tracking-wider">
+                                Points
+                                <button id="sort-total" class="ml-2 hover:text-white">
                                     <i class="fas fa-sort"></i>
                                 </button>
                             </th>
