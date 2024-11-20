@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         let filteredData = [...data]; // Keep original data separate
         const leaderboardBody = document.getElementById('leaderboard-body');
         const sectionFilter = document.getElementById('section-filter');
+        const residenceFilter = document.getElementById('residence-filter');
 
-        // Old data (replace this with the full data from snippet.txt)
         var oldData = {
             "2215001289":1077,
             "2215500064":863,
@@ -627,8 +627,15 @@ document.addEventListener('DOMContentLoaded', async () => {
             "2215500149":0,
             "2215500045":0,
             }
-            
 
+            
+            
+        const Day_Hostellers = {
+            "2215001545": "Hostellers",
+            "2215800010": "DayScholars",
+        };
+        
+        
         const populateSectionFilter = () => {
             const sections = [...new Set(data.map(student => student.section || 'N/A'))].sort();
             sectionFilter.innerHTML = '<option value="all">All Sections</option>';
@@ -642,23 +649,29 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Function to export data to CSV
         const exportToCSV = (data) => {
-            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Movement', 'Easy', 'Medium', 'Hard', 'LeetCode URL'];
+            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Old_Ques_Solved', 'Movement', 'Current_Ques_Solved', 'Easy', 'Medium', 'Hard', 'LeetCode URL', 'Residence'];
             const csvRows = data.map((student, index) => {
                 const movement = calculateMovement(student);
+                const Old_Ques_Solved = calculateOld(student);
+                const Curr_Ques_Solved = calculateCurr(student);
+
                 return [
                     index + 1,
                     student.roll,
                     student.name,
                     student.section || 'N/A',
                     student.totalSolved || 'N/A',
+                    Old_Ques_Solved,
                     movement,
+                    Curr_Ques_Solved,
                     student.easySolved || 'N/A',
                     student.mediumSolved || 'N/A',
                     student.hardSolved || 'N/A',
-                    student.url
+                    student.url,
+                    Day_Hostellers[student.roll] || 'N/A'
                 ].join(',');
             });
-            
+
             const csvContent = [headers.join(','), ...csvRows].join('\n');
             const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
             const link = document.createElement('a');
@@ -677,6 +690,12 @@ document.addEventListener('DOMContentLoaded', async () => {
             const newCount = student.totalSolved || 0;
             return newCount - oldCount;
         };
+        const calculateOld = (student) => {
+            return oldData[student.roll] || 0;
+        };
+        const calculateCurr = (student) => {
+            return student.totalSolved || 0;
+        };
 
         // Function to render the leaderboard
         const renderLeaderboard = (sortedData) => {
@@ -685,57 +704,119 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const movement = calculateMovement(student);
                 const movementClass = movement > 0 ? 'text-green-400' : (movement < 0 ? 'text-red-400' : 'text-gray-400');
                 const movementIcon = movement > 0 ? '▲' : (movement < 0 ? '▼' : '–');
-                
+                const oldQuesSolved = calculateOld(student);
+                const currentQuesSolved = calculateCurr(student);
+
                 const row = document.createElement('tr');
                 row.classList.add('border-b', 'border-gray-700');
                 row.innerHTML = `
                     <td class="p-4">${index + 1}</td>
                     <td class="p-4">${student.roll}</td>
                     <td class="p-4">
-                        ${student.url.startsWith('https://leetcode.com/u/') 
-                            ? `<a href="${student.url}" target="_blank" class="text-blue-400">${student.name}</a>`
-                            : `<div class="text-red-500">${student.name}</div>`}
+                        ${student.url.startsWith('https://leetcode.com/u/')
+                        ? `<a href="${student.url}" target="_blank" class="text-blue-400">${student.name}</a>`
+                        : `<div class="text-red-500">${student.name}</div>`}
                     </td>
                     <td class="p-4">${student.section || 'N/A'}</td>
                     <td class="p-4">${student.totalSolved || 'N/A'}</td>
+                    <td class="p-4">${oldQuesSolved}</td>
                     <td class="p-4">
                         <span class="${movementClass}" title="Change since last week">
                             <span class="movement-icon">${movementIcon}</span>${Math.abs(movement)}
                         </span>
                     </td>
+                    <td class="p-4">${currentQuesSolved}</td>
                     <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
                     <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'}</td>
                     <td class="p-4 text-red-400">${student.hardSolved || 'N/A'}</td>
+                    <td class="p-4">${Day_Hostellers[student.roll] || 'N/A'}</td>
                 `;
                 leaderboardBody.appendChild(row);
             });
         };
 
         // Filter function
-        const filterData = (section) => {
-            filteredData = section === 'all' 
-                ? [...data]
-                : data.filter(student => (student.section || 'N/A') === section);
+        const filterData = () => {
+            const selectedSection = sectionFilter.value;
+            const selectedResidence = residenceFilter.value;
+            filteredData = data.filter(student => {
+                const sectionMatch = selectedSection === 'all' || (student.section || 'N/A') === selectedSection;
+                const residenceMatch = selectedResidence === 'all' || Day_Hostellers[student.roll] === selectedResidence;
+                return sectionMatch && residenceMatch;
+            });
             renderLeaderboard(filteredData);
+            updateResidenceChart();
         };
 
         // Sorting logic with ascending and descending functionality
-        let totalSolvedDirection = 'desc';
-        let easySolvedDirection = 'desc';
-        let mediumSolvedDirection = 'desc';
-        let hardSolvedDirection = 'desc';
-        let sectionDirection = 'asc';
+        let sortDirections = {
+            section: 'asc',
+            totalSolved: 'desc',
+            oldQuesSolved: 'desc',
+            currentQuesSolved: 'desc',
+            easySolved: 'desc',
+            mediumSolved: 'desc',
+            hardSolved: 'desc'
+        };
 
-        const sortData = (data, field, direction, isNumeric = false) => {
-            return data.sort((a, b) => {
-                const valA = a[field] || (isNumeric ? 0 : 'Z');
-                const valB = b[field] || (isNumeric ? 0 : 'Z');
-                if (isNumeric) {
-                    return direction === 'desc' ? valB - valA : valA - valB;
+        const sortData = (field) => {
+            sortDirections[field] = sortDirections[field] === 'desc' ? 'asc' : 'desc';
+            const direction = sortDirections[field];
+
+            filteredData.sort((a, b) => {
+                let valA, valB;
+                if (field === 'oldQuesSolved') {
+                    valA = calculateOld(a);
+                    valB = calculateOld(b);
+                } else if (field === 'currentQuesSolved') {
+                    valA = calculateCurr(a);
+                    valB = calculateCurr(b);
                 } else {
-                    return direction === 'desc'
-                        ? valB.toString().localeCompare(valA.toString())
-                        : valA.toString().localeCompare(valB.toString());
+                    valA = a[field] || 0;
+                    valB = b[field] || 0;
+                }
+
+                if (typeof valA === 'string') {
+                    return direction === 'asc' ? valA.localeCompare(valB) : valB.localeCompare(valA);
+                } else {
+                    return direction === 'asc' ? valA - valB : valB - valA;
+                }
+            });
+
+            renderLeaderboard(filteredData);
+        };
+
+        // Function to update the residence chart
+        const updateResidenceChart = () => {
+            const dayScholarTotal = filteredData
+                .filter(student => Day_Hostellers[student.roll] === 'DayScholars')
+                .reduce((sum, student) => sum + (student.totalSolved || 0), 0);
+            const hostellerTotal = filteredData
+                .filter(student => Day_Hostellers[student.roll] === 'Hostellers')
+                .reduce((sum, student) => sum + (student.totalSolved || 0), 0);
+
+            const ctx = document.getElementById('residenceChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: ['Day Scholars', 'Hostellers'],
+                    datasets: [{
+                        data: [dayScholarTotal, hostellerTotal],
+                        backgroundColor: ['#FF6384', '#36A2EB'],
+                        hoverBackgroundColor: ['#FF6384', '#36A2EB']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: true,
+                            text: 'Total Solved by Residence'
+                        }
+                    }
                 }
             });
         };
@@ -743,45 +824,23 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Initialize the page
         populateSectionFilter();
         renderLeaderboard(data);
+        updateResidenceChart();
 
         // Event Listeners
-        sectionFilter.addEventListener('change', (e) => {
-            filterData(e.target.value);
-        });
+        sectionFilter.addEventListener('change', filterData);
+        residenceFilter.addEventListener('change', filterData);
 
         document.getElementById('export-btn').addEventListener('click', () => {
-            exportToCSV(filteredData); // Export only filtered data
+            exportToCSV(filteredData);
         });
 
-        document.getElementById('sort-section').addEventListener('click', () => {
-            sectionDirection = sectionDirection === 'desc' ? 'asc' : 'desc';
-            const sortedData = sortData(filteredData, 'section', sectionDirection, false);
-            renderLeaderboard(sortedData);
-        });
-
-        document.getElementById('sort-total').addEventListener('click', () => {
-            totalSolvedDirection = totalSolvedDirection === 'desc' ? 'asc' : 'desc';
-            const sortedData = sortData(filteredData, 'totalSolved', totalSolvedDirection, true);
-            renderLeaderboard(sortedData);
-        });
-
-        document.getElementById('sort-easy').addEventListener('click', () => {
-            easySolvedDirection = easySolvedDirection === 'desc' ? 'asc' : 'desc';
-            const sortedData = sortData(filteredData, 'easySolved', easySolvedDirection, true);
-            renderLeaderboard(sortedData);
-        });
-
-        document.getElementById('sort-medium').addEventListener('click', () => {
-            mediumSolvedDirection = mediumSolvedDirection === 'desc' ? 'asc' : 'desc';
-            const sortedData = sortData(filteredData, 'mediumSolved', mediumSolvedDirection, true);
-            renderLeaderboard(sortedData);
-        });
-
-        document.getElementById('sort-hard').addEventListener('click', () => {
-            hardSolvedDirection = hardSolvedDirection === 'desc' ? 'asc' : 'desc';
-            const sortedData = sortData(filteredData, 'hardSolved', hardSolvedDirection, true);
-            renderLeaderboard(sortedData);
-        });
+        document.getElementById('sort-section').addEventListener('click', () => sortData('section'));
+        document.getElementById('sort-total').addEventListener('click', () => sortData('totalSolved'));
+        document.getElementById('sort-old').addEventListener('click', () => sortData('oldQuesSolved'));
+        document.getElementById('sort-current').addEventListener('click', () => sortData('currentQuesSolved'));
+        document.getElementById('sort-easy').addEventListener('click', () => sortData('easySolved'));
+        document.getElementById('sort-medium').addEventListener('click', () => sortData('mediumSolved'));
+        document.getElementById('sort-hard').addEventListener('click', () => sortData('hardSolved'));
 
     } catch (error) {
         console.error('Error fetching data:', error);
