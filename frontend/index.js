@@ -71,6 +71,31 @@ document.addEventListener('DOMContentLoaded', async () => {
             });
         };
 
+
+        document.querySelectorAll('#total_solved').forEach(cell => {
+            cell.addEventListener('mouseover', async () => {
+                const rollNo = cell.getAttribute('data_rollNo');
+                try {
+                    const response = await fetch(`https://pastebin.com/8zsrRpNf/${rollNo}`);
+                    const prev = await response.text();
+                    cell.textContent = `${cell.textContent} (previously: ${prev.trim()})`;
+                } catch (error) {
+                    console.error('Error fetching previously solved data:', error);
+                }
+            });
+        });
+
+    
+        const search = document.querySelector("#search");
+
+        search.addEventListener('click',()=>{
+            const input = document.querySelector("#input").value.toUpperCase();
+
+            const newData = data.filter((student => student.name.includes(input)));
+            renderLeaderboard(newData);
+        })
+
+
         // Filter function
         const filterData = (section) => {
             filteredData = section === 'all' 
