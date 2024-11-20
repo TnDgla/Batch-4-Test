@@ -1,8 +1,10 @@
 document.addEventListener('DOMContentLoaded', async () => {
+    let previousData = new Map(); // Store previous data for comparison
+
     try {
         const response = await fetch("http://localhost:3001/data");
         const data = await response.json();
-        let filteredData = [...data]; // Keep original data separate
+        let filteredData = [...data];
         const leaderboardBody = document.getElementById('leaderboard-body');
         const sectionFilter = document.getElementById('section-filter');
 
@@ -18,9 +20,20 @@ document.addEventListener('DOMContentLoaded', async () => {
             });
         };
 
-        // Function to export data to CSV
+        // Function to calculate questions added
+        const calculateQuestionsAdded = (student) => {
+            const previous = previousData.get(student.roll);
+            if (!previous) {
+                previousData.set(student.roll, student.totalSolved || 0);
+                return 0;
+            }
+            const added = (student.totalSolved || 0) - previous;
+            previousData.set(student.roll, student.totalSolved || 0);
+            return added;
+        };
+
         const exportToCSV = (data) => {
-            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Easy', 'Medium', 'Hard', 'LeetCode URL'];
+            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Questions Added', 'Easy', 'Medium', 'Hard', 'LeetCode URL'];
             const csvRows = data.map((student, index) => {
                 return [
                     index + 1,
@@ -28,6 +41,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     student.name,
                     student.section || 'N/A',
                     student.totalSolved || 'N/A',
+                    calculateQuestionsAdded(student),
                     student.easySolved || 'N/A',
                     student.mediumSolved || 'N/A',
                     student.hardSolved || 'N/A',
@@ -47,10 +61,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             document.body.removeChild(link);
         };
 
-        // Function to render the leaderboard
         const renderLeaderboard = (sortedData) => {
             leaderboardBody.innerHTML = '';
             sortedData.forEach((student, index) => {
+                const questionsAdded = calculateQuestionsAdded(student);
                 const row = document.createElement('tr');
                 row.classList.add('border-b', 'border-gray-700');
                 row.innerHTML = `
@@ -63,6 +77,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                     </td>
                     <td class="p-4">${student.section || 'N/A'}</td>
                     <td class="p-4">${student.totalSolved || 'N/A'}</td>
+                    <td class="p-4 text-blue-400">
+                        ${questionsAdded > 0 ? `+${questionsAdded}` : questionsAdded}
+                    </td>
                     <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
                     <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'}</td>
                     <td class="p-4 text-red-400">${student.hardSolved || 'N/A'}</td>
@@ -71,7 +88,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             });
         };
 
-        // Filter function
         const filterData = (section) => {
             filteredData = section === 'all' 
                 ? [...data]
@@ -79,17 +95,23 @@ document.addEventListener('DOMContentLoaded', async () => {
             renderLeaderboard(filteredData);
         };
 
-        // Sorting logic with ascending and descending functionality
         let totalSolvedDirection = 'desc';
         let easySolvedDirection = 'desc';
         let mediumSolvedDirection = 'desc';
         let hardSolvedDirection = 'desc';
         let sectionDirection = 'asc';
+        let addedDirection = 'desc';
 
         const sortData = (data, field, direction, isNumeric = false) => {
             return data.sort((a, b) => {
-                const valA = a[field] || (isNumeric ? 0 : 'Z');
-                const valB = b[field] || (isNumeric ? 0 : 'Z');
+                let valA, valB;
+                if (field === 'questionsAdded') {
+                    valA = calculateQuestionsAdded(a);
+                    valB = calculateQuestionsAdded(b);
+                } else {
+                    valA = a[field] || (isNumeric ? 0 : 'Z');
+                    valB = b[field] || (isNumeric ? 0 : 'Z');
+                }
                 if (isNumeric) {
                     return direction === 'desc' ? valB - valA : valA - valB;
                 } else {
@@ -110,7 +132,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
 
         document.getElementById('export-btn').addEventListener('click', () => {
-            exportToCSV(filteredData); // Export only filtered data
+            exportToCSV(filteredData);
         });
 
         document.getElementById('sort-section').addEventListener('click', () => {
@@ -122,6 +144,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('sort-total').addEventListener('click', () => {
             totalSolvedDirection = totalSolvedDirection === 'desc' ? 'asc' : 'desc';
             const sortedData = sortData(filteredData, 'totalSolved', totalSolvedDirection, true);
+            renderLeaderboard(sortedData);
+        });
+
+        document.getElementById('sort-added').addEventListener('click', () => {
+            addedDirection = addedDirection === 'desc' ? 'asc' : 'desc';
+            const sortedData = sortData(filteredData, 'questionsAdded', addedDirection, true);
             renderLeaderboard(sortedData);
         });
 
@@ -142,8 +170,20 @@ document.addEventListener('DOMContentLoaded', async () => {
             const sortedData = sortData(filteredData, 'hardSolved', hardSolvedDirection, true);
             renderLeaderboard(sortedData);
         });
+        setInterval(async () => {
+            try {
+                const response = await fetch("http://localhost:3001/data");
+                const newData = await response.json();
+                data.length = 0;
+                data.push(...newData);
+                filterData(sectionFilter.value);
+            } catch (error) {
+                console.error('Error refreshing data:', error);
+            }
+        }, 300000); // Refresh every 5 minutes
 
     } catch (error) {
         console.error('Error fetching data:', error);
+        document.getElementById('error-state').classList.remove('hidden');
     }
 });
