@@ -14,8 +14,9 @@ async function fetchAndSaveData() {
     const names = fs.readFileSync('name.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const urls = fs.readFileSync('urls.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const sections = fs.readFileSync('sections.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
+    const residences = fs.readFileSync('sections.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
 
-    if (rolls.length !== names.length || names.length !== urls.length || names.length !== sections.length) {
+    if (rolls.length !== names.length || names.length !== urls.length || names.length !== sections.length || names.length !== residences.length) {
       console.error('Error: The number of rolls, names, URLs, and sections do not match.');
       return;
     }
@@ -28,7 +29,8 @@ async function fetchAndSaveData() {
       const name = names[i];
       const url = urls[i];
       const section = sections[i];
-      let studentData = { roll, name, url, section };
+      const residence = residences[i];
+      let studentData = { roll, name, url, section,residence};
 
       console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}`);
 
@@ -76,15 +78,19 @@ async function fetchAndSaveData() {
   } catch (error) {
     console.error('Error processing data:', error);
   }
+    
+
 }
 
 app.get('/data', (req, res) => {
   res.sendFile(__dirname + '/data.json');
 });
-
+app.get('/getOld',(req,res)=>{
+  res.sendFile(__dirname + '/old.json');
+})
 // Initial data fetch and periodic refresh every hour
 fetchAndSaveData();
-setInterval(fetchAndSaveData, 60 * 60 * 1000);
+// setInterval(fetchAndSaveData, 60 * 60 * 1000);
 
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
