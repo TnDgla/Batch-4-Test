@@ -18,6 +18,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             });
         };
 
+        const searchbar = document.getElementById("search-bar")
+        searchbar.addEventListener('input', (e)=> {
+            const query= e.target.value.toLowerCase().trim();
+            const filtered = data.filter( student=>
+            (student.name && student.name.toLowerCase().includes(query)) ||
+            (student.roll && student.roll.toLowerCase().includes(query))
+        );
+        renderLeaderboard(filtered); 
+        });
+
+    
         // Function to export data to CSV
         const exportToCSV = (data) => {
             const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Easy', 'Medium', 'Hard', 'LeetCode URL'];
