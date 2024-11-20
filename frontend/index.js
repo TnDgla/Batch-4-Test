@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         let filteredData = [...data]; // Keep original data separate
         const leaderboardBody = document.getElementById('leaderboard-body');
         const sectionFilter = document.getElementById('section-filter');
+        // const sectionSort = document.getElementById('search');
 
         // Populate section filter dropdown
         const populateSectionFilter = () => {
@@ -78,6 +79,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                 : data.filter(student => (student.section || 'N/A') === section);
             renderLeaderboard(filteredData);
         };
+        // const filterName = (name) => {
+        //     filteredData = name === 'all' 
+        //         ? [...data]
+        //         : data.filter(student => (student.name || 'N/A').toLowerCase().includes(name));
+        //     renderLeaderboard(filteredName);
+        // };
 
         // Sorting logic with ascending and descending functionality
         let totalSolvedDirection = 'desc';
@@ -108,6 +115,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         sectionFilter.addEventListener('change', (e) => {
             filterData(e.target.value);
         });
+        // sectionSort.addEventListener('change', (e) => {
+        //     filterName(e.target.value);
+        // });
+        
 
         document.getElementById('export-btn').addEventListener('click', () => {
             exportToCSV(filteredData); // Export only filtered data
