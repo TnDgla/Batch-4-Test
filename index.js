@@ -28,9 +28,9 @@ async function fetchAndSaveData() {
       const name = names[i];
       const url = urls[i];
       const section = sections[i];
-      let studentData = { roll, name, url, section };
+      let studentData = { roll, lastTotal, name, url, section };
 
-      console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}`);
+      console.log(`Processing data for roll number: ${roll},  name: ${name}, section: ${section}`);
 
       // Check if URL is a LeetCode URL
       if (url.startsWith('https://leetcode.com/u/')) {

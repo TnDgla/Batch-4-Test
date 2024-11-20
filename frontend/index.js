@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Function to export data to CSV
         const exportToCSV = (data) => {
-            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Easy', 'Medium', 'Hard', 'LeetCode URL'];
+            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Last Total','Easy', 'Medium', 'Hard', 'LeetCode URL'];
             const csvRows = data.map((student, index) => {
                 return [
                     index + 1,
@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     student.name,
                     student.section || 'N/A',
                     student.totalSolved || 'N/A',
+                    student.lastTotal || 'N/A', 
                     student.easySolved || 'N/A',
                     student.mediumSolved || 'N/A',
                     student.hardSolved || 'N/A',
@@ -63,6 +64,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     </td>
                     <td class="p-4">${student.section || 'N/A'}</td>
                     <td class="p-4">${student.totalSolved || 'N/A'}</td>
+                    <td class="p-4">${student.lastTotal || 'N/A'}</td>
                     <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
                     <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'}</td>
                     <td class="p-4 text-red-400">${student.hardSolved || 'N/A'}</td>
@@ -81,6 +83,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Sorting logic with ascending and descending functionality
         let totalSolvedDirection = 'desc';
+        let lastTotal = 'desc';
         let easySolvedDirection = 'desc';
         let mediumSolvedDirection = 'desc';
         let hardSolvedDirection = 'desc';
@@ -122,6 +125,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('sort-total').addEventListener('click', () => {
             totalSolvedDirection = totalSolvedDirection === 'desc' ? 'asc' : 'desc';
             const sortedData = sortData(filteredData, 'totalSolved', totalSolvedDirection, true);
+            renderLeaderboard(sortedData);
+        });
+
+        document.getElementById('last-total').addEventListener('click', () => {
+            lastTotalDirection = lastTotalDirection === 'desc' ? 'asc' : 'desc';
+            const sortedData = sortData(filteredData, 'lastTotal', lastTotalDirection, true);
             renderLeaderboard(sortedData);
         });
 
