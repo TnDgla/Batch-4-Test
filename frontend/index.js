@@ -1,7 +1,9 @@
 document.addEventListener('DOMContentLoaded', async () => {
     try {
         const response = await fetch("http://localhost:3001/data");
+        const response1=await fetch("https://pastebin.com/raw/8zsrRpNf");
         const data = await response.json();
+        const data1=await response1.json();
         let filteredData = [...data]; // Keep original data separate
         const leaderboardBody = document.getElementById('leaderboard-body');
         const sectionFilter = document.getElementById('section-filter');
@@ -20,7 +22,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Function to export data to CSV
         const exportToCSV = (data) => {
-            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Easy', 'Medium', 'Hard', 'LeetCode URL'];
+            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'prevSloved','Easy', 'Medium', 'Hard', 'LeetCode URL'];
+          
             const csvRows = data.map((student, index) => {
                 return [
                     index + 1,
@@ -28,9 +31,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                     student.name,
                     student.section || 'N/A',
                     student.totalSolved || 'N/A',
-                    student.easySolved || 'N/A',
+                     student.easySolved || 'N/A',
                     student.mediumSolved || 'N/A',
                     student.hardSolved || 'N/A',
+                    student.prevSloved ||'N/A',
                     student.url
                 ].join(',');
             });
@@ -66,6 +70,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
                     <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'}</td>
                     <td class="p-4 text-red-400">${student.hardSolved || 'N/A'}</td>
+                     <td class="p-4 text-red-400">${student.prevSlovedSolved || ''}</td>
                 `;
                 leaderboardBody.appendChild(row);
             });
@@ -84,6 +89,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         let easySolvedDirection = 'desc';
         let mediumSolvedDirection = 'desc';
         let hardSolvedDirection = 'desc';
+        let prevSolvedDirection='desc';
         let sectionDirection = 'asc';
 
         const sortData = (data, field, direction, isNumeric = false) => {
@@ -141,6 +147,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             hardSolvedDirection = hardSolvedDirection === 'desc' ? 'asc' : 'desc';
             const sortedData = sortData(filteredData, 'hardSolved', hardSolvedDirection, true);
             renderLeaderboard(sortedData);
+        });
+        document.getElementById('prevSolved').addEventListener('click', () => {
+            hardSolvedDirection = prevSolvedDirection === 'desc' ? 'asc' : 'desc';
+            const sortedData = sortData(filteredData, 'prevSolved', hardSolvedDirection, true);
+            renderLeaderboard(sortedData);
+        });
+        document.getElementById('names').addEventListener('click', () => {
+            
         });
 
     } catch (error) {
