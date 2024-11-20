@@ -130,6 +130,12 @@ document.addEventListener('DOMContentLoaded', async () => {
             const sortedData = sortData(filteredData, 'easySolved', easySolvedDirection, true);
             renderLeaderboard(sortedData);
         });
+        
+        document.getElementById('sort-easy').addEventListener('click', () => {
+            easySolvedDirection = easySolvedDirection === 'desc' ? 'asc' : 'desc';
+            const sortedData = sortData(filteredData, 'easySolved', easySolvedDirection, true);
+            renderLeaderboard(sortedData);
+        });
 
         document.getElementById('sort-medium').addEventListener('click', () => {
             mediumSolvedDirection = mediumSolvedDirection === 'desc' ? 'asc' : 'desc';
