@@ -29,7 +29,7 @@ async function fetchAndSaveData() {
       const url = urls[i];
       const section = sections[i];
       let studentData = { roll, name, url, section };
-
+      
       console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}`);
 
       // Check if URL is a LeetCode URL
