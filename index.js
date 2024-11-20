@@ -49,6 +49,7 @@ async function fetchAndSaveData() {
               easySolved: data[username].submitStatsGlobal.acSubmissionNum[1].count || 0,
               mediumSolved: data[username].submitStatsGlobal.acSubmissionNum[2].count || 0,
               hardSolved: data[username].submitStatsGlobal.acSubmissionNum[3].count || 0,
+              oldSolved: data[username].submitStatsGlobal.acSubmissionNum[4].count ||0
             };
             console.log(`Data for ${username} fetched and processed successfully.`);
           } else {
