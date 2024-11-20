@@ -147,3 +147,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error('Error fetching data:', error);
     }
 });
+// Function to filter leaderboard rows based on the search input
+document.getElementById('search-bar').addEventListener('input', function() {
+    let filterValue = this.value.toLowerCase();  // Get the input value and convert it to lowercase
+    let rows = document.querySelectorAll('#leaderboard-body tr');  // Get all rows in the leaderboard body
+
+    rows.forEach(function(row) {
+        let nameCell = row.querySelector('td:nth-child(3)');  // Select the cell with the name (3rd column)
+        if (nameCell) {
+            let nameText = nameCell.textContent.toLowerCase();  // Get the name text and convert it to lowercase
+            if (nameText.indexOf(filterValue) > -1) {
+                row.style.display = '';  // Show row if name matches filter
+            } else {
+                row.style.display = 'none';  // Hide row if name does not match filter
+            }
+        }
+    });
+});
