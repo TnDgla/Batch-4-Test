@@ -66,6 +66,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
                     <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'}</td>
                     <td class="p-4 text-red-400">${student.hardSolved || 'N/A'}</td>
+                    <td class="p-4 text-red-400">${student.start || 'N/A'}</td>
                 `;
                 leaderboardBody.appendChild(row);
             });
