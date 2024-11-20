@@ -1,149 +1,91 @@
-document.addEventListener('DOMContentLoaded', async () => {
-    try {
-        const response = await fetch("http://localhost:3001/data");
-        const data = await response.json();
-        let filteredData = [...data]; // Keep original data separate
-        const leaderboardBody = document.getElementById('leaderboard-body');
-        const sectionFilter = document.getElementById('section-filter');
+const express = require('express');
+const fs = require('fs');
+const cors = require('cors');
+const axios = require('axios');
+const app = express();
+const port = 3001;
 
-        // Populate section filter dropdown
-        const populateSectionFilter = () => {
-            const sections = [...new Set(data.map(student => student.section || 'N/A'))].sort();
-            sectionFilter.innerHTML = '<option value="all">All Sections</option>';
-            sections.forEach(section => {
-                const option = document.createElement('option');
-                option.value = section;
-                option.textContent = section;
-                sectionFilter.appendChild(option);
-            });
-        };
+app.use(cors());
 
-        // Function to export data to CSV
-        const exportToCSV = (data) => {
-            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Easy', 'Medium', 'Hard', 'LeetCode URL'];
-            const csvRows = data.map((student, index) => {
-                return [
-                    index + 1,
-                    student.roll,
-                    student.name,
-                    student.section || 'N/A',
-                    student.totalSolved || 'N/A',
-                    student.easySolved || 'N/A',
-                    student.mediumSolved || 'N/A',
-                    student.hardSolved || 'N/A',
-                    student.url
-                ].join(',');
-            });
-            
-            const csvContent = [headers.join(','), ...csvRows].join('\n');
-            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
-            const link = document.createElement('a');
-            const url = URL.createObjectURL(blob);
-            link.setAttribute('href', url);
-            link.setAttribute('download', 'leaderboard.csv');
-            link.style.display = 'none';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        };
+async function fetchAndSaveData() {
+  try {
+    console.log('Starting to read input files...');
+    const rolls = fs.readFileSync('roll.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
+    const names = fs.readFileSync('name.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
+    const urls = fs.readFileSync('urls.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
+    const sections = fs.readFileSync('sections.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
 
-        // Function to render the leaderboard
-        const renderLeaderboard = (sortedData) => {
-            leaderboardBody.innerHTML = '';
-            sortedData.forEach((student, index) => {
-                const row = document.createElement('tr');
-                row.classList.add('border-b', 'border-gray-700');
-                row.innerHTML = `
-                    <td class="p-4">${index + 1}</td>
-                    <td class="p-4">${student.roll}</td>
-                    <td class="p-4">
-                        ${student.url.startsWith('https://leetcode.com/u/') 
-                            ? `<a href="${student.url}" target="_blank" class="text-blue-400">${student.name}</a>`
-                            : `<div class="text-red-500">${student.name}</div>`}
-                    </td>
-                    <td class="p-4">${student.section || 'N/A'}</td>
-                    <td class="p-4">${student.totalSolved || 'N/A'}</td>
-                    <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
-                    <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'}</td>
-                    <td class="p-4 text-red-400">${student.hardSolved || 'N/A'}</td>
-                `;
-                leaderboardBody.appendChild(row);
-            });
-        };
-
-        // Filter function
-        const filterData = (section) => {
-            filteredData = section === 'all' 
-                ? [...data]
-                : data.filter(student => (student.section || 'N/A') === section);
-            renderLeaderboard(filteredData);
-        };
-
-        // Sorting logic with ascending and descending functionality
-        let totalSolvedDirection = 'desc';
-        let easySolvedDirection = 'desc';
-        let mediumSolvedDirection = 'desc';
-        let hardSolvedDirection = 'desc';
-        let sectionDirection = 'asc';
-
-        const sortData = (data, field, direction, isNumeric = false) => {
-            return data.sort((a, b) => {
-                const valA = a[field] || (isNumeric ? 0 : 'Z');
-                const valB = b[field] || (isNumeric ? 0 : 'Z');
-                if (isNumeric) {
-                    return direction === 'desc' ? valB - valA : valA - valB;
-                } else {
-                    return direction === 'desc'
-                        ? valB.toString().localeCompare(valA.toString())
-                        : valA.toString().localeCompare(valB.toString());
-                }
-            });
-        };
-
-        // Initialize the page
-        populateSectionFilter();
-        renderLeaderboard(data);
-
-        // Event Listeners
-        sectionFilter.addEventListener('change', (e) => {
-            filterData(e.target.value);
-        });
-
-        document.getElementById('export-btn').addEventListener('click', () => {
-            exportToCSV(filteredData); // Export only filtered data
-        });
-
-        document.getElementById('sort-section').addEventListener('click', () => {
-            sectionDirection = sectionDirection === 'desc' ? 'asc' : 'desc';
-            const sortedData = sortData(filteredData, 'section', sectionDirection, false);
-            renderLeaderboard(sortedData);
-        });
-
-        document.getElementById('sort-total').addEventListener('click', () => {
-            totalSolvedDirection = totalSolvedDirection === 'desc' ? 'asc' : 'desc';
-            const sortedData = sortData(filteredData, 'totalSolved', totalSolvedDirection, true);
-            renderLeaderboard(sortedData);
-        });
-
-        document.getElementById('sort-easy').addEventListener('click', () => {
-            easySolvedDirection = easySolvedDirection === 'desc' ? 'asc' : 'desc';
-            const sortedData = sortData(filteredData, 'easySolved', easySolvedDirection, true);
-            renderLeaderboard(sortedData);
-        });
-
-        document.getElementById('sort-medium').addEventListener('click', () => {
-            mediumSolvedDirection = mediumSolvedDirection === 'desc' ? 'asc' : 'desc';
-            const sortedData = sortData(filteredData, 'mediumSolved', mediumSolvedDirection, true);
-            renderLeaderboard(sortedData);
-        });
-
-        document.getElementById('sort-hard').addEventListener('click', () => {
-            hardSolvedDirection = hardSolvedDirection === 'desc' ? 'asc' : 'desc';
-            const sortedData = sortData(filteredData, 'hardSolved', hardSolvedDirection, true);
-            renderLeaderboard(sortedData);
-        });
-
-    } catch (error) {
-        console.error('Error fetching data:', error);
+    if (rolls.length !== names.length || names.length !== urls.length || names.length !== sections.length) {
+      console.error('Error: The number of rolls, names, URLs, and sections do not match.');
+      return;
     }
+
+    console.log('Input files read successfully.');
+    const combinedData = [];
+
+    for (let i = 0; i < rolls.length; i++) {
+      const roll = rolls[i];
+      const name = names[i];
+      const url = urls[i];
+      const section = sections[i];
+      let studentData = { roll, name, url, section };
+
+      console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}`);
+
+      // Check if URL is a LeetCode URL
+      if (url.startsWith('https://leetcode.com/u/')) {
+        var username = url.split('/u/')[1];
+        if(username.charAt(username.length-1) == '/') username = username.substring(0, username.length-1);
+        console.log(`Fetching data for LeetCode username: ${username}`);
+
+        try {
+          const response = await axios.get(`https://leetcodeapi-v1.vercel.app/${username}`);
+          const data = response.data;
+          if (data && data[username]) {
+            studentData = {
+              ...studentData,
+              username,
+              totalSolved: data[username].submitStatsGlobal.acSubmissionNum[0].count || 0,
+              easySolved: data[username].submitStatsGlobal.acSubmissionNum[1].count || 0,
+              mediumSolved: data[username].submitStatsGlobal.acSubmissionNum[2].count || 0,
+              hardSolved: data[username].submitStatsGlobal.acSubmissionNum[3].count || 0,
+            };
+            console.log(`Data for ${username} fetched and processed successfully.`);
+          } else {
+            console.log(`No data found for ${username}`);
+          }
+        } catch (error) {
+          console.error(`Error fetching data for ${username}:`, error);
+        }
+      } else {
+        console.log(`URL for ${name} is not a LeetCode profile. Skipping API call.`);
+        studentData.info = 'No LeetCode data available';
+      }
+      combinedData.push(studentData);
+    }
+
+    // Sort the data by totalSolved in descending order, treating 'NA' or invalid values as 0
+    combinedData.sort((a, b) => {
+      const aTotalSolved = isNaN(a.totalSolved) ? 0 : a.totalSolved;
+      const bTotalSolved = isNaN(b.totalSolved) ? 0 : b.totalSolved;
+      return bTotalSolved - aTotalSolved;
+    });
+
+    fs.writeFileSync('data.json', JSON.stringify(combinedData, null, 2));
+    console.log('Data saved to data.json successfully.');
+  } catch (error) {
+    console.error('Error processing data:', error);
+  }
+}
+
+app.get('/data', (req, res) => {
+  res.sendFile(__dirname + '/data.json');
+});
+
+// Initial data fetch and periodic refresh every hour
+fetchAndSaveData();
+setInterval(fetchAndSaveData, 60 * 60 * 1000);
+
+app.listen(port, () => {
+  console.log(`Server is running at http://localhost:${port}`);
 });
