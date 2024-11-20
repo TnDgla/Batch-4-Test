@@ -17,6 +17,45 @@ document.addEventListener('DOMContentLoaded', async () => {
                 sectionFilter.appendChild(option);
             });
         };
+         
+        // ADD ON UNIQUE FEATURE  TO GIVE THE PROGRESS OF THE STUDENTS 
+        
+        const  goalScore = 500;
+        const calculateProgress = (totalSolved, goal) => {
+            return Math.min((totalSolved / goal) * 100, 100); 
+        };
+
+        const Leaderboard = (sortedData) => {
+            leaderboardBody.innerHTML = '';
+            sortedData.forEach((student, index) => {
+                const progress = calculateProgress(student.totalSolved || 0, goalScore); 
+                const row = document.createElement('tr');
+                row.classList.add('border-b', 'border-gray-700');
+                row.innerHTML = `
+                    <td class="p-4">${index + 1}</td>
+                    <td class="p-4">${student.roll}</td>
+                    <td class="p-4">
+                        ${student.url.startsWith('https://leetcode.com/u/') 
+                            ? `<a href="${student.url}" target="_blank" class="text-blue-400">${student.name}</a>` 
+                            : `<div class="text-red-500">${student.name}</div>`}
+                    </td>
+                    <td class="p-4">${student.section || 'N/A'}</td>
+                    <td class="p-4">${student.totalSolved || 'N/A'}</td>
+                    <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
+                    <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'}</td>
+                    <td class="p-4 text-red-400">${student.hardSolved || 'N/A'}</td>
+                    <td class="p-4">
+                        <div class="w-full bg-gray-200 rounded">
+                            <div class="bg-green-500 text-xs font-medium text-white text-center p-1 leading-none rounded" 
+                                style="width: ${progress}%;">
+                                ${Math.round(progress)}%
+                            </div>
+                        </div>
+                    </td>
+                `;
+                leaderboardBody.appendChild(row);
+            });
+        };
 
         // Function to export data to CSV
         const exportToCSV = (data) => {
@@ -141,6 +180,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             hardSolvedDirection = hardSolvedDirection === 'desc' ? 'asc' : 'desc';
             const sortedData = sortData(filteredData, 'hardSolved', hardSolvedDirection, true);
             renderLeaderboard(sortedData);
+        });
+
+        document.getElementById('sort-progress').addEventListener('click', () => {
+
+            const sortedData = sortData(
+                filteredData,
+                student => calculateProgress(student.totalSolved || 0, goalScore),
+                true
+            );
+            Leaderboard(sortedData);
         });
 
     } catch (error) {
