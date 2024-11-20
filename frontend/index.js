@@ -143,6 +143,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             renderLeaderboard(sortedData);
         });
 
+        const searchbar = getElementById('search-bar');
+        searchbar.addEventListener('input', (e)=>{
+            const hint =e.target.value.toLowerCase().trim();
+            const filterName= data.filter( student=>
+            ( student.name && student.name.toLowerCase().includes(hint)) ||
+            ( student.roll && student.roll.toLowerCase().includes(hint))
+            );
+            renderLeaderboard(filterName);
+        });
+
     } catch (error) {
         console.error('Error fetching data:', error);
     }
