@@ -46,6 +46,7 @@ async function fetchAndSaveData() {
               ...studentData,
               username,
               totalSolved: data[username].submitStatsGlobal.acSubmissionNum[0].count || 0,
+              lastTotal:data[username].submitStatsGlobal.acSubmissionNum[0].count||0,
               easySolved: data[username].submitStatsGlobal.acSubmissionNum[1].count || 0,
               mediumSolved: data[username].submitStatsGlobal.acSubmissionNum[2].count || 0,
               hardSolved: data[username].submitStatsGlobal.acSubmissionNum[3].count || 0,
