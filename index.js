@@ -7,6 +7,7 @@ const port = 3001;
 
 app.use(cors());
 
+
 async function fetchAndSaveData() {
   try {
     console.log('Starting to read input files...');
@@ -14,24 +15,30 @@ async function fetchAndSaveData() {
     const names = fs.readFileSync('name.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const urls = fs.readFileSync('urls.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const sections = fs.readFileSync('sections.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
+    const Hostellers = fs.readFileSync('Hostellers.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
 
-    if (rolls.length !== names.length || names.length !== urls.length || names.length !== sections.length) {
-      console.error('Error: The number of rolls, names, URLs, and sections do not match.');
-      return;
-    }
+        if (rolls.length !== names.length || names.length !== urls.length || names.length !== sections.length || names.length !== Hostellers.length) {
+        console.error('Error: The number of rolls, names, URLs, sections, and Hostellers do not match.');
+        return;
+        }
+        console.log('Input files read successfully.');
 
-    console.log('Input files read successfully.');
-    const combinedData = [];
+        const combinedData = [];
 
-    for (let i = 0; i < rolls.length; i++) {
-      const roll = rolls[i];
-      const name = names[i];
-      const url = urls[i];
-      const section = sections[i];
-      let studentData = { roll, name, url, section };
+        for (let i = 0; i < rolls.length; i++) {
+        const roll = rolls[i];
+        const name = names[i];
+        const url = urls[i];
+        const section = sections[i];
+        const Hosteller = Hostellers[i]; // Fetch Hosteller status
+        let studentData = { roll, name, url, section, Hosteller }; // Include Hosteller in studentData
 
-      console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}`);
+        console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}, Hosteller: ${Hosteller}`);
 
+        }
+      fs.writeFileSync('data.json', JSON.stringify(combinedData, null, 2));
+      console.log('Data saved to data.json successfully.');
+    
       // Check if URL is a LeetCode URL
       if (url.startsWith('https://leetcode.com/u/')) {
         var username = url.split('/u/')[1];
