@@ -5,6 +5,9 @@ const axios = require('axios');
 const app = express();
 const port = 3001;
 
+
+
+
 app.use(cors());
 
 async function fetchAndSaveData() {
@@ -14,8 +17,9 @@ async function fetchAndSaveData() {
     const names = fs.readFileSync('name.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const urls = fs.readFileSync('urls.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
     const sections = fs.readFileSync('sections.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
+    const residence = fs.readFileSync('residence.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
 
-    if (rolls.length !== names.length || names.length !== urls.length || names.length !== sections.length) {
+    if (rolls.length !== names.length || names.length !== urls.length || names.length !== sections.length || names.length !== residence.length) {
       console.error('Error: The number of rolls, names, URLs, and sections do not match.');
       return;
     }
@@ -28,14 +32,15 @@ async function fetchAndSaveData() {
       const name = names[i];
       const url = urls[i];
       const section = sections[i];
-      let studentData = { roll, name, url, section };
+      const res = residence[i];
+      let studentData = { roll, name, url, section, res };
 
-      console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}`);
+      console.log(`Processing data for roll number: ${roll}, name: ${name}, section: ${section}, residence: ${res}`);
 
       // Check if URL is a LeetCode URL
       if (url.startsWith('https://leetcode.com/u/')) {
         var username = url.split('/u/')[1];
-        if(username.charAt(username.length-1) == '/') username = username.substring(0, username.length-1);
+        if (username.charAt(username.length - 1) == '/') username = username.substring(0, username.length - 1);
         console.log(`Fetching data for LeetCode username: ${username}`);
 
         try {
@@ -82,9 +87,15 @@ app.get('/data', (req, res) => {
   res.sendFile(__dirname + '/data.json');
 });
 
+app.get('/get-residence', (req, res) => {
+  const residence = fs.readFileSync('residence.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
+  res.json(residence);
+});
+
+
 // Initial data fetch and periodic refresh every hour
-fetchAndSaveData();
-setInterval(fetchAndSaveData, 60 * 60 * 1000);
+// fetchAndSaveData();
+// setInterval(fetchAndSaveData, 60 * 60 * 1000);
 
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
