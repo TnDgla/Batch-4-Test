@@ -1,4 +1,4 @@
-const oldData = {
+var oldData = {
     "2215001289":1077,
     "2215500064":863,
     "2215001079":805,
@@ -619,16 +619,18 @@ const oldData = {
     "2215500045":0,
     }
     
-    document.addEventListener('DOMContentLoaded', async () => {
+console.log(oldData["2215000584"]);
+
+
+document.addEventListener('DOMContentLoaded', async () => {
     try {
         const response = await fetch("http://localhost:3001/data");
         const data = await response.json();
         let filteredData = [...data]; // Keep original data separate
         const leaderboardBody = document.getElementById('leaderboard-body');
         const sectionFilter = document.getElementById('section-filter');
-        const residenceFilter = document.getElementById('residence-filter');
 
-        // Populate section filter dropdown~
+        // Populate section filter dropdown
         const populateSectionFilter = () => {
             const sections = [...new Set(data.map(student => student.section || 'N/A'))].sort();
             sectionFilter.innerHTML = '<option value="all">All Sections</option>';
@@ -675,21 +677,23 @@ const oldData = {
             sortedData.forEach((student, index) => {
                 const row = document.createElement('tr');
                 row.classList.add('border-b', 'border-gray-700');
-                var newProblems = student.totalSolved - oldData[student.roll];
                 row.innerHTML = `
                     <td class="p-4">${index + 1}</td>
                     <td class="p-4">${student.roll}</td>
                     <td class="p-4">
                         ${student.url.startsWith('https://leetcode.com/u/') 
                             ? `<a href="${student.url}" target="_blank" class="text-blue-400">${student.name}</a>`
-                            : `<div class="text-red-500">${student.name}</div>`}
+                    : `<div class="text-red-500">${student.name}</div>
+                    `}
+
                     </td>
                     <td class="p-4">${student.section || 'N/A'}</td>
-                    <td class="p-4">${student.totalSolved || 'N/A'}</td>
+                    <td class="p-4">${student.totalSolved || 'N/A'} &nbsp; &nbsp; 
+                        ${student.totalSolved - oldData[student.roll]} &uarr;
+                    </td>
                     <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
                     <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'}</td>
                     <td class="p-4 text-red-400">${student.hardSolved || 'N/A'}</td>
-                    <td class="p-4 text-gray-300">${newProblems>0 ? newProblems+" ↑" : newProblems}</td>
                 `;
                 leaderboardBody.appendChild(row);
             });
@@ -697,12 +701,6 @@ const oldData = {
 
         // Filter function
         const filterData = (section) => {
-            filteredData = section === 'all' 
-                ? [...data]
-                : data.filter(student => (student.section || 'N/A') === section);
-            renderLeaderboard(filteredData);
-        };
-        const filterByResidence = (section) => {
             filteredData = section === 'all' 
                 ? [...data]
                 : data.filter(student => (student.section || 'N/A') === section);
@@ -739,10 +737,6 @@ const oldData = {
             filterData(e.target.value);
         });
 
-        residenceFilter.addEventListener('change', (e) => {
-            filterByResidence(e.target.value);
-        });
-
         document.getElementById('export-btn').addEventListener('click', () => {
             exportToCSV(filteredData); // Export only filtered data
         });
@@ -775,26 +769,6 @@ const oldData = {
             hardSolvedDirection = hardSolvedDirection === 'desc' ? 'asc' : 'desc';
             const sortedData = sortData(filteredData, 'hardSolved', hardSolvedDirection, true);
             renderLeaderboard(sortedData);
-        });
-
-        fetch("http://localhost:3001/residence.txt")
-            .then(response => response.text())
-            .then(data => {
-                const residences = data.split('\n').filter(residence => residence.trim());
-                residenceFilter.innerHTML = '<option value="">All Residences</option>';
-                residences.forEach(residence => {
-                    residenceFilter.innerHTML += `<option value="${residence}">${residence}</option>`;
-                });
-            });
-
-        residenceFilter.addEventListener('change', () => {
-            const selectedResidence = residenceFilter.value;
-            filteredData = data.filter(student => {
-                const sectionMatch = !sectionFilter.value || student.section === sectionFilter.value;
-                const residenceMatch = !selectedResidence || student.residence === selectedResidence;
-                return sectionMatch && residenceMatch;
-            });
-            renderLeaderboard(filteredData);
         });
 
     } catch (error) {
