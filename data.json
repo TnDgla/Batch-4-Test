@@ -27,9 +27,9 @@
     "url": "https://leetcode.com/u/Ninja_ansari/",
     "section": "E",
     "username": "Ninja_ansari",
-    "totalSolved": 817,
+    "totalSolved": 818,
     "easySolved": 351,
-    "mediumSolved": 416,
+    "mediumSolved": 417,
     "hardSolved": 50
   },
   {
@@ -38,9 +38,9 @@
     "url": "https://leetcode.com/u/Tushar0sharmA/",
     "section": "D",
     "username": "Tushar0sharmA",
-    "totalSolved": 809,
+    "totalSolved": 812,
     "easySolved": 267,
-    "mediumSolved": 461,
+    "mediumSolved": 464,
     "hardSolved": 81
   },
   {
@@ -49,9 +49,9 @@
     "url": "https://leetcode.com/u/prakharkapoorcollege/",
     "section": "F",
     "username": "prakharkapoorcollege",
-    "totalSolved": 728,
+    "totalSolved": 729,
     "easySolved": 323,
-    "mediumSolved": 340,
+    "mediumSolved": 341,
     "hardSolved": 65
   },
   {
@@ -60,9 +60,9 @@
     "url": "https://leetcode.com/u/DevanshiLawaniA/",
     "section": "D",
     "username": "DevanshiLawaniA",
-    "totalSolved": 705,
+    "totalSolved": 706,
     "easySolved": 294,
-    "mediumSolved": 347,
+    "mediumSolved": 348,
     "hardSolved": 64
   },
   {
@@ -71,9 +71,9 @@
     "url": "https://leetcode.com/u/Sarthak_Shishodia20/",
     "section": "C",
     "username": "Sarthak_Shishodia20",
-    "totalSolved": 692,
+    "totalSolved": 693,
     "easySolved": 341,
-    "mediumSolved": 325,
+    "mediumSolved": 326,
     "hardSolved": 26
   },
   {
@@ -93,9 +93,9 @@
     "url": "https://leetcode.com/u/Priyanshucs22/",
     "section": "D",
     "username": "Priyanshucs22",
-    "totalSolved": 670,
+    "totalSolved": 671,
     "easySolved": 294,
-    "mediumSolved": 331,
+    "mediumSolved": 332,
     "hardSolved": 45
   },
   {
@@ -104,9 +104,9 @@
     "url": "https://leetcode.com/u/uttam_roy01/",
     "section": "E",
     "username": "uttam_roy01",
-    "totalSolved": 650,
+    "totalSolved": 651,
     "easySolved": 198,
-    "mediumSolved": 389,
+    "mediumSolved": 390,
     "hardSolved": 63
   },
   {
@@ -115,9 +115,9 @@
     "url": "https://leetcode.com/u/Saksham_agrawal/",
     "section": "F",
     "username": "Saksham_agrawal",
-    "totalSolved": 646,
+    "totalSolved": 647,
     "easySolved": 197,
-    "mediumSolved": 367,
+    "mediumSolved": 368,
     "hardSolved": 82
   },
   {
@@ -126,9 +126,9 @@
     "url": "https://leetcode.com/u/shivagaur1100/",
     "section": "D",
     "username": "shivagaur1100",
-    "totalSolved": 601,
+    "totalSolved": 603,
     "easySolved": 214,
-    "mediumSolved": 368,
+    "mediumSolved": 370,
     "hardSolved": 19
   },
   {
@@ -137,9 +137,9 @@
     "url": "https://leetcode.com/u/harshbansal695/",
     "section": "D",
     "username": "harshbansal695",
-    "totalSolved": 550,
+    "totalSolved": 555,
     "easySolved": 212,
-    "mediumSolved": 318,
+    "mediumSolved": 323,
     "hardSolved": 20
   },
   {
@@ -154,6 +154,17 @@
     "hardSolved": 76
   },
   {
+    "roll": "2215500171",
+    "name": "VIDHI AJMERA",
+    "url": "https://leetcode.com/u/Vidhi_Ajmera/",
+    "section": "AC",
+    "username": "Vidhi_Ajmera",
+    "totalSolved": 527,
+    "easySolved": 188,
+    "mediumSolved": 290,
+    "hardSolved": 49
+  },
+  {
     "roll": "2215000438",
     "name": "AYUSH GUPTA",
     "url": "https://leetcode.com/u/guptaayush2005/",
@@ -165,26 +176,26 @@
     "hardSolved": 46
   },
   {
-    "roll": "2215500171",
-    "name": "VIDHI AJMERA",
-    "url": "https://leetcode.com/u/Vidhi_Ajmera/",
-    "section": "AC",
-    "username": "Vidhi_Ajmera",
-    "totalSolved": 526,
-    "easySolved": 188,
-    "mediumSolved": 289,
-    "hardSolved": 49
-  },
-  {
     "roll": "2215000699",
     "name": "GOVIND N ACHARYA",
     "url": "https://leetcode.com/u/Govind_Acharya/",
     "section": "C",
     "username": "Govind_Acharya",
-    "totalSolved": 521,
+    "totalSolved": 522,
     "easySolved": 152,
-    "mediumSolved": 318,
+    "mediumSolved": 319,
     "hardSolved": 51
+  },
+  {
+    "roll": "2215000884",
+    "name": "KARTIKAY GARG",
+    "url": "https://leetcode.com/u/Kartikay-Garg18/",
+    "section": "C",
+    "username": "Kartikay-Garg18",
+    "totalSolved": 519,
+    "easySolved": 160,
+    "mediumSolved": 320,
+    "hardSolved": 39
   },
   {
     "roll": "2215000598",
@@ -198,25 +209,14 @@
     "hardSolved": 25
   },
   {
-    "roll": "2215000884",
-    "name": "KARTIKAY GARG",
-    "url": "https://leetcode.com/u/Kartikay-Garg18/",
-    "section": "C",
-    "username": "Kartikay-Garg18",
-    "totalSolved": 517,
-    "easySolved": 160,
-    "mediumSolved": 318,
-    "hardSolved": 39
-  },
-  {
     "roll": "2215500088",
     "name": "KRISHNA AGRAWAL",
     "url": "https://leetcode.com/u/krishnaagrawal_1/",
     "section": "AC",
     "username": "krishnaagrawal_1",
-    "totalSolved": 492,
+    "totalSolved": 493,
     "easySolved": 204,
-    "mediumSolved": 253,
+    "mediumSolved": 254,
     "hardSolved": 35
   },
   {
@@ -258,9 +258,9 @@
     "url": "https://leetcode.com/u/Hema_dua/",
     "section": "AC",
     "username": "Hema_dua",
-    "totalSolved": 471,
+    "totalSolved": 472,
     "easySolved": 209,
-    "mediumSolved": 233,
+    "mediumSolved": 234,
     "hardSolved": 29
   },
   {
@@ -280,9 +280,9 @@
     "url": "https://leetcode.com/u/apurvag0108/",
     "section": "C",
     "username": "apurvag0108",
-    "totalSolved": 445,
+    "totalSolved": 447,
     "easySolved": 215,
-    "mediumSolved": 214,
+    "mediumSolved": 216,
     "hardSolved": 16
   },
   {
@@ -291,9 +291,9 @@
     "url": "https://leetcode.com/u/madhavgoyal012/",
     "section": "C",
     "username": "madhavgoyal012",
-    "totalSolved": 430,
+    "totalSolved": 431,
     "easySolved": 168,
-    "mediumSolved": 233,
+    "mediumSolved": 234,
     "hardSolved": 29
   },
   {
@@ -313,9 +313,9 @@
     "url": "https://leetcode.com/u/devanshsharma17/",
     "section": "AC",
     "username": "devanshsharma17",
-    "totalSolved": 429,
+    "totalSolved": 430,
     "easySolved": 231,
-    "mediumSolved": 188,
+    "mediumSolved": 189,
     "hardSolved": 10
   },
   {
@@ -346,9 +346,9 @@
     "url": "https://leetcode.com/u/phoenix_ss/",
     "section": "C",
     "username": "phoenix_ss",
-    "totalSolved": 423,
+    "totalSolved": 425,
     "easySolved": 152,
-    "mediumSolved": 244,
+    "mediumSolved": 246,
     "hardSolved": 27
   },
   {
@@ -357,9 +357,9 @@
     "url": "https://leetcode.com/u/Vishal_Sisodiya24/",
     "section": "H",
     "username": "Vishal_Sisodiya24",
-    "totalSolved": 419,
+    "totalSolved": 423,
     "easySolved": 198,
-    "mediumSolved": 191,
+    "mediumSolved": 195,
     "hardSolved": 30
   },
   {
@@ -368,8 +368,8 @@
     "url": "https://leetcode.com/u/kg666235/",
     "section": "C",
     "username": "kg666235",
-    "totalSolved": 415,
-    "easySolved": 186,
+    "totalSolved": 417,
+    "easySolved": 188,
     "mediumSolved": 197,
     "hardSolved": 32
   },
@@ -379,9 +379,9 @@
     "url": "https://leetcode.com/u/Sachin-LC/",
     "section": "C",
     "username": "Sachin-LC",
-    "totalSolved": 411,
+    "totalSolved": 412,
     "easySolved": 125,
-    "mediumSolved": 266,
+    "mediumSolved": 267,
     "hardSolved": 20
   },
   {
@@ -390,9 +390,9 @@
     "url": "https://leetcode.com/u/s_a_m2003/",
     "section": "D",
     "username": "s_a_m2003",
-    "totalSolved": 402,
+    "totalSolved": 403,
     "easySolved": 164,
-    "mediumSolved": 203,
+    "mediumSolved": 204,
     "hardSolved": 35
   },
   {
@@ -401,9 +401,9 @@
     "url": "https://leetcode.com/u/anjalivarshney02/",
     "section": "C",
     "username": "anjalivarshney02",
-    "totalSolved": 398,
+    "totalSolved": 400,
     "easySolved": 178,
-    "mediumSolved": 198,
+    "mediumSolved": 200,
     "hardSolved": 22
   },
   {
@@ -423,9 +423,9 @@
     "url": "https://leetcode.com/u/avaman7860/",
     "section": "C",
     "username": "avaman7860",
-    "totalSolved": 387,
+    "totalSolved": 388,
     "easySolved": 102,
-    "mediumSolved": 263,
+    "mediumSolved": 264,
     "hardSolved": 22
   },
   {
@@ -434,10 +434,10 @@
     "url": "https://leetcode.com/u/Vaibhav_0415/",
     "section": "C",
     "username": "Vaibhav_0415",
-    "totalSolved": 382,
+    "totalSolved": 384,
     "easySolved": 155,
-    "mediumSolved": 207,
-    "hardSolved": 20
+    "mediumSolved": 208,
+    "hardSolved": 21
   },
   {
     "roll": "2215000523",
@@ -467,21 +467,10 @@
     "url": "https://leetcode.com/u/Nik26sal/",
     "section": "C",
     "username": "Nik26sal",
-    "totalSolved": 373,
+    "totalSolved": 375,
     "easySolved": 129,
-    "mediumSolved": 221,
+    "mediumSolved": 223,
     "hardSolved": 23
-  },
-  {
-    "roll": "2215001606",
-    "name": "SATYAM KARN",
-    "url": "https://leetcode.com/u/Karnsaty/",
-    "section": "D",
-    "username": "Karnsaty",
-    "totalSolved": 364,
-    "easySolved": 118,
-    "mediumSolved": 216,
-    "hardSolved": 30
   },
   {
     "roll": "2215000265",
@@ -489,9 +478,9 @@
     "url": "https://leetcode.com/u/ANKITSINGHD10S/",
     "section": "D",
     "username": "ANKITSINGHD10S",
-    "totalSolved": 362,
+    "totalSolved": 365,
     "easySolved": 149,
-    "mediumSolved": 183,
+    "mediumSolved": 186,
     "hardSolved": 30
   },
   {
@@ -506,6 +495,17 @@
     "hardSolved": 34
   },
   {
+    "roll": "2215001435",
+    "name": "RAUNAK MISHRA",
+    "url": "https://leetcode.com/u/raunakmishra_/",
+    "section": "C",
+    "username": "raunakmishra_",
+    "totalSolved": 355,
+    "easySolved": 147,
+    "mediumSolved": 178,
+    "hardSolved": 30
+  },
+  {
     "roll": "2215800033",
     "name": "YASH JAIN",
     "url": "https://leetcode.com/u/yjyash0107/",
@@ -517,15 +517,15 @@
     "hardSolved": 63
   },
   {
-    "roll": "2215001435",
-    "name": "RAUNAK MISHRA",
-    "url": "https://leetcode.com/u/raunakmishra_/",
-    "section": "C",
-    "username": "raunakmishra_",
-    "totalSolved": 354,
-    "easySolved": 147,
-    "mediumSolved": 177,
-    "hardSolved": 30
+    "roll": "2215500103",
+    "name": "NIKUNJ GUPTA",
+    "url": "https://leetcode.com/u/ngdec03/",
+    "section": "AC",
+    "username": "ngdec03",
+    "totalSolved": 350,
+    "easySolved": 65,
+    "mediumSolved": 258,
+    "hardSolved": 27
   },
   {
     "roll": "2215500165",
@@ -533,21 +533,10 @@
     "url": "https://leetcode.com/u/upendrasingh63/",
     "section": "AC",
     "username": "upendrasingh63",
-    "totalSolved": 349,
+    "totalSolved": 350,
     "easySolved": 152,
-    "mediumSolved": 168,
+    "mediumSolved": 169,
     "hardSolved": 29
-  },
-  {
-    "roll": "2215500103",
-    "name": "NIKUNJ GUPTA",
-    "url": "https://leetcode.com/u/ngdec03/",
-    "section": "AC",
-    "username": "ngdec03",
-    "totalSolved": 348,
-    "easySolved": 65,
-    "mediumSolved": 256,
-    "hardSolved": 27
   },
   {
     "roll": "2215000373",
@@ -555,9 +544,9 @@
     "url": "https://leetcode.com/u/aryan_code03/",
     "section": "F",
     "username": "aryan_code03",
-    "totalSolved": 347,
+    "totalSolved": 348,
     "easySolved": 110,
-    "mediumSolved": 219,
+    "mediumSolved": 220,
     "hardSolved": 18
   },
   {
@@ -566,10 +555,32 @@
     "url": "https://leetcode.com/u/deepshukla1209/",
     "section": "AC",
     "username": "deepshukla1209",
-    "totalSolved": 346,
-    "easySolved": 121,
+    "totalSolved": 347,
+    "easySolved": 122,
     "mediumSolved": 202,
     "hardSolved": 23
+  },
+  {
+    "roll": "2215001815",
+    "name": "SURYA PRATAP SINGH",
+    "url": "https://leetcode.com/u/suryasingh337/",
+    "section": "D",
+    "username": "suryasingh337",
+    "totalSolved": 344,
+    "easySolved": 181,
+    "mediumSolved": 154,
+    "hardSolved": 9
+  },
+  {
+    "roll": "2215000335",
+    "name": "ARCHIT JAIN",
+    "url": "https://leetcode.com/u/archit2709/",
+    "section": "F",
+    "username": "archit2709",
+    "totalSolved": 344,
+    "easySolved": 181,
+    "mediumSolved": 152,
+    "hardSolved": 11
   },
   {
     "roll": "2215001889",
@@ -583,37 +594,15 @@
     "hardSolved": 19
   },
   {
-    "roll": "2215001815",
-    "name": "SURYA PRATAP SINGH",
-    "url": "https://leetcode.com/u/suryasingh337/",
-    "section": "D",
-    "username": "suryasingh337",
-    "totalSolved": 343,
-    "easySolved": 180,
-    "mediumSolved": 154,
-    "hardSolved": 9
-  },
-  {
     "roll": "2215000816",
     "name": "HRITIK KUMAR",
     "url": "https://leetcode.com/u/Hritiksingh66/",
     "section": "E",
     "username": "Hritiksingh66",
-    "totalSolved": 340,
+    "totalSolved": 341,
     "easySolved": 113,
-    "mediumSolved": 199,
+    "mediumSolved": 200,
     "hardSolved": 28
-  },
-  {
-    "roll": "2215000335",
-    "name": "ARCHIT JAIN",
-    "url": "https://leetcode.com/u/archit2709/",
-    "section": "F",
-    "username": "archit2709",
-    "totalSolved": 340,
-    "easySolved": 180,
-    "mediumSolved": 149,
-    "hardSolved": 11
   },
   {
     "roll": "2215000940",
@@ -621,9 +610,9 @@
     "url": "https://leetcode.com/u/Dante_0007/",
     "section": "D",
     "username": "Dante_0007",
-    "totalSolved": 336,
+    "totalSolved": 337,
     "easySolved": 115,
-    "mediumSolved": 194,
+    "mediumSolved": 195,
     "hardSolved": 27
   },
   {
@@ -632,32 +621,10 @@
     "url": "https://leetcode.com/u/shivangshukla201/",
     "section": "E",
     "username": "shivangshukla201",
-    "totalSolved": 336,
+    "totalSolved": 337,
     "easySolved": 114,
-    "mediumSolved": 191,
+    "mediumSolved": 192,
     "hardSolved": 31
-  },
-  {
-    "roll": "2215001543",
-    "name": "SAKSHAM KUMAR",
-    "url": "https://leetcode.com/u/saksham_kumar565/",
-    "section": "C",
-    "username": "saksham_kumar565",
-    "totalSolved": 334,
-    "easySolved": 125,
-    "mediumSolved": 180,
-    "hardSolved": 29
-  },
-  {
-    "roll": "2215001736",
-    "name": "SHUBHNEET KAUR",
-    "url": "https://leetcode.com/u/kaur_shubh/",
-    "section": "D",
-    "username": "kaur_shubh",
-    "totalSolved": 333,
-    "easySolved": 114,
-    "mediumSolved": 203,
-    "hardSolved": 16
   },
   {
     "roll": "2215001913",
@@ -665,32 +632,32 @@
     "url": "https://leetcode.com/u/sharma_vaishnaviii/",
     "section": "C",
     "username": "sharma_vaishnaviii",
-    "totalSolved": 331,
-    "easySolved": 124,
-    "mediumSolved": 181,
+    "totalSolved": 335,
+    "easySolved": 125,
+    "mediumSolved": 184,
     "hardSolved": 26
   },
   {
-    "roll": "2215500104",
-    "name": "NISHANT GUPTA",
-    "url": "https://leetcode.com/u/Nishant_Gupta_27/",
-    "section": "AC",
-    "username": "Nishant_Gupta_27",
-    "totalSolved": 330,
-    "easySolved": 152,
-    "mediumSolved": 167,
-    "hardSolved": 11
+    "roll": "2215001736",
+    "name": "SHUBHNEET KAUR",
+    "url": "https://leetcode.com/u/kaur_shubh/",
+    "section": "D",
+    "username": "kaur_shubh",
+    "totalSolved": 335,
+    "easySolved": 114,
+    "mediumSolved": 205,
+    "hardSolved": 16
   },
   {
-    "roll": "2215001665",
-    "name": "SHIVAM KUMAR",
-    "url": "https://leetcode.com/u/shivam25kumar04/",
+    "roll": "2215001543",
+    "name": "SAKSHAM KUMAR",
+    "url": "https://leetcode.com/u/saksham_kumar565/",
     "section": "C",
-    "username": "shivam25kumar04",
-    "totalSolved": 330,
-    "easySolved": 148,
-    "mediumSolved": 167,
-    "hardSolved": 15
+    "username": "saksham_kumar565",
+    "totalSolved": 335,
+    "easySolved": 125,
+    "mediumSolved": 180,
+    "hardSolved": 30
   },
   {
     "roll": "2215000573",
@@ -698,10 +665,21 @@
     "url": "https://leetcode.com/u/devanshagarwal0/",
     "section": "E",
     "username": "devanshagarwal0",
-    "totalSolved": 329,
+    "totalSolved": 334,
     "easySolved": 126,
-    "mediumSolved": 175,
+    "mediumSolved": 180,
     "hardSolved": 28
+  },
+  {
+    "roll": "2215500104",
+    "name": "NISHANT GUPTA",
+    "url": "https://leetcode.com/u/Nishant_Gupta_27/",
+    "section": "AC",
+    "username": "Nishant_Gupta_27",
+    "totalSolved": 331,
+    "easySolved": 153,
+    "mediumSolved": 167,
+    "hardSolved": 11
   },
   {
     "roll": "2215000821",
@@ -709,10 +687,21 @@
     "url": "https://leetcode.com/u/goyal_ishika/",
     "section": "C",
     "username": "goyal_ishika",
-    "totalSolved": 328,
+    "totalSolved": 331,
     "easySolved": 133,
-    "mediumSolved": 182,
+    "mediumSolved": 185,
     "hardSolved": 13
+  },
+  {
+    "roll": "2215001665",
+    "name": "SHIVAM KUMAR",
+    "url": "https://leetcode.com/u/shivam25kumar04/",
+    "section": "C",
+    "username": "shivam25kumar04",
+    "totalSolved": 331,
+    "easySolved": 148,
+    "mediumSolved": 168,
+    "hardSolved": 15
   },
   {
     "roll": "2215000865",
@@ -720,9 +709,9 @@
     "url": "https://leetcode.com/u/kingDAS/",
     "section": "C",
     "username": "kingDAS",
-    "totalSolved": 323,
+    "totalSolved": 326,
     "easySolved": 155,
-    "mediumSolved": 152,
+    "mediumSolved": 155,
     "hardSolved": 16
   },
   {
@@ -753,10 +742,21 @@
     "url": "https://leetcode.com/u/shraddhaa1/",
     "section": "AC",
     "username": "shraddhaa1",
-    "totalSolved": 310,
+    "totalSolved": 312,
     "easySolved": 125,
-    "mediumSolved": 165,
+    "mediumSolved": 167,
     "hardSolved": 20
+  },
+  {
+    "roll": "2215001582",
+    "name": "SANKALP AGARWAL",
+    "url": "https://leetcode.com/u/Sankalp_Agarwal_18/",
+    "section": "E",
+    "username": "Sankalp_Agarwal_18",
+    "totalSolved": 310,
+    "easySolved": 114,
+    "mediumSolved": 175,
+    "hardSolved": 21
   },
   {
     "roll": "2215000328",
@@ -770,17 +770,6 @@
     "hardSolved": 17
   },
   {
-    "roll": "2215001582",
-    "name": "SANKALP AGARWAL",
-    "url": "https://leetcode.com/u/Sankalp_Agarwal_18/",
-    "section": "E",
-    "username": "Sankalp_Agarwal_18",
-    "totalSolved": 307,
-    "easySolved": 114,
-    "mediumSolved": 172,
-    "hardSolved": 21
-  },
-  {
     "roll": "2215000429",
     "name": "AYUSH ALAPURIYA",
     "url": "https://leetcode.com/u/its_alapuriya/",
@@ -790,6 +779,17 @@
     "easySolved": 149,
     "mediumSolved": 143,
     "hardSolved": 13
+  },
+  {
+    "roll": "2215000632",
+    "name": "DIVYANSH GOYAL",
+    "url": "https://leetcode.com/u/neerajdivyanshruchi1/",
+    "section": "C",
+    "username": "neerajdivyanshruchi1",
+    "totalSolved": 303,
+    "easySolved": 110,
+    "mediumSolved": 166,
+    "hardSolved": 27
   },
   {
     "roll": "2215000877",
@@ -814,17 +814,6 @@
     "hardSolved": 9
   },
   {
-    "roll": "2215000632",
-    "name": "DIVYANSH GOYAL",
-    "url": "https://leetcode.com/u/neerajdivyanshruchi1/",
-    "section": "C",
-    "username": "neerajdivyanshruchi1",
-    "totalSolved": 302,
-    "easySolved": 110,
-    "mediumSolved": 166,
-    "hardSolved": 26
-  },
-  {
     "roll": "2215000954",
     "name": "KSHITIZ JAIN",
     "url": "https://leetcode.com/u/kshitiz001/",
@@ -836,6 +825,17 @@
     "hardSolved": 32
   },
   {
+    "roll": "2215001299",
+    "name": "PRATEEK SINGH YASHWARDHAN",
+    "url": "https://leetcode.com/u/prateeksinghyashwardhan_cs22/",
+    "section": "D",
+    "username": "prateeksinghyashwardhan_cs22",
+    "totalSolved": 298,
+    "easySolved": 135,
+    "mediumSolved": 144,
+    "hardSolved": 19
+  },
+  {
     "roll": "2215001840",
     "name": "TANYA MAHESHWARI",
     "url": "https://leetcode.com/u/tanya50/",
@@ -845,17 +845,6 @@
     "easySolved": 88,
     "mediumSolved": 171,
     "hardSolved": 39
-  },
-  {
-    "roll": "2215001299",
-    "name": "PRATEEK SINGH YASHWARDHAN",
-    "url": "https://leetcode.com/u/prateeksinghyashwardhan_cs22/",
-    "section": "D",
-    "username": "prateeksinghyashwardhan_cs22",
-    "totalSolved": 297,
-    "easySolved": 135,
-    "mediumSolved": 143,
-    "hardSolved": 19
   },
   {
     "roll": "2215500027",
@@ -874,9 +863,9 @@
     "url": "https://leetcode.com/u/shagun_chaudhary/",
     "section": "A(H)",
     "username": "shagun_chaudhary",
-    "totalSolved": 291,
+    "totalSolved": 293,
     "easySolved": 124,
-    "mediumSolved": 142,
+    "mediumSolved": 144,
     "hardSolved": 25
   },
   {
@@ -896,10 +885,21 @@
     "url": "https://leetcode.com/u/_Aman_Kumar/",
     "section": "C",
     "username": "_Aman_Kumar",
-    "totalSolved": 282,
+    "totalSolved": 283,
     "easySolved": 148,
-    "mediumSolved": 124,
+    "mediumSolved": 125,
     "hardSolved": 10
+  },
+  {
+    "roll": "2215001489",
+    "name": "ROHIT KUMAR",
+    "url": "https://leetcode.com/u/Rohit_kumar_45/",
+    "section": "D",
+    "username": "Rohit_kumar_45",
+    "totalSolved": 282,
+    "easySolved": 122,
+    "mediumSolved": 140,
+    "hardSolved": 20
   },
   {
     "roll": "2215000958",
@@ -913,15 +913,15 @@
     "hardSolved": 8
   },
   {
-    "roll": "2215001489",
-    "name": "ROHIT KUMAR",
-    "url": "https://leetcode.com/u/Rohit_kumar_45/",
+    "roll": "2215001170",
+    "name": "NIPUN RAJPUT",
+    "url": "https://leetcode.com/u/NipunRajput0312/",
     "section": "D",
-    "username": "Rohit_kumar_45",
+    "username": "NipunRajput0312",
     "totalSolved": 281,
-    "easySolved": 122,
-    "mediumSolved": 139,
-    "hardSolved": 20
+    "easySolved": 85,
+    "mediumSolved": 175,
+    "hardSolved": 21
   },
   {
     "roll": "2215000634",
@@ -940,21 +940,10 @@
     "url": "https://leetcode.com/u/naina_sharma/",
     "section": "C",
     "username": "naina_sharma",
-    "totalSolved": 277,
+    "totalSolved": 278,
     "easySolved": 115,
-    "mediumSolved": 144,
+    "mediumSolved": 145,
     "hardSolved": 18
-  },
-  {
-    "roll": "2215001170",
-    "name": "NIPUN RAJPUT",
-    "url": "https://leetcode.com/u/NipunRajput0312/",
-    "section": "D",
-    "username": "NipunRajput0312",
-    "totalSolved": 277,
-    "easySolved": 84,
-    "mediumSolved": 172,
-    "hardSolved": 21
   },
   {
     "roll": "2215001941",
@@ -1017,21 +1006,10 @@
     "url": "https://leetcode.com/u/phantom_4669/",
     "section": "AC",
     "username": "phantom_4669",
-    "totalSolved": 267,
+    "totalSolved": 268,
     "easySolved": 102,
-    "mediumSolved": 152,
+    "mediumSolved": 153,
     "hardSolved": 13
-  },
-  {
-    "roll": "2215000399",
-    "name": "ASHUTOSH SINGH CHAUHAN",
-    "url": "https://leetcode.com/u/Ashutosh-chauhan_29/",
-    "section": "D",
-    "username": "Ashutosh-chauhan_29",
-    "totalSolved": 266,
-    "easySolved": 103,
-    "mediumSolved": 139,
-    "hardSolved": 24
   },
   {
     "roll": "2215001855",
@@ -1039,10 +1017,21 @@
     "url": "https://leetcode.com/u/Tej_prakash_singh/",
     "section": "E",
     "username": "Tej_prakash_singh",
-    "totalSolved": 265,
+    "totalSolved": 268,
     "easySolved": 95,
-    "mediumSolved": 153,
+    "mediumSolved": 156,
     "hardSolved": 17
+  },
+  {
+    "roll": "2215000399",
+    "name": "ASHUTOSH SINGH CHAUHAN",
+    "url": "https://leetcode.com/u/Ashutosh-chauhan_29/",
+    "section": "D",
+    "username": "Ashutosh-chauhan_29",
+    "totalSolved": 267,
+    "easySolved": 103,
+    "mediumSolved": 140,
+    "hardSolved": 24
   },
   {
     "roll": "2215001717",
@@ -1050,10 +1039,54 @@
     "url": "https://leetcode.com/u/shrutichauhan007/",
     "section": "E",
     "username": "shrutichauhan007",
-    "totalSolved": 261,
+    "totalSolved": 263,
     "easySolved": 108,
-    "mediumSolved": 131,
+    "mediumSolved": 133,
     "hardSolved": 22
+  },
+  {
+    "roll": "2215001812",
+    "name": "SURAJ SHARMA",
+    "url": "https://leetcode.com/u/surajsh4646/",
+    "section": "D",
+    "username": "surajsh4646",
+    "totalSolved": 261,
+    "easySolved": 111,
+    "mediumSolved": 127,
+    "hardSolved": 23
+  },
+  {
+    "roll": "2215000155",
+    "name": "AKASH YADAV",
+    "url": "https://leetcode.com/u/lifegod/",
+    "section": "C",
+    "username": "lifegod",
+    "totalSolved": 261,
+    "easySolved": 76,
+    "mediumSolved": 168,
+    "hardSolved": 17
+  },
+  {
+    "roll": "2215001229",
+    "name": "PIYUSH GUPTA",
+    "url": "https://leetcode.com/u/PIYUSH-0612/",
+    "section": "C",
+    "username": "PIYUSH-0612",
+    "totalSolved": 261,
+    "easySolved": 107,
+    "mediumSolved": 133,
+    "hardSolved": 21
+  },
+  {
+    "roll": "2215000919",
+    "name": "KOMAL GUPTA",
+    "url": "https://leetcode.com/u/komalgupta8/",
+    "section": "F",
+    "username": "komalgupta8",
+    "totalSolved": 260,
+    "easySolved": 98,
+    "mediumSolved": 149,
+    "hardSolved": 13
   },
   {
     "roll": "2215000011",
@@ -1067,37 +1100,26 @@
     "hardSolved": 18
   },
   {
-    "roll": "2215001229",
-    "name": "PIYUSH GUPTA",
-    "url": "https://leetcode.com/u/PIYUSH-0612/",
-    "section": "C",
-    "username": "PIYUSH-0612",
+    "roll": "2215001494",
+    "name": "ROHIT SINGH",
+    "url": "https://leetcode.com/u/ytrohit2004/",
+    "section": "H",
+    "username": "ytrohit2004",
     "totalSolved": 260,
-    "easySolved": 107,
-    "mediumSolved": 132,
-    "hardSolved": 21
+    "easySolved": 108,
+    "mediumSolved": 141,
+    "hardSolved": 11
   },
   {
-    "roll": "2215001812",
-    "name": "SURAJ SHARMA",
-    "url": "https://leetcode.com/u/surajsh4646/",
-    "section": "D",
-    "username": "surajsh4646",
-    "totalSolved": 259,
-    "easySolved": 111,
-    "mediumSolved": 125,
-    "hardSolved": 23
-  },
-  {
-    "roll": "2215000919",
-    "name": "KOMAL GUPTA",
-    "url": "https://leetcode.com/u/komalgupta8/",
-    "section": "F",
-    "username": "komalgupta8",
-    "totalSolved": 259,
-    "easySolved": 98,
-    "mediumSolved": 148,
-    "hardSolved": 13
+    "roll": "2215500166",
+    "name": "VAIBHAV YADAV",
+    "url": "https://leetcode.com/u/money48_57/",
+    "section": "AC",
+    "username": "money48_57",
+    "totalSolved": 260,
+    "easySolved": 67,
+    "mediumSolved": 171,
+    "hardSolved": 22
   },
   {
     "roll": "2215001751",
@@ -1109,17 +1131,6 @@
     "easySolved": 102,
     "mediumSolved": 137,
     "hardSolved": 20
-  },
-  {
-    "roll": "2215000155",
-    "name": "AKASH YADAV",
-    "url": "https://leetcode.com/u/lifegod/",
-    "section": "C",
-    "username": "lifegod",
-    "totalSolved": 258,
-    "easySolved": 76,
-    "mediumSolved": 165,
-    "hardSolved": 17
   },
   {
     "roll": "2215001201",
@@ -1144,37 +1155,15 @@
     "hardSolved": 34
   },
   {
-    "roll": "2215500166",
-    "name": "VAIBHAV YADAV",
-    "url": "https://leetcode.com/u/money48_57/",
-    "section": "AC",
-    "username": "money48_57",
-    "totalSolved": 258,
-    "easySolved": 67,
-    "mediumSolved": 170,
-    "hardSolved": 21
-  },
-  {
     "roll": "2215000906",
     "name": "KHUSHI GOYAL",
     "url": "https://leetcode.com/u/khushi_goyal__/",
     "section": "E",
     "username": "khushi_goyal__",
-    "totalSolved": 256,
+    "totalSolved": 257,
     "easySolved": 90,
-    "mediumSolved": 138,
+    "mediumSolved": 139,
     "hardSolved": 28
-  },
-  {
-    "roll": "2215001494",
-    "name": "ROHIT SINGH",
-    "url": "https://leetcode.com/u/ytrohit2004/",
-    "section": "H",
-    "username": "ytrohit2004",
-    "totalSolved": 256,
-    "easySolved": 108,
-    "mediumSolved": 137,
-    "hardSolved": 11
   },
   {
     "roll": "2215500028",
@@ -1182,9 +1171,9 @@
     "url": "https://leetcode.com/u/anujjsengar/",
     "section": "AC",
     "username": "anujjsengar",
-    "totalSolved": 256,
+    "totalSolved": 257,
     "easySolved": 136,
-    "mediumSolved": 107,
+    "mediumSolved": 108,
     "hardSolved": 13
   },
   {
@@ -1199,6 +1188,17 @@
     "hardSolved": 8
   },
   {
+    "roll": "2215000104",
+    "name": "ADITYA NARAYAN GUPTA",
+    "url": "https://leetcode.com/u/AdityaNarayanGupta_2004/",
+    "section": "D",
+    "username": "AdityaNarayanGupta_2004",
+    "totalSolved": 254,
+    "easySolved": 145,
+    "mediumSolved": 96,
+    "hardSolved": 13
+  },
+  {
     "roll": "2215000170",
     "name": "ALANKRATI SAXENA",
     "url": "https://leetcode.com/u/Alan_Krati/",
@@ -1208,6 +1208,17 @@
     "easySolved": 87,
     "mediumSolved": 144,
     "hardSolved": 23
+  },
+  {
+    "roll": "2215001092",
+    "name": "MOHIT SHARMA",
+    "url": "https://leetcode.com/u/Mohitsharma3817/",
+    "section": "C",
+    "username": "Mohitsharma3817",
+    "totalSolved": 253,
+    "easySolved": 89,
+    "mediumSolved": 143,
+    "hardSolved": 21
   },
   {
     "roll": "2215000286",
@@ -1221,37 +1232,15 @@
     "hardSolved": 30
   },
   {
-    "roll": "2215000104",
-    "name": "ADITYA NARAYAN GUPTA",
-    "url": "https://leetcode.com/u/AdityaNarayanGupta_2004/",
-    "section": "D",
-    "username": "AdityaNarayanGupta_2004",
-    "totalSolved": 252,
-    "easySolved": 145,
-    "mediumSolved": 94,
-    "hardSolved": 13
-  },
-  {
     "roll": "2215000574",
     "name": "DEVANSH AGRAWAL",
     "url": "https://leetcode.com/u/devansh_511/",
     "section": "C",
     "username": "devansh_511",
-    "totalSolved": 250,
+    "totalSolved": 252,
     "easySolved": 125,
-    "mediumSolved": 112,
+    "mediumSolved": 114,
     "hardSolved": 13
-  },
-  {
-    "roll": "2215001092",
-    "name": "MOHIT SHARMA",
-    "url": "https://leetcode.com/u/Mohitsharma3817/",
-    "section": "C",
-    "username": "Mohitsharma3817",
-    "totalSolved": 250,
-    "easySolved": 89,
-    "mediumSolved": 140,
-    "hardSolved": 21
   },
   {
     "roll": "2215000105",
@@ -1265,14 +1254,25 @@
     "hardSolved": 5
   },
   {
+    "roll": "2215500040",
+    "name": "AYUSH AGRAWAL",
+    "url": "https://leetcode.com/u/ayushagrawal-cs22/",
+    "section": "AC",
+    "username": "ayushagrawal-cs22",
+    "totalSolved": 250,
+    "easySolved": 108,
+    "mediumSolved": 127,
+    "hardSolved": 15
+  },
+  {
     "roll": "2215500052",
     "name": "DAKSH GAUR",
     "url": "https://leetcode.com/u/alphamethamine/",
     "section": "AE",
     "username": "alphamethamine",
-    "totalSolved": 247,
+    "totalSolved": 248,
     "easySolved": 69,
-    "mediumSolved": 150,
+    "mediumSolved": 151,
     "hardSolved": 28
   },
   {
@@ -1281,9 +1281,9 @@
     "url": "https://leetcode.com/u/Yatin_saraswat/",
     "section": "H",
     "username": "Yatin_saraswat",
-    "totalSolved": 247,
+    "totalSolved": 248,
     "easySolved": 65,
-    "mediumSolved": 171,
+    "mediumSolved": 172,
     "hardSolved": 11
   },
   {
@@ -1292,9 +1292,9 @@
     "url": "https://leetcode.com/u/srishti_017/",
     "section": "D",
     "username": "srishti_017",
-    "totalSolved": 246,
+    "totalSolved": 247,
     "easySolved": 83,
-    "mediumSolved": 140,
+    "mediumSolved": 141,
     "hardSolved": 23
   },
   {
@@ -1303,21 +1303,10 @@
     "url": "https://leetcode.com/u/Radhika_Agarwal22/",
     "section": "D",
     "username": "Radhika_Agarwal22",
-    "totalSolved": 246,
+    "totalSolved": 247,
     "easySolved": 88,
-    "mediumSolved": 133,
+    "mediumSolved": 134,
     "hardSolved": 25
-  },
-  {
-    "roll": "2215500040",
-    "name": "AYUSH AGRAWAL",
-    "url": "https://leetcode.com/u/ayushagrawal-cs22/",
-    "section": "AC",
-    "username": "ayushagrawal-cs22",
-    "totalSolved": 244,
-    "easySolved": 106,
-    "mediumSolved": 123,
-    "hardSolved": 15
   },
   {
     "roll": "2215001022",
@@ -1336,9 +1325,9 @@
     "url": "https://leetcode.com/u/ankushtyagi02/",
     "section": "C",
     "username": "ankushtyagi02",
-    "totalSolved": 239,
-    "easySolved": 51,
-    "mediumSolved": 172,
+    "totalSolved": 242,
+    "easySolved": 52,
+    "mediumSolved": 174,
     "hardSolved": 16
   },
   {
@@ -1347,9 +1336,9 @@
     "url": "https://leetcode.com/u/PrathamCoder01/",
     "section": "F",
     "username": "PrathamCoder01",
-    "totalSolved": 239,
-    "easySolved": 137,
-    "mediumSolved": 97,
+    "totalSolved": 241,
+    "easySolved": 138,
+    "mediumSolved": 98,
     "hardSolved": 5
   },
   {
@@ -1358,9 +1347,9 @@
     "url": "https://leetcode.com/u/shikha_2/",
     "section": "D",
     "username": "shikha_2",
-    "totalSolved": 235,
+    "totalSolved": 236,
     "easySolved": 99,
-    "mediumSolved": 120,
+    "mediumSolved": 121,
     "hardSolved": 16
   },
   {
@@ -1369,9 +1358,9 @@
     "url": "https://leetcode.com/u/user7155Ud/",
     "section": "C",
     "username": "user7155Ud",
-    "totalSolved": 235,
+    "totalSolved": 236,
     "easySolved": 163,
-    "mediumSolved": 63,
+    "mediumSolved": 64,
     "hardSolved": 9
   },
   {
@@ -1380,9 +1369,9 @@
     "url": "https://leetcode.com/u/ManishPailwar/",
     "section": "F",
     "username": "ManishPailwar",
-    "totalSolved": 234,
+    "totalSolved": 235,
     "easySolved": 153,
-    "mediumSolved": 77,
+    "mediumSolved": 78,
     "hardSolved": 4
   },
   {
@@ -1391,9 +1380,9 @@
     "url": "https://leetcode.com/u/manya_298/",
     "section": "C",
     "username": "manya_298",
-    "totalSolved": 232,
+    "totalSolved": 234,
     "easySolved": 108,
-    "mediumSolved": 107,
+    "mediumSolved": 109,
     "hardSolved": 17
   },
   {
@@ -1402,10 +1391,21 @@
     "url": "https://leetcode.com/u/gargchetna11/",
     "section": "C",
     "username": "gargchetna11",
-    "totalSolved": 231,
+    "totalSolved": 233,
     "easySolved": 88,
-    "mediumSolved": 128,
+    "mediumSolved": 130,
     "hardSolved": 15
+  },
+  {
+    "roll": "2215001800",
+    "name": "SUMIT KUMAR",
+    "url": "https://leetcode.com/u/Sumitkg1/",
+    "section": "E",
+    "username": "Sumitkg1",
+    "totalSolved": 232,
+    "easySolved": 134,
+    "mediumSolved": 87,
+    "hardSolved": 11
   },
   {
     "roll": "2215500038",
@@ -1419,26 +1419,15 @@
     "hardSolved": 22
   },
   {
-    "roll": "2215001800",
-    "name": "SUMIT KUMAR",
-    "url": "https://leetcode.com/u/Sumitkg1/",
-    "section": "E",
-    "username": "Sumitkg1",
+    "roll": "2215500086",
+    "name": "KHUSHI",
+    "url": "https://leetcode.com/u/khushi_raghuvanshi19/",
+    "section": "AC",
+    "username": "khushi_raghuvanshi19",
     "totalSolved": 230,
-    "easySolved": 134,
-    "mediumSolved": 85,
-    "hardSolved": 11
-  },
-  {
-    "roll": "2215000674",
-    "name": "GAURAV KUMAR",
-    "url": "https://leetcode.com/u/gauravkumar781902/",
-    "section": "E",
-    "username": "gauravkumar781902",
-    "totalSolved": 226,
-    "easySolved": 85,
-    "mediumSolved": 121,
-    "hardSolved": 20
+    "easySolved": 55,
+    "mediumSolved": 127,
+    "hardSolved": 48
   },
   {
     "roll": "2215001545",
@@ -1446,10 +1435,32 @@
     "url": "https://leetcode.com/u/Bhumika_2004/",
     "section": "D",
     "username": "Bhumika_2004",
-    "totalSolved": 225,
-    "easySolved": 106,
-    "mediumSolved": 110,
+    "totalSolved": 228,
+    "easySolved": 107,
+    "mediumSolved": 112,
     "hardSolved": 9
+  },
+  {
+    "roll": "2215000490",
+    "name": "BHUMIKA CHAUDHARY",
+    "url": "https://leetcode.com/u/Bhumika_2004/",
+    "section": "C",
+    "username": "Bhumika_2004",
+    "totalSolved": 228,
+    "easySolved": 107,
+    "mediumSolved": 112,
+    "hardSolved": 9
+  },
+  {
+    "roll": "2215000674",
+    "name": "GAURAV KUMAR",
+    "url": "https://leetcode.com/u/gauravkumar781902/",
+    "section": "E",
+    "username": "gauravkumar781902",
+    "totalSolved": 227,
+    "easySolved": 85,
+    "mediumSolved": 122,
+    "hardSolved": 20
   },
   {
     "roll": "2215002007",
@@ -1457,9 +1468,9 @@
     "url": "https://leetcode.com/u/Kavi_Singh/",
     "section": "C",
     "username": "Kavi_Singh",
-    "totalSolved": 225,
+    "totalSolved": 226,
     "easySolved": 82,
-    "mediumSolved": 128,
+    "mediumSolved": 129,
     "hardSolved": 15
   },
   {
@@ -1468,42 +1479,9 @@
     "url": "https://leetcode.com/u/nkagrwl007/",
     "section": "D",
     "username": "nkagrwl007",
-    "totalSolved": 225,
+    "totalSolved": 226,
     "easySolved": 82,
-    "mediumSolved": 123,
-    "hardSolved": 20
-  },
-  {
-    "roll": "2215500086",
-    "name": "KHUSHI",
-    "url": "https://leetcode.com/u/khushi_raghuvanshi19/",
-    "section": "AC",
-    "username": "khushi_raghuvanshi19",
-    "totalSolved": 225,
-    "easySolved": 54,
-    "mediumSolved": 123,
-    "hardSolved": 48
-  },
-  {
-    "roll": "2215000490",
-    "name": "BHUMIKA CHAUDHARY",
-    "url": "https://leetcode.com/u/Bhumika_2004/",
-    "section": "C",
-    "username": "Bhumika_2004",
-    "totalSolved": 225,
-    "easySolved": 106,
-    "mediumSolved": 110,
-    "hardSolved": 9
-  },
-  {
-    "roll": "2215500030",
-    "name": "ANURAG PATHAK",
-    "url": "https://leetcode.com/u/anuragpathak__/",
-    "section": "AC",
-    "username": "anuragpathak__",
-    "totalSolved": 222,
-    "easySolved": 88,
-    "mediumSolved": 114,
+    "mediumSolved": 124,
     "hardSolved": 20
   },
   {
@@ -1512,10 +1490,21 @@
     "url": "https://leetcode.com/u/Nishant_1_8/",
     "section": "C",
     "username": "Nishant_1_8",
-    "totalSolved": 222,
+    "totalSolved": 226,
     "easySolved": 87,
-    "mediumSolved": 120,
+    "mediumSolved": 124,
     "hardSolved": 15
+  },
+  {
+    "roll": "2215500030",
+    "name": "ANURAG PATHAK",
+    "url": "https://leetcode.com/u/anuragpathak__/",
+    "section": "AC",
+    "username": "anuragpathak__",
+    "totalSolved": 223,
+    "easySolved": 88,
+    "mediumSolved": 115,
+    "hardSolved": 20
   },
   {
     "roll": "2215001257",
@@ -1523,9 +1512,9 @@
     "url": "https://leetcode.com/u/PrakharGupta77/",
     "section": "H",
     "username": "PrakharGupta77",
-    "totalSolved": 220,
+    "totalSolved": 221,
     "easySolved": 153,
-    "mediumSolved": 66,
+    "mediumSolved": 67,
     "hardSolved": 1
   },
   {
@@ -1534,9 +1523,9 @@
     "url": "https://leetcode.com/u/rajoriaharsh0/",
     "section": "AE",
     "username": "rajoriaharsh0",
-    "totalSolved": 220,
+    "totalSolved": 221,
     "easySolved": 80,
-    "mediumSolved": 118,
+    "mediumSolved": 119,
     "hardSolved": 22
   },
   {
@@ -1545,9 +1534,9 @@
     "url": "https://leetcode.com/u/aryanyadav_13/",
     "section": "C",
     "username": "aryanyadav_13",
-    "totalSolved": 219,
+    "totalSolved": 220,
     "easySolved": 107,
-    "mediumSolved": 101,
+    "mediumSolved": 102,
     "hardSolved": 11
   },
   {
@@ -1562,6 +1551,17 @@
     "hardSolved": 5
   },
   {
+    "roll": "2215000555",
+    "name": "DEEPALI BISHT",
+    "url": "https://leetcode.com/u/deepali_2223/",
+    "section": "C",
+    "username": "deepali_2223",
+    "totalSolved": 217,
+    "easySolved": 131,
+    "mediumSolved": 77,
+    "hardSolved": 9
+  },
+  {
     "roll": "2215000146",
     "name": "AKARSH KHANDELWAL",
     "url": "https://leetcode.com/u/Akarshkh/",
@@ -1573,26 +1573,26 @@
     "hardSolved": 5
   },
   {
-    "roll": "2215000555",
-    "name": "DEEPALI BISHT",
-    "url": "https://leetcode.com/u/deepali_2223/",
-    "section": "C",
-    "username": "deepali_2223",
-    "totalSolved": 215,
-    "easySolved": 131,
-    "mediumSolved": 75,
-    "hardSolved": 9
-  },
-  {
     "roll": "2215000288",
     "name": "ANSHITA AGRAWAL",
     "url": "https://leetcode.com/u/Anshita_Agrawal/",
     "section": "D",
     "username": "Anshita_Agrawal",
-    "totalSolved": 210,
+    "totalSolved": 211,
     "easySolved": 100,
-    "mediumSolved": 101,
+    "mediumSolved": 102,
     "hardSolved": 9
+  },
+  {
+    "roll": "2215000679",
+    "name": "GAURAV VERMA",
+    "url": "https://leetcode.com/u/CodeGaur/",
+    "section": "D",
+    "username": "CodeGaur",
+    "totalSolved": 210,
+    "easySolved": 114,
+    "mediumSolved": 83,
+    "hardSolved": 13
   },
   {
     "roll": "2215500138",
@@ -1606,26 +1606,26 @@
     "hardSolved": 29
   },
   {
-    "roll": "2215000679",
-    "name": "GAURAV VERMA",
-    "url": "https://leetcode.com/u/CodeGaur/",
-    "section": "D",
-    "username": "CodeGaur",
-    "totalSolved": 209,
-    "easySolved": 114,
-    "mediumSolved": 82,
-    "hardSolved": 13
-  },
-  {
     "roll": "2215000883",
     "name": "KARTIK VARSHNEY",
     "url": "https://leetcode.com/u/user1038PX/",
     "section": "D",
     "username": "user1038PX",
-    "totalSolved": 208,
+    "totalSolved": 209,
     "easySolved": 116,
-    "mediumSolved": 81,
+    "mediumSolved": 82,
     "hardSolved": 11
+  },
+  {
+    "roll": "2215001225",
+    "name": "PIYUSH AGRAWAL",
+    "url": "https://leetcode.com/u/Piyushagrawal95/",
+    "section": "C",
+    "username": "Piyushagrawal95",
+    "totalSolved": 208,
+    "easySolved": 103,
+    "mediumSolved": 95,
+    "hardSolved": 10
   },
   {
     "roll": "2215000800",
@@ -1639,25 +1639,14 @@
     "hardSolved": 19
   },
   {
-    "roll": "2215001225",
-    "name": "PIYUSH AGRAWAL",
-    "url": "https://leetcode.com/u/Piyushagrawal95/",
-    "section": "C",
-    "username": "Piyushagrawal95",
-    "totalSolved": 207,
-    "easySolved": 103,
-    "mediumSolved": 94,
-    "hardSolved": 10
-  },
-  {
     "roll": "2215500067",
     "name": "GANESH KUMAR SINGH",
     "url": "https://leetcode.com/u/Ganesh_kumar_123/",
     "section": "AD",
     "username": "Ganesh_kumar_123",
-    "totalSolved": 207,
+    "totalSolved": 208,
     "easySolved": 64,
-    "mediumSolved": 116,
+    "mediumSolved": 117,
     "hardSolved": 27
   },
   {
@@ -1666,9 +1655,9 @@
     "url": "https://leetcode.com/u/prachiagarwal5/",
     "section": "AC",
     "username": "prachiagarwal5",
-    "totalSolved": 204,
+    "totalSolved": 205,
     "easySolved": 101,
-    "mediumSolved": 92,
+    "mediumSolved": 93,
     "hardSolved": 11
   },
   {
@@ -1677,10 +1666,21 @@
     "url": "https://leetcode.com/u/Kuldeepsharma5836/",
     "section": "D",
     "username": "Kuldeepsharma5836",
-    "totalSolved": 204,
+    "totalSolved": 205,
     "easySolved": 98,
-    "mediumSolved": 99,
+    "mediumSolved": 100,
     "hardSolved": 7
+  },
+  {
+    "roll": "2215000408",
+    "name": "ATHARVA JAISWAL",
+    "url": "https://leetcode.com/u/itsaj01/",
+    "section": "F",
+    "username": "itsaj01",
+    "totalSolved": 204,
+    "easySolved": 84,
+    "mediumSolved": 103,
+    "hardSolved": 17
   },
   {
     "roll": "2215001412",
@@ -1692,17 +1692,6 @@
     "easySolved": 52,
     "mediumSolved": 127,
     "hardSolved": 25
-  },
-  {
-    "roll": "2215000408",
-    "name": "ATHARVA JAISWAL",
-    "url": "https://leetcode.com/u/itsaj01/",
-    "section": "F",
-    "username": "itsaj01",
-    "totalSolved": 203,
-    "easySolved": 84,
-    "mediumSolved": 102,
-    "hardSolved": 17
   },
   {
     "roll": "2215001772",
@@ -1721,9 +1710,9 @@
     "url": "https://leetcode.com/u/AKASH-DEV-23/",
     "section": "F",
     "username": "AKASH-DEV-23",
-    "totalSolved": 201,
+    "totalSolved": 202,
     "easySolved": 90,
-    "mediumSolved": 96,
+    "mediumSolved": 97,
     "hardSolved": 15
   },
   {
@@ -1732,10 +1721,32 @@
     "url": "https://leetcode.com/u/Tanu_2404/",
     "section": "E",
     "username": "Tanu_2404",
-    "totalSolved": 201,
+    "totalSolved": 202,
     "easySolved": 124,
-    "mediumSolved": 70,
+    "mediumSolved": 71,
     "hardSolved": 7
+  },
+  {
+    "roll": "2215000895",
+    "name": "KAVYA JAIMINI",
+    "url": "https://leetcode.com/u/ikavya_05/",
+    "section": "F",
+    "username": "ikavya_05",
+    "totalSolved": 199,
+    "easySolved": 75,
+    "mediumSolved": 107,
+    "hardSolved": 17
+  },
+  {
+    "roll": "2215000478",
+    "name": "BHARAT SINGH",
+    "url": "https://leetcode.com/u/Bharat_bhagaur_008/",
+    "section": "E",
+    "username": "Bharat_bhagaur_008",
+    "totalSolved": 198,
+    "easySolved": 88,
+    "mediumSolved": 98,
+    "hardSolved": 12
   },
   {
     "roll": "2215001069",
@@ -1760,17 +1771,6 @@
     "hardSolved": 3
   },
   {
-    "roll": "2215000478",
-    "name": "BHARAT SINGH",
-    "url": "https://leetcode.com/u/Bharat_bhagaur_008/",
-    "section": "E",
-    "username": "Bharat_bhagaur_008",
-    "totalSolved": 197,
-    "easySolved": 88,
-    "mediumSolved": 97,
-    "hardSolved": 12
-  },
-  {
     "roll": "2215000830",
     "name": "JANHAVI SINGH",
     "url": "https://leetcode.com/u/janhavisingh_22/",
@@ -1782,26 +1782,26 @@
     "hardSolved": 14
   },
   {
-    "roll": "2215000895",
-    "name": "KAVYA JAIMINI",
-    "url": "https://leetcode.com/u/ikavya_05/",
-    "section": "F",
-    "username": "ikavya_05",
-    "totalSolved": 196,
-    "easySolved": 73,
-    "mediumSolved": 106,
-    "hardSolved": 17
-  },
-  {
     "roll": "2215002024",
     "name": "YASH KUMAR KASAUDHAN",
     "url": "https://leetcode.com/u/vididvidid/",
     "section": "C",
     "username": "vididvidid",
-    "totalSolved": 195,
+    "totalSolved": 196,
     "easySolved": 87,
-    "mediumSolved": 89,
+    "mediumSolved": 90,
     "hardSolved": 19
+  },
+  {
+    "roll": "2215000319",
+    "name": "ANURAG GAUTAM",
+    "url": "https://leetcode.com/u/AnuragGautam02/",
+    "section": "E",
+    "username": "AnuragGautam02",
+    "totalSolved": 195,
+    "easySolved": 82,
+    "mediumSolved": 100,
+    "hardSolved": 13
   },
   {
     "roll": "2215000786",
@@ -1831,9 +1831,9 @@
     "url": "https://leetcode.com/u/LOVEKUSH_RAJPUT/",
     "section": "F",
     "username": "LOVEKUSH_RAJPUT",
-    "totalSolved": 192,
+    "totalSolved": 194,
     "easySolved": 78,
-    "mediumSolved": 96,
+    "mediumSolved": 98,
     "hardSolved": 18
   },
   {
@@ -1842,10 +1842,21 @@
     "url": "https://leetcode.com/u/Amarvarshney03/",
     "section": "D",
     "username": "Amarvarshney03",
-    "totalSolved": 192,
+    "totalSolved": 194,
     "easySolved": 75,
-    "mediumSolved": 97,
+    "mediumSolved": 99,
     "hardSolved": 20
+  },
+  {
+    "roll": "2215001468",
+    "name": "RITESH KUMAR",
+    "url": "https://leetcode.com/u/thisismeriteshk1/",
+    "section": "F",
+    "username": "thisismeriteshk1",
+    "totalSolved": 192,
+    "easySolved": 120,
+    "mediumSolved": 68,
+    "hardSolved": 4
   },
   {
     "roll": "2215500174",
@@ -1853,9 +1864,9 @@
     "url": "https://leetcode.com/u/vinayak_930/",
     "section": "AC",
     "username": "vinayak_930",
-    "totalSolved": 191,
+    "totalSolved": 192,
     "easySolved": 82,
-    "mediumSolved": 100,
+    "mediumSolved": 101,
     "hardSolved": 9
   },
   {
@@ -1864,9 +1875,9 @@
     "url": "https://leetcode.com/u/saurabhnagaich27/",
     "section": "AC",
     "username": "saurabhnagaich27",
-    "totalSolved": 191,
+    "totalSolved": 192,
     "easySolved": 71,
-    "mediumSolved": 102,
+    "mediumSolved": 103,
     "hardSolved": 18
   },
   {
@@ -1875,9 +1886,9 @@
     "url": "https://leetcode.com/u/rohit2348834/",
     "section": "F",
     "username": "rohit2348834",
-    "totalSolved": 191,
+    "totalSolved": 192,
     "easySolved": 83,
-    "mediumSolved": 104,
+    "mediumSolved": 105,
     "hardSolved": 4
   },
   {
@@ -1890,28 +1901,6 @@
     "easySolved": 78,
     "mediumSolved": 92,
     "hardSolved": 19
-  },
-  {
-    "roll": "2215000319",
-    "name": "ANURAG GAUTAM",
-    "url": "https://leetcode.com/u/AnuragGautam02/",
-    "section": "E",
-    "username": "AnuragGautam02",
-    "totalSolved": 189,
-    "easySolved": 81,
-    "mediumSolved": 95,
-    "hardSolved": 13
-  },
-  {
-    "roll": "2215001468",
-    "name": "RITESH KUMAR",
-    "url": "https://leetcode.com/u/thisismeriteshk1/",
-    "section": "F",
-    "username": "thisismeriteshk1",
-    "totalSolved": 188,
-    "easySolved": 118,
-    "mediumSolved": 66,
-    "hardSolved": 4
   },
   {
     "roll": "2215000259",
@@ -1947,6 +1936,17 @@
     "hardSolved": 9
   },
   {
+    "roll": "2215000582",
+    "name": "DEVANSH SHARMA",
+    "url": "https://leetcode.com/u/devanshsharm_cs22/",
+    "section": "C",
+    "username": "devanshsharm_cs22",
+    "totalSolved": 183,
+    "easySolved": 75,
+    "mediumSolved": 97,
+    "hardSolved": 11
+  },
+  {
     "roll": "2215001444",
     "name": "RISHABH GUPTA",
     "url": "https://leetcode.com/u/Rishabh_Gupta05/",
@@ -1958,26 +1958,48 @@
     "hardSolved": 6
   },
   {
-    "roll": "2215000582",
-    "name": "DEVANSH SHARMA",
-    "url": "https://leetcode.com/u/devanshsharm_cs22/",
-    "section": "C",
-    "username": "devanshsharm_cs22",
-    "totalSolved": 181,
-    "easySolved": 75,
-    "mediumSolved": 95,
-    "hardSolved": 11
-  },
-  {
     "roll": "2215000909",
     "name": "KHUSHI RATHORE",
     "url": "https://leetcode.com/u/Khushi1_Rathore/",
     "section": "D",
     "username": "Khushi1_Rathore",
-    "totalSolved": 181,
+    "totalSolved": 183,
     "easySolved": 82,
-    "mediumSolved": 93,
+    "mediumSolved": 95,
     "hardSolved": 6
+  },
+  {
+    "roll": "2215001561",
+    "name": "SALONI KUMARI",
+    "url": "https://leetcode.com/u/Saloni_kumari3/",
+    "section": "C",
+    "username": "Saloni_kumari3",
+    "totalSolved": 182,
+    "easySolved": 62,
+    "mediumSolved": 104,
+    "hardSolved": 16
+  },
+  {
+    "roll": "2215001073",
+    "name": "MILAN AWASTHI",
+    "url": "https://leetcode.com/u/Milanawasthi/",
+    "section": "E",
+    "username": "Milanawasthi",
+    "totalSolved": 181,
+    "easySolved": 71,
+    "mediumSolved": 95,
+    "hardSolved": 15
+  },
+  {
+    "roll": "2215001554",
+    "name": "SAKSHI MAHOLIYA",
+    "url": "https://leetcode.com/u/sakshi_Maholiya/",
+    "section": "F",
+    "username": "sakshi_Maholiya",
+    "totalSolved": 181,
+    "easySolved": 102,
+    "mediumSolved": 67,
+    "hardSolved": 12
   },
   {
     "roll": "2215500087",
@@ -1991,17 +2013,6 @@
     "hardSolved": 13
   },
   {
-    "roll": "2215001554",
-    "name": "SAKSHI MAHOLIYA",
-    "url": "https://leetcode.com/u/sakshi_Maholiya/",
-    "section": "F",
-    "username": "sakshi_Maholiya",
-    "totalSolved": 180,
-    "easySolved": 102,
-    "mediumSolved": 66,
-    "hardSolved": 12
-  },
-  {
     "roll": "2215000410",
     "name": "ATUL GUPTA",
     "url": "https://leetcode.com/u/spectre007_atul/",
@@ -2011,28 +2022,6 @@
     "easySolved": 83,
     "mediumSolved": 83,
     "hardSolved": 13
-  },
-  {
-    "roll": "2215001073",
-    "name": "MILAN AWASTHI",
-    "url": "https://leetcode.com/u/Milanawasthi/",
-    "section": "E",
-    "username": "Milanawasthi",
-    "totalSolved": 178,
-    "easySolved": 70,
-    "mediumSolved": 93,
-    "hardSolved": 15
-  },
-  {
-    "roll": "2215001561",
-    "name": "SALONI KUMARI",
-    "url": "https://leetcode.com/u/Saloni_kumari3/",
-    "section": "C",
-    "username": "Saloni_kumari3",
-    "totalSolved": 178,
-    "easySolved": 61,
-    "mediumSolved": 101,
-    "hardSolved": 16
   },
   {
     "roll": "2215000368",
@@ -2073,10 +2062,32 @@
     "url": "https://leetcode.com/u/devikaagarwal83/",
     "section": "E",
     "username": "devikaagarwal83",
-    "totalSolved": 174,
+    "totalSolved": 175,
     "easySolved": 93,
-    "mediumSolved": 71,
+    "mediumSolved": 72,
     "hardSolved": 10
+  },
+  {
+    "roll": "2215001359",
+    "name": "PRIYANSHU YADAV",
+    "url": "https://leetcode.com/u/PriyanshuYadav9756/",
+    "section": "H",
+    "username": "PriyanshuYadav9756",
+    "totalSolved": 175,
+    "easySolved": 104,
+    "mediumSolved": 59,
+    "hardSolved": 12
+  },
+  {
+    "roll": "2215500085",
+    "name": "KARTIK CHAHAR",
+    "url": "https://leetcode.com/u/Kartik_Chahar/",
+    "section": "AC",
+    "username": "Kartik_Chahar",
+    "totalSolved": 175,
+    "easySolved": 46,
+    "mediumSolved": 105,
+    "hardSolved": 24
   },
   {
     "roll": "2215000939",
@@ -2090,37 +2101,26 @@
     "hardSolved": 2
   },
   {
-    "roll": "2215001359",
-    "name": "PRIYANSHU YADAV",
-    "url": "https://leetcode.com/u/PriyanshuYadav9756/",
-    "section": "H",
-    "username": "PriyanshuYadav9756",
-    "totalSolved": 173,
-    "easySolved": 102,
-    "mediumSolved": 59,
-    "hardSolved": 12
-  },
-  {
-    "roll": "2215500085",
-    "name": "KARTIK CHAHAR",
-    "url": "https://leetcode.com/u/Kartik_Chahar/",
-    "section": "AC",
-    "username": "Kartik_Chahar",
-    "totalSolved": 173,
-    "easySolved": 46,
-    "mediumSolved": 103,
-    "hardSolved": 24
-  },
-  {
     "roll": "2215000689",
     "name": "GAYATRI CHAUDHARY",
     "url": "https://leetcode.com/u/gayatri_cs-22/",
     "section": "D",
     "username": "gayatri_cs-22",
-    "totalSolved": 172,
+    "totalSolved": 173,
     "easySolved": 72,
-    "mediumSolved": 96,
+    "mediumSolved": 97,
     "hardSolved": 4
+  },
+  {
+    "roll": "2215000340",
+    "name": "ARJUN RAGHAV",
+    "url": "https://leetcode.com/u/arjunraghav/",
+    "section": "E",
+    "username": "arjunraghav",
+    "totalSolved": 172,
+    "easySolved": 74,
+    "mediumSolved": 88,
+    "hardSolved": 10
   },
   {
     "roll": "2215000952",
@@ -2145,6 +2145,17 @@
     "hardSolved": 23
   },
   {
+    "roll": "2215000476",
+    "name": "BHARAT AGRAWAL",
+    "url": "https://leetcode.com/u/bharat_ajirawal/",
+    "section": "E",
+    "username": "bharat_ajirawal",
+    "totalSolved": 170,
+    "easySolved": 77,
+    "mediumSolved": 82,
+    "hardSolved": 11
+  },
+  {
     "roll": "2215001152",
     "name": "NIKHIL BANSAL",
     "url": "https://leetcode.com/u/nikhilbansal8218/",
@@ -2156,37 +2167,37 @@
     "hardSolved": 16
   },
   {
-    "roll": "2215000340",
-    "name": "ARJUN RAGHAV",
-    "url": "https://leetcode.com/u/arjunraghav/",
-    "section": "E",
-    "username": "arjunraghav",
-    "totalSolved": 168,
-    "easySolved": 74,
-    "mediumSolved": 84,
-    "hardSolved": 10
-  },
-  {
-    "roll": "2215000476",
-    "name": "BHARAT AGRAWAL",
-    "url": "https://leetcode.com/u/bharat_ajirawal/",
-    "section": "E",
-    "username": "bharat_ajirawal",
-    "totalSolved": 167,
-    "easySolved": 77,
-    "mediumSolved": 79,
-    "hardSolved": 11
-  },
-  {
     "roll": "2215500077",
     "name": "HEMANT KUMAR",
     "url": "https://leetcode.com/u/hemant_458/",
     "section": "AD",
     "username": "hemant_458",
-    "totalSolved": 164,
-    "easySolved": 53,
-    "mediumSolved": 93,
+    "totalSolved": 166,
+    "easySolved": 54,
+    "mediumSolved": 94,
     "hardSolved": 18
+  },
+  {
+    "roll": "2215000583",
+    "name": "DEVANSH SINGH",
+    "url": "https://leetcode.com/u/devansh_singh1001/",
+    "section": "D",
+    "username": "devansh_singh1001",
+    "totalSolved": 163,
+    "easySolved": 118,
+    "mediumSolved": 43,
+    "hardSolved": 2
+  },
+  {
+    "roll": "2215000470",
+    "name": "BHAKTI CHAUDHARY",
+    "url": "https://leetcode.com/u/bhakti11/",
+    "section": "D",
+    "username": "bhakti11",
+    "totalSolved": 162,
+    "easySolved": 93,
+    "mediumSolved": 59,
+    "hardSolved": 10
   },
   {
     "roll": "2215000907",
@@ -2200,37 +2211,48 @@
     "hardSolved": 13
   },
   {
-    "roll": "2215000583",
-    "name": "DEVANSH SINGH",
-    "url": "https://leetcode.com/u/devansh_singh1001/",
-    "section": "D",
-    "username": "devansh_singh1001",
-    "totalSolved": 161,
-    "easySolved": 118,
-    "mediumSolved": 41,
-    "hardSolved": 2
-  },
-  {
-    "roll": "2215000470",
-    "name": "BHAKTI CHAUDHARY",
-    "url": "https://leetcode.com/u/bhakti11/",
-    "section": "D",
-    "username": "bhakti11",
-    "totalSolved": 160,
-    "easySolved": 93,
-    "mediumSolved": 57,
-    "hardSolved": 10
-  },
-  {
     "roll": "2215001361",
     "name": "PULKIT UPADHYAY",
     "url": "https://leetcode.com/u/_22215001361/",
     "section": "C",
     "username": "_22215001361",
-    "totalSolved": 160,
+    "totalSolved": 162,
     "easySolved": 62,
-    "mediumSolved": 85,
+    "mediumSolved": 87,
     "hardSolved": 13
+  },
+  {
+    "roll": "2215001761",
+    "name": "SONAM SHARMA",
+    "url": "https://leetcode.com/u/sonam_sharma7088/",
+    "section": "C",
+    "username": "sonam_sharma7088",
+    "totalSolved": 161,
+    "easySolved": 71,
+    "mediumSolved": 81,
+    "hardSolved": 9
+  },
+  {
+    "roll": "2215001973",
+    "name": "VIPUL KUMAR YADAV",
+    "url": "https://leetcode.com/u/Vipul_cs22/",
+    "section": "C",
+    "username": "Vipul_cs22",
+    "totalSolved": 160,
+    "easySolved": 72,
+    "mediumSolved": 75,
+    "hardSolved": 13
+  },
+  {
+    "roll": "2215000316",
+    "name": "ANURAG",
+    "url": "https://leetcode.com/u/Anurag051104/",
+    "section": "E",
+    "username": "Anurag051104",
+    "totalSolved": 159,
+    "easySolved": 75,
+    "mediumSolved": 81,
+    "hardSolved": 3
   },
   {
     "roll": "2215000860",
@@ -2244,17 +2266,6 @@
     "hardSolved": 13
   },
   {
-    "roll": "2215001761",
-    "name": "SONAM SHARMA",
-    "url": "https://leetcode.com/u/sonam_sharma7088/",
-    "section": "C",
-    "username": "sonam_sharma7088",
-    "totalSolved": 159,
-    "easySolved": 71,
-    "mediumSolved": 79,
-    "hardSolved": 9
-  },
-  {
     "roll": "2215001725",
     "name": "SHUBH VARSHNEY",
     "url": "https://leetcode.com/u/shubh0104/",
@@ -2266,37 +2277,15 @@
     "hardSolved": 12
   },
   {
-    "roll": "2215000316",
-    "name": "ANURAG",
-    "url": "https://leetcode.com/u/Anurag051104/",
-    "section": "E",
-    "username": "Anurag051104",
-    "totalSolved": 158,
-    "easySolved": 75,
-    "mediumSolved": 80,
-    "hardSolved": 3
-  },
-  {
     "roll": "2215001111",
     "name": "MUSKAN GUPTA",
     "url": "https://leetcode.com/u/muskangupta200405/",
     "section": "H",
     "username": "muskangupta200405",
-    "totalSolved": 158,
+    "totalSolved": 159,
     "easySolved": 99,
-    "mediumSolved": 49,
+    "mediumSolved": 50,
     "hardSolved": 10
-  },
-  {
-    "roll": "2215001973",
-    "name": "VIPUL KUMAR YADAV",
-    "url": "https://leetcode.com/u/Vipul_cs22/",
-    "section": "C",
-    "username": "Vipul_cs22",
-    "totalSolved": 157,
-    "easySolved": 69,
-    "mediumSolved": 75,
-    "hardSolved": 13
   },
   {
     "roll": "2215001384",
@@ -2304,9 +2293,20 @@
     "url": "https://leetcode.com/u/Rahul_1384/",
     "section": "E",
     "username": "Rahul_1384",
-    "totalSolved": 156,
+    "totalSolved": 157,
     "easySolved": 74,
-    "mediumSolved": 74,
+    "mediumSolved": 75,
+    "hardSolved": 8
+  },
+  {
+    "roll": "2215000636",
+    "name": "DIVYANSHI GUPTA",
+    "url": "https://leetcode.com/u/divyanshi_50/",
+    "section": "D",
+    "username": "divyanshi_50",
+    "totalSolved": 156,
+    "easySolved": 73,
+    "mediumSolved": 75,
     "hardSolved": 8
   },
   {
@@ -2321,15 +2321,15 @@
     "hardSolved": 23
   },
   {
-    "roll": "2215000636",
-    "name": "DIVYANSHI GUPTA",
-    "url": "https://leetcode.com/u/divyanshi_50/",
-    "section": "D",
-    "username": "divyanshi_50",
-    "totalSolved": 154,
-    "easySolved": 73,
-    "mediumSolved": 73,
-    "hardSolved": 8
+    "roll": "2215000372",
+    "name": "ARYAN MAHESHWARI",
+    "url": "https://leetcode.com/u/AryanMaheshwari70/",
+    "section": "C",
+    "username": "AryanMaheshwari70",
+    "totalSolved": 155,
+    "easySolved": 77,
+    "mediumSolved": 69,
+    "hardSolved": 9
   },
   {
     "roll": "2215000008",
@@ -2354,25 +2354,14 @@
     "hardSolved": 7
   },
   {
-    "roll": "2215000372",
-    "name": "ARYAN MAHESHWARI",
-    "url": "https://leetcode.com/u/AryanMaheshwari70/",
-    "section": "C",
-    "username": "AryanMaheshwari70",
-    "totalSolved": 154,
-    "easySolved": 77,
-    "mediumSolved": 68,
-    "hardSolved": 9
-  },
-  {
     "roll": "2215001612",
     "name": "SAUMY GUPTA",
     "url": "https://leetcode.com/u/saumy_gupta/",
     "section": "G",
     "username": "saumy_gupta",
-    "totalSolved": 153,
+    "totalSolved": 154,
     "easySolved": 116,
-    "mediumSolved": 36,
+    "mediumSolved": 37,
     "hardSolved": 1
   },
   {
@@ -2381,10 +2370,43 @@
     "url": "https://leetcode.com/u/Aadrika_Jain/",
     "section": "AC",
     "username": "Aadrika_Jain",
-    "totalSolved": 153,
+    "totalSolved": 154,
     "easySolved": 62,
-    "mediumSolved": 80,
+    "mediumSolved": 81,
     "hardSolved": 11
+  },
+  {
+    "roll": "2215000436",
+    "name": "AYUSH GUPTA",
+    "url": "https://leetcode.com/u/ayush456/",
+    "section": "C",
+    "username": "ayush456",
+    "totalSolved": 152,
+    "easySolved": 74,
+    "mediumSolved": 66,
+    "hardSolved": 12
+  },
+  {
+    "roll": "2215001230",
+    "name": "PIYUSH GUPTA",
+    "url": "https://leetcode.com/u/PiyushGupta_18/",
+    "section": "D",
+    "username": "PiyushGupta_18",
+    "totalSolved": 152,
+    "easySolved": 67,
+    "mediumSolved": 78,
+    "hardSolved": 7
+  },
+  {
+    "roll": "2215000966",
+    "name": "KUNAL VARSHNEY",
+    "url": "https://leetcode.com/u/kunalvarshney/",
+    "section": "F",
+    "username": "kunalvarshney",
+    "totalSolved": 152,
+    "easySolved": 71,
+    "mediumSolved": 75,
+    "hardSolved": 6
   },
   {
     "roll": "2215000026",
@@ -2398,15 +2420,26 @@
     "hardSolved": 15
   },
   {
-    "roll": "2215000966",
-    "name": "KUNAL VARSHNEY",
-    "url": "https://leetcode.com/u/kunalvarshney/",
-    "section": "F",
-    "username": "kunalvarshney",
-    "totalSolved": 151,
-    "easySolved": 71,
-    "mediumSolved": 74,
-    "hardSolved": 6
+    "roll": "2215000084",
+    "name": "ADITI MITTAL",
+    "url": "https://leetcode.com/u/aditimittal04/",
+    "section": "C",
+    "username": "aditimittal04",
+    "totalSolved": 150,
+    "easySolved": 46,
+    "mediumSolved": 80,
+    "hardSolved": 24
+  },
+  {
+    "roll": "2215500125",
+    "name": "SACHIN KUMAR",
+    "url": "https://leetcode.com/u/Sachin20K/",
+    "section": "AD",
+    "username": "Sachin20K",
+    "totalSolved": 150,
+    "easySolved": 84,
+    "mediumSolved": 58,
+    "hardSolved": 8
   },
   {
     "roll": "2215000908",
@@ -2431,15 +2464,37 @@
     "hardSolved": 16
   },
   {
-    "roll": "2215500125",
-    "name": "SACHIN KUMAR",
-    "url": "https://leetcode.com/u/Sachin20K/",
-    "section": "AD",
-    "username": "Sachin20K",
+    "roll": "2215001393",
+    "name": "RAHUL LODHI",
+    "url": "https://leetcode.com/u/Rahullodhi900/",
+    "section": "C",
+    "username": "Rahullodhi900",
     "totalSolved": 149,
-    "easySolved": 83,
-    "mediumSolved": 58,
+    "easySolved": 57,
+    "mediumSolved": 74,
+    "hardSolved": 18
+  },
+  {
+    "roll": "2215000622",
+    "name": "DIPANSHU KUMAR",
+    "url": "https://leetcode.com/u/Dipanshu_Kumar1/",
+    "section": "D",
+    "username": "Dipanshu_Kumar1",
+    "totalSolved": 149,
+    "easySolved": 78,
+    "mediumSolved": 63,
     "hardSolved": 8
+  },
+  {
+    "roll": "2215000505",
+    "name": "CELINA SHARMA",
+    "url": "https://leetcode.com/u/celina_sharma03/",
+    "section": "F",
+    "username": "celina_sharma03",
+    "totalSolved": 149,
+    "easySolved": 69,
+    "mediumSolved": 74,
+    "hardSolved": 6
   },
   {
     "roll": "2215000169",
@@ -2453,28 +2508,6 @@
     "hardSolved": 14
   },
   {
-    "roll": "2215001393",
-    "name": "RAHUL LODHI",
-    "url": "https://leetcode.com/u/Rahullodhi900/",
-    "section": "C",
-    "username": "Rahullodhi900",
-    "totalSolved": 147,
-    "easySolved": 57,
-    "mediumSolved": 72,
-    "hardSolved": 18
-  },
-  {
-    "roll": "2215000622",
-    "name": "DIPANSHU KUMAR",
-    "url": "https://leetcode.com/u/Dipanshu_Kumar1/",
-    "section": "D",
-    "username": "Dipanshu_Kumar1",
-    "totalSolved": 147,
-    "easySolved": 77,
-    "mediumSolved": 62,
-    "hardSolved": 8
-  },
-  {
     "roll": "2215001020",
     "name": "MADHU SOLANKI",
     "url": "https://leetcode.com/u/madhusolanki/",
@@ -2486,47 +2519,14 @@
     "hardSolved": 3
   },
   {
-    "roll": "2215000505",
-    "name": "CELINA SHARMA",
-    "url": "https://leetcode.com/u/celina_sharma03/",
-    "section": "F",
-    "username": "celina_sharma03",
-    "totalSolved": 147,
-    "easySolved": 69,
-    "mediumSolved": 73,
-    "hardSolved": 5
-  },
-  {
-    "roll": "2215000084",
-    "name": "ADITI MITTAL",
-    "url": "https://leetcode.com/u/aditimittal04/",
-    "section": "C",
-    "username": "aditimittal04",
-    "totalSolved": 146,
-    "easySolved": 45,
-    "mediumSolved": 77,
-    "hardSolved": 24
-  },
-  {
-    "roll": "2215001230",
-    "name": "PIYUSH GUPTA",
-    "url": "https://leetcode.com/u/PiyushGupta_18/",
-    "section": "D",
-    "username": "PiyushGupta_18",
-    "totalSolved": 146,
-    "easySolved": 65,
-    "mediumSolved": 74,
-    "hardSolved": 7
-  },
-  {
     "roll": "2215001063",
     "name": "MAYANK SHARMA",
     "url": "https://leetcode.com/u/mayanksharma12662/",
     "section": "F",
     "username": "mayanksharma12662",
-    "totalSolved": 146,
+    "totalSolved": 147,
     "easySolved": 87,
-    "mediumSolved": 56,
+    "mediumSolved": 57,
     "hardSolved": 3
   },
   {
@@ -2557,9 +2557,9 @@
     "url": "https://leetcode.com/u/Dinesh_sirsiya75/",
     "section": "E",
     "username": "Dinesh_sirsiya75",
-    "totalSolved": 144,
+    "totalSolved": 145,
     "easySolved": 45,
-    "mediumSolved": 82,
+    "mediumSolved": 83,
     "hardSolved": 17
   },
   {
@@ -2568,21 +2568,21 @@
     "url": "https://leetcode.com/u/akankshacs22/",
     "section": "AC",
     "username": "akankshacs22",
-    "totalSolved": 144,
+    "totalSolved": 145,
     "easySolved": 70,
-    "mediumSolved": 60,
+    "mediumSolved": 61,
     "hardSolved": 14
   },
   {
-    "roll": "2215000436",
-    "name": "AYUSH GUPTA",
-    "url": "https://leetcode.com/u/ayush456/",
-    "section": "C",
-    "username": "ayush456",
+    "roll": "2215500034",
+    "name": "ARJUN SUWEDI",
+    "url": "https://leetcode.com/u/KAAL_KIN/",
+    "section": "AD",
+    "username": "KAAL_KIN",
     "totalSolved": 144,
-    "easySolved": 68,
-    "mediumSolved": 64,
-    "hardSolved": 12
+    "easySolved": 90,
+    "mediumSolved": 45,
+    "hardSolved": 9
   },
   {
     "roll": "2215001193",
@@ -2601,9 +2601,9 @@
     "url": "https://leetcode.com/u/Arushi_21/",
     "section": "F",
     "username": "Arushi_21",
-    "totalSolved": 142,
+    "totalSolved": 143,
     "easySolved": 101,
-    "mediumSolved": 35,
+    "mediumSolved": 36,
     "hardSolved": 6
   },
   {
@@ -2612,9 +2612,9 @@
     "url": "https://leetcode.com/u/agrawalsanskrati323/",
     "section": "AC",
     "username": "agrawalsanskrati323",
-    "totalSolved": 142,
+    "totalSolved": 143,
     "easySolved": 75,
-    "mediumSolved": 57,
+    "mediumSolved": 58,
     "hardSolved": 10
   },
   {
@@ -2623,21 +2623,43 @@
     "url": "https://leetcode.com/u/aditi34/",
     "section": "D",
     "username": "aditi34",
-    "totalSolved": 141,
+    "totalSolved": 142,
     "easySolved": 56,
-    "mediumSolved": 74,
+    "mediumSolved": 75,
     "hardSolved": 11
   },
   {
-    "roll": "2215500034",
-    "name": "ARJUN SUWEDI",
-    "url": "https://leetcode.com/u/KAAL_KIN/",
-    "section": "AD",
-    "username": "KAAL_KIN",
+    "roll": "2215001368",
+    "name": "PUSHPENDRA",
+    "url": "https://leetcode.com/u/Pushpendra07/",
+    "section": "E",
+    "username": "Pushpendra07",
+    "totalSolved": 142,
+    "easySolved": 77,
+    "mediumSolved": 59,
+    "hardSolved": 6
+  },
+  {
+    "roll": "2215500179",
+    "name": "YATHARTH DIXIT",
+    "url": "https://leetcode.com/u/yatharth_dixit0097/",
+    "section": "AE",
+    "username": "yatharth_dixit0097",
+    "totalSolved": 142,
+    "easySolved": 46,
+    "mediumSolved": 86,
+    "hardSolved": 10
+  },
+  {
+    "roll": "2215001709",
+    "name": "SHREYANSH SHRIVASTAVA",
+    "url": "https://leetcode.com/u/shreyansh_shri/",
+    "section": "E",
+    "username": "shreyansh_shri",
     "totalSolved": 141,
-    "easySolved": 90,
-    "mediumSolved": 44,
-    "hardSolved": 7
+    "easySolved": 69,
+    "mediumSolved": 63,
+    "hardSolved": 9
   },
   {
     "roll": "2215000069",
@@ -2645,9 +2667,9 @@
     "url": "https://leetcode.com/u/Abhishek__Verma/",
     "section": "H",
     "username": "Abhishek__Verma",
-    "totalSolved": 140,
+    "totalSolved": 141,
     "easySolved": 98,
-    "mediumSolved": 37,
+    "mediumSolved": 38,
     "hardSolved": 5
   },
   {
@@ -2656,9 +2678,9 @@
     "url": "https://leetcode.com/u/anurag080205/",
     "section": "AD",
     "username": "anurag080205",
-    "totalSolved": 140,
+    "totalSolved": 141,
     "easySolved": 83,
-    "mediumSolved": 51,
+    "mediumSolved": 52,
     "hardSolved": 6
   },
   {
@@ -2673,15 +2695,15 @@
     "hardSolved": 4
   },
   {
-    "roll": "2215001709",
-    "name": "SHREYANSH SHRIVASTAVA",
-    "url": "https://leetcode.com/u/shreyansh_shri/",
-    "section": "E",
-    "username": "shreyansh_shri",
+    "roll": "2215000716",
+    "name": "HARDIK MISHRA",
+    "url": "https://leetcode.com/u/hardikmishra20040925/",
+    "section": "D",
+    "username": "hardikmishra20040925",
     "totalSolved": 139,
-    "easySolved": 69,
-    "mediumSolved": 61,
-    "hardSolved": 9
+    "easySolved": 51,
+    "mediumSolved": 77,
+    "hardSolved": 11
   },
   {
     "roll": "2215500112",
@@ -2695,6 +2717,17 @@
     "hardSolved": 10
   },
   {
+    "roll": "2215800012",
+    "name": "JEET THAKURELA",
+    "url": "https://leetcode.com/u/jeete1singh/",
+    "section": "A(H)",
+    "username": "jeete1singh",
+    "totalSolved": 138,
+    "easySolved": 40,
+    "mediumSolved": 82,
+    "hardSolved": 16
+  },
+  {
     "roll": "2215500123",
     "name": "RITIK TRIPATHI",
     "url": "https://leetcode.com/u/Ritik_tripathi52/",
@@ -2706,15 +2739,15 @@
     "hardSolved": 21
   },
   {
-    "roll": "2215001368",
-    "name": "PUSHPENDRA",
-    "url": "https://leetcode.com/u/Pushpendra07/",
-    "section": "E",
-    "username": "Pushpendra07",
+    "roll": "2215001886",
+    "name": "UPENDRA SISODIYA",
+    "url": "https://leetcode.com/u/sirfupendra/",
+    "section": "H",
+    "username": "sirfupendra",
     "totalSolved": 137,
-    "easySolved": 74,
-    "mediumSolved": 57,
-    "hardSolved": 6
+    "easySolved": 43,
+    "mediumSolved": 85,
+    "hardSolved": 9
   },
   {
     "roll": "2215000894",
@@ -2750,47 +2783,14 @@
     "hardSolved": 4
   },
   {
-    "roll": "2215800012",
-    "name": "JEET THAKURELA",
-    "url": "https://leetcode.com/u/jeete1singh/",
-    "section": "A(H)",
-    "username": "jeete1singh",
-    "totalSolved": 136,
-    "easySolved": 40,
-    "mediumSolved": 80,
-    "hardSolved": 16
-  },
-  {
-    "roll": "2215001886",
-    "name": "UPENDRA SISODIYA",
-    "url": "https://leetcode.com/u/sirfupendra/",
-    "section": "H",
-    "username": "sirfupendra",
-    "totalSolved": 136,
-    "easySolved": 43,
-    "mediumSolved": 84,
-    "hardSolved": 9
-  },
-  {
-    "roll": "2215000716",
-    "name": "HARDIK MISHRA",
-    "url": "https://leetcode.com/u/hardikmishra20040925/",
-    "section": "D",
-    "username": "hardikmishra20040925",
-    "totalSolved": 135,
-    "easySolved": 51,
-    "mediumSolved": 73,
-    "hardSolved": 11
-  },
-  {
     "roll": "2215001281",
     "name": "PRASHANT JADON",
     "url": "https://leetcode.com/u/prashantthakur_4111/",
     "section": "E",
     "username": "prashantthakur_4111",
-    "totalSolved": 134,
+    "totalSolved": 135,
     "easySolved": 55,
-    "mediumSolved": 65,
+    "mediumSolved": 66,
     "hardSolved": 14
   },
   {
@@ -2799,9 +2799,9 @@
     "url": "https://leetcode.com/u/SamyakJain08/",
     "section": "F",
     "username": "SamyakJain08",
-    "totalSolved": 133,
+    "totalSolved": 134,
     "easySolved": 64,
-    "mediumSolved": 56,
+    "mediumSolved": 57,
     "hardSolved": 13
   },
   {
@@ -2810,21 +2810,10 @@
     "url": "https://leetcode.com/u/vansh_-0811/",
     "section": "G",
     "username": "vansh_-0811",
-    "totalSolved": 132,
+    "totalSolved": 133,
     "easySolved": 79,
-    "mediumSolved": 50,
+    "mediumSolved": 51,
     "hardSolved": 3
-  },
-  {
-    "roll": "2215500179",
-    "name": "YATHARTH DIXIT",
-    "url": "https://leetcode.com/u/yatharth_dixit0097/",
-    "section": "AE",
-    "username": "yatharth_dixit0097",
-    "totalSolved": 132,
-    "easySolved": 43,
-    "mediumSolved": 79,
-    "hardSolved": 10
   },
   {
     "roll": "2215000312",
@@ -2832,9 +2821,9 @@
     "url": "https://leetcode.com/u/singhanukalp/",
     "section": "E",
     "username": "singhanukalp",
-    "totalSolved": 131,
+    "totalSolved": 132,
     "easySolved": 63,
-    "mediumSolved": 62,
+    "mediumSolved": 63,
     "hardSolved": 6
   },
   {
@@ -2843,9 +2832,9 @@
     "url": "https://leetcode.com/u/Utkarsh_Sharma_01/",
     "section": "F",
     "username": "Utkarsh_Sharma_01",
-    "totalSolved": 131,
+    "totalSolved": 132,
     "easySolved": 100,
-    "mediumSolved": 28,
+    "mediumSolved": 29,
     "hardSolved": 3
   },
   {
@@ -2904,6 +2893,39 @@
     "hardSolved": 9
   },
   {
+    "roll": "2215500160",
+    "name": "TANUJ MITTAL",
+    "url": "https://leetcode.com/u/tanujmittal/",
+    "section": "AE",
+    "username": "tanujmittal",
+    "totalSolved": 128,
+    "easySolved": 57,
+    "mediumSolved": 65,
+    "hardSolved": 6
+  },
+  {
+    "roll": "2215500057",
+    "name": "DEV SISODIYA",
+    "url": "https://leetcode.com/u/Dev_Sisodiya/",
+    "section": "AD",
+    "username": "Dev_Sisodiya",
+    "totalSolved": 127,
+    "easySolved": 36,
+    "mediumSolved": 77,
+    "hardSolved": 14
+  },
+  {
+    "roll": "2215000601",
+    "name": "DHEERAJ VASHISHTHA",
+    "url": "https://leetcode.com/u/Dheeru_vashishtha/",
+    "section": "D",
+    "username": "Dheeru_vashishtha",
+    "totalSolved": 127,
+    "easySolved": 65,
+    "mediumSolved": 56,
+    "hardSolved": 6
+  },
+  {
     "roll": "2215000409",
     "name": "ATISHAY GARG",
     "url": "https://leetcode.com/u/atishaygarg11/",
@@ -2915,26 +2937,37 @@
     "hardSolved": 7
   },
   {
-    "roll": "2215500160",
-    "name": "TANUJ MITTAL",
-    "url": "https://leetcode.com/u/tanujmittal/",
-    "section": "AE",
-    "username": "tanujmittal",
+    "roll": "2215000902",
+    "name": "KHEM CHAND",
+    "url": "https://leetcode.com/u/kH-989_71/",
+    "section": "H",
+    "username": "kH-989_71",
     "totalSolved": 127,
-    "easySolved": 57,
-    "mediumSolved": 65,
+    "easySolved": 54,
+    "mediumSolved": 66,
+    "hardSolved": 7
+  },
+  {
+    "roll": "2215001125",
+    "name": "NAMAN MISHRA",
+    "url": "https://leetcode.com/u/i_namanmishra",
+    "section": "F",
+    "username": "i_namanmishra",
+    "totalSolved": 126,
+    "easySolved": 63,
+    "mediumSolved": 58,
     "hardSolved": 5
   },
   {
-    "roll": "2215000601",
-    "name": "DHEERAJ VASHISHTHA",
-    "url": "https://leetcode.com/u/Dheeru_vashishtha/",
-    "section": "D",
-    "username": "Dheeru_vashishtha",
+    "roll": "2215001191",
+    "name": "NIVED AGRAWAL",
+    "url": "https://leetcode.com/u/Nived_agrawal/",
+    "section": "F",
+    "username": "Nived_agrawal",
     "totalSolved": 126,
-    "easySolved": 65,
-    "mediumSolved": 55,
-    "hardSolved": 6
+    "easySolved": 72,
+    "mediumSolved": 53,
+    "hardSolved": 1
   },
   {
     "roll": "2215002066",
@@ -2957,50 +2990,6 @@
     "easySolved": 59,
     "mediumSolved": 62,
     "hardSolved": 5
-  },
-  {
-    "roll": "2215000902",
-    "name": "KHEM CHAND",
-    "url": "https://leetcode.com/u/kH-989_71/",
-    "section": "H",
-    "username": "kH-989_71",
-    "totalSolved": 126,
-    "easySolved": 54,
-    "mediumSolved": 65,
-    "hardSolved": 7
-  },
-  {
-    "roll": "2215001125",
-    "name": "NAMAN MISHRA",
-    "url": "https://leetcode.com/u/i_namanmishra",
-    "section": "F",
-    "username": "i_namanmishra",
-    "totalSolved": 125,
-    "easySolved": 62,
-    "mediumSolved": 58,
-    "hardSolved": 5
-  },
-  {
-    "roll": "2215500057",
-    "name": "DEV SISODIYA",
-    "url": "https://leetcode.com/u/Dev_Sisodiya/",
-    "section": "AD",
-    "username": "Dev_Sisodiya",
-    "totalSolved": 125,
-    "easySolved": 36,
-    "mediumSolved": 75,
-    "hardSolved": 14
-  },
-  {
-    "roll": "2215001191",
-    "name": "NIVED AGRAWAL",
-    "url": "https://leetcode.com/u/Nived_agrawal/",
-    "section": "F",
-    "username": "Nived_agrawal",
-    "totalSolved": 125,
-    "easySolved": 72,
-    "mediumSolved": 52,
-    "hardSolved": 1
   },
   {
     "roll": "2215500177",
@@ -3036,6 +3025,17 @@
     "hardSolved": 3
   },
   {
+    "roll": "2215000747",
+    "name": "HARSH PATHAK",
+    "url": "https://leetcode.com/u/Harsh-1808/",
+    "section": "D",
+    "username": "Harsh-1808",
+    "totalSolved": 123,
+    "easySolved": 53,
+    "mediumSolved": 64,
+    "hardSolved": 6
+  },
+  {
     "roll": "2215000248",
     "name": "ANKIT CHAUDHARY",
     "url": "https://leetcode.com/u/Ankit_chaudhary_/",
@@ -3047,15 +3047,26 @@
     "hardSolved": 6
   },
   {
-    "roll": "2215000747",
-    "name": "HARSH PATHAK",
-    "url": "https://leetcode.com/u/Harsh-1808/",
-    "section": "D",
-    "username": "Harsh-1808",
-    "totalSolved": 121,
-    "easySolved": 52,
-    "mediumSolved": 63,
+    "roll": "2215500113",
+    "name": "PRIYANSHI SHARMA",
+    "url": "https://leetcode.com/u/priyanshish2503/",
+    "section": "AC",
+    "username": "priyanshish2503",
+    "totalSolved": 122,
+    "easySolved": 54,
+    "mediumSolved": 62,
     "hardSolved": 6
+  },
+  {
+    "roll": "2215001829",
+    "name": "TANISH GUPTA",
+    "url": "https://leetcode.com/u/tanish-hrk/",
+    "section": "F",
+    "username": "tanish-hrk",
+    "totalSolved": 122,
+    "easySolved": 86,
+    "mediumSolved": 35,
+    "hardSolved": 1
   },
   {
     "roll": "2215800016",
@@ -3091,36 +3102,14 @@
     "hardSolved": 7
   },
   {
-    "roll": "2215001829",
-    "name": "TANISH GUPTA",
-    "url": "https://leetcode.com/u/tanish-hrk/",
-    "section": "F",
-    "username": "tanish-hrk",
-    "totalSolved": 120,
-    "easySolved": 86,
-    "mediumSolved": 33,
-    "hardSolved": 1
-  },
-  {
-    "roll": "2215500113",
-    "name": "PRIYANSHI SHARMA",
-    "url": "https://leetcode.com/u/priyanshish2503/",
-    "section": "AC",
-    "username": "priyanshish2503",
-    "totalSolved": 119,
-    "easySolved": 52,
-    "mediumSolved": 61,
-    "hardSolved": 6
-  },
-  {
     "roll": "2215500078",
     "name": "HEMANT PRAJAPATI",
     "url": "https://leetcode.com/u/hemant1000/",
     "section": "AC",
     "username": "hemant1000",
-    "totalSolved": 118,
-    "easySolved": 67,
-    "mediumSolved": 48,
+    "totalSolved": 120,
+    "easySolved": 68,
+    "mediumSolved": 49,
     "hardSolved": 3
   },
   {
@@ -3129,9 +3118,9 @@
     "url": "https://leetcode.com/u/jatinthakur2817/",
     "section": "F",
     "username": "jatinthakur2817",
-    "totalSolved": 117,
+    "totalSolved": 118,
     "easySolved": 81,
-    "mediumSolved": 32,
+    "mediumSolved": 33,
     "hardSolved": 4
   },
   {
@@ -3140,10 +3129,21 @@
     "url": "https://leetcode.com/u/Tripti0911/",
     "section": "AC",
     "username": "Tripti0911",
-    "totalSolved": 117,
+    "totalSolved": 118,
     "easySolved": 43,
-    "mediumSolved": 65,
+    "mediumSolved": 66,
     "hardSolved": 9
+  },
+  {
+    "roll": "2215000174",
+    "name": "ALPANA RAWAT",
+    "url": "https://leetcode.com/u/Alpana594/",
+    "section": "E",
+    "username": "Alpana594",
+    "totalSolved": 118,
+    "easySolved": 49,
+    "mediumSolved": 61,
+    "hardSolved": 8
   },
   {
     "roll": "2215000913",
@@ -3151,10 +3151,32 @@
     "url": "https://leetcode.com/u/VarshneyKhushi/",
     "section": "F",
     "username": "VarshneyKhushi",
-    "totalSolved": 117,
+    "totalSolved": 118,
     "easySolved": 59,
-    "mediumSolved": 53,
+    "mediumSolved": 54,
     "hardSolved": 5
+  },
+  {
+    "roll": "2215000912",
+    "name": "KHUSHI TIWARI",
+    "url": "https://leetcode.com/u/Tiwari_Khushi/",
+    "section": "F",
+    "username": "Tiwari_Khushi",
+    "totalSolved": 116,
+    "easySolved": 73,
+    "mediumSolved": 40,
+    "hardSolved": 3
+  },
+  {
+    "roll": "2215000557",
+    "name": "DEEPANJALI SINGH",
+    "url": "https://leetcode.com/u/deepanjalisingh/",
+    "section": "E",
+    "username": "deepanjalisingh",
+    "totalSolved": 116,
+    "easySolved": 51,
+    "mediumSolved": 55,
+    "hardSolved": 10
   },
   {
     "roll": "2215800007",
@@ -3168,6 +3190,17 @@
     "hardSolved": 4
   },
   {
+    "roll": "2215001523",
+    "name": "SAGAR RAJPUT",
+    "url": "https://leetcode.com/u/sagarrajput1810/",
+    "section": "H",
+    "username": "sagarrajput1810",
+    "totalSolved": 116,
+    "easySolved": 77,
+    "mediumSolved": 36,
+    "hardSolved": 3
+  },
+  {
     "roll": "2215001212",
     "name": "PARI UPADHYAY",
     "url": "https://leetcode.com/u/pari63/",
@@ -3179,48 +3212,15 @@
     "hardSolved": 6
   },
   {
-    "roll": "2215000912",
-    "name": "KHUSHI TIWARI",
-    "url": "https://leetcode.com/u/Tiwari_Khushi/",
-    "section": "F",
-    "username": "Tiwari_Khushi",
-    "totalSolved": 115,
-    "easySolved": 73,
-    "mediumSolved": 39,
-    "hardSolved": 3
-  },
-  {
-    "roll": "2215000557",
-    "name": "DEEPANJALI SINGH",
-    "url": "https://leetcode.com/u/deepanjalisingh/",
+    "roll": "2215000433",
+    "name": "AYUSH GARG",
+    "url": "https://leetcode.com/u/ayushgarg9986/",
     "section": "E",
-    "username": "deepanjalisingh",
+    "username": "ayushgarg9986",
     "totalSolved": 115,
-    "easySolved": 51,
-    "mediumSolved": 54,
-    "hardSolved": 10
-  },
-  {
-    "roll": "2215000174",
-    "name": "ALPANA RAWAT",
-    "url": "https://leetcode.com/u/Alpana594/",
-    "section": "E",
-    "username": "Alpana594",
-    "totalSolved": 115,
-    "easySolved": 48,
-    "mediumSolved": 59,
-    "hardSolved": 8
-  },
-  {
-    "roll": "2215001523",
-    "name": "SAGAR RAJPUT",
-    "url": "https://leetcode.com/u/sagarrajput1810/",
-    "section": "H",
-    "username": "sagarrajput1810",
-    "totalSolved": 115,
-    "easySolved": 77,
-    "mediumSolved": 35,
-    "hardSolved": 3
+    "easySolved": 54,
+    "mediumSolved": 55,
+    "hardSolved": 6
   },
   {
     "roll": "2215000714",
@@ -3234,25 +3234,14 @@
     "hardSolved": 4
   },
   {
-    "roll": "2215000433",
-    "name": "AYUSH GARG",
-    "url": "https://leetcode.com/u/ayushgarg9986/",
-    "section": "E",
-    "username": "ayushgarg9986",
-    "totalSolved": 113,
-    "easySolved": 54,
-    "mediumSolved": 53,
-    "hardSolved": 6
-  },
-  {
     "roll": "2215001564",
     "name": "SAMARTH PRAKASH SHAKYA",
     "url": "https://leetcode.com/u/SAMARTH-SHAKYA/",
     "section": "E",
     "username": "SAMARTH-SHAKYA",
-    "totalSolved": 112,
+    "totalSolved": 114,
     "easySolved": 51,
-    "mediumSolved": 52,
+    "mediumSolved": 54,
     "hardSolved": 9
   },
   {
@@ -3261,10 +3250,21 @@
     "url": "https://leetcode.com/u/2005harshu/",
     "section": "E",
     "username": "2005harshu",
-    "totalSolved": 111,
+    "totalSolved": 112,
     "easySolved": 46,
-    "mediumSolved": 55,
+    "mediumSolved": 56,
     "hardSolved": 10
+  },
+  {
+    "roll": "2215500102",
+    "name": "NIKITA CHAUDHARY",
+    "url": "https://leetcode.com/u/0Nikki0/",
+    "section": "AC",
+    "username": "0Nikki0",
+    "totalSolved": 112,
+    "easySolved": 39,
+    "mediumSolved": 62,
+    "hardSolved": 11
   },
   {
     "roll": "2215000560",
@@ -3272,8 +3272,8 @@
     "url": "https://leetcode.com/u/Deepanshu-Khandelwal/",
     "section": "H",
     "username": "Deepanshu-Khandelwal",
-    "totalSolved": 111,
-    "easySolved": 56,
+    "totalSolved": 112,
+    "easySolved": 57,
     "mediumSolved": 49,
     "hardSolved": 6
   },
@@ -3283,10 +3283,21 @@
     "url": "https://leetcode.com/u/Dhruv06/",
     "section": "D",
     "username": "Dhruv06",
-    "totalSolved": 111,
+    "totalSolved": 112,
     "easySolved": 54,
-    "mediumSolved": 52,
+    "mediumSolved": 53,
     "hardSolved": 5
+  },
+  {
+    "roll": "2215001131",
+    "name": "NARAYAN",
+    "url": "https://leetcode.com/u/narayanthakur7348/",
+    "section": "E",
+    "username": "narayanthakur7348",
+    "totalSolved": 111,
+    "easySolved": 37,
+    "mediumSolved": 59,
+    "hardSolved": 15
   },
   {
     "roll": "2215001163",
@@ -3311,15 +3322,26 @@
     "hardSolved": 9
   },
   {
-    "roll": "2215001131",
-    "name": "NARAYAN",
-    "url": "https://leetcode.com/u/narayanthakur7348/",
+    "roll": "2215000302",
+    "name": "ANUJ CHATURVEDI",
+    "url": "https://leetcode.com/u/Anujchaturvedi/",
+    "section": "D",
+    "username": "Anujchaturvedi",
+    "totalSolved": 109,
+    "easySolved": 54,
+    "mediumSolved": 50,
+    "hardSolved": 5
+  },
+  {
+    "roll": "2215001372",
+    "name": "PUSHPENDRA UPADHYAY",
+    "url": "https://leetcode.com/u/Pushpendra_Upadhyay02/",
     "section": "E",
-    "username": "narayanthakur7348",
-    "totalSolved": 110,
-    "easySolved": 37,
-    "mediumSolved": 58,
-    "hardSolved": 15
+    "username": "Pushpendra_Upadhyay02",
+    "totalSolved": 109,
+    "easySolved": 50,
+    "mediumSolved": 51,
+    "hardSolved": 8
   },
   {
     "roll": "2215500089",
@@ -3333,6 +3355,17 @@
     "hardSolved": 8
   },
   {
+    "roll": "2215500022",
+    "name": "ANOOP KUMAR",
+    "url": "https://leetcode.com/u/The_Ghost_Coder/",
+    "section": "AC",
+    "username": "The_Ghost_Coder",
+    "totalSolved": 108,
+    "easySolved": 64,
+    "mediumSolved": 41,
+    "hardSolved": 3
+  },
+  {
     "roll": "2215500035",
     "name": "ARPIT GUPTA",
     "url": "https://leetcode.com/u/Arpit0212/",
@@ -3344,47 +3377,14 @@
     "hardSolved": 11
   },
   {
-    "roll": "2215500022",
-    "name": "ANOOP KUMAR",
-    "url": "https://leetcode.com/u/The_Ghost_Coder/",
-    "section": "AC",
-    "username": "The_Ghost_Coder",
-    "totalSolved": 107,
-    "easySolved": 64,
-    "mediumSolved": 40,
-    "hardSolved": 3
-  },
-  {
-    "roll": "2215500102",
-    "name": "NIKITA CHAUDHARY",
-    "url": "https://leetcode.com/u/0Nikki0/",
-    "section": "AC",
-    "username": "0Nikki0",
+    "roll": "2215001279",
+    "name": "PRASHANT CHAUDHARY",
+    "url": "https://leetcode.com/u/Prashant_Chaudhary_/",
+    "section": "E",
+    "username": "Prashant_Chaudhary_",
     "totalSolved": 107,
     "easySolved": 38,
-    "mediumSolved": 58,
-    "hardSolved": 11
-  },
-  {
-    "roll": "2215000302",
-    "name": "ANUJ CHATURVEDI",
-    "url": "https://leetcode.com/u/Anujchaturvedi/",
-    "section": "D",
-    "username": "Anujchaturvedi",
-    "totalSolved": 107,
-    "easySolved": 54,
-    "mediumSolved": 48,
-    "hardSolved": 5
-  },
-  {
-    "roll": "2215001372",
-    "name": "PUSHPENDRA UPADHYAY",
-    "url": "https://leetcode.com/u/Pushpendra_Upadhyay02/",
-    "section": "E",
-    "username": "Pushpendra_Upadhyay02",
-    "totalSolved": 107,
-    "easySolved": 50,
-    "mediumSolved": 49,
+    "mediumSolved": 61,
     "hardSolved": 8
   },
   {
@@ -3393,9 +3393,9 @@
     "url": "https://leetcode.com/u/Madhav_Sharma_07/",
     "section": "D",
     "username": "Madhav_Sharma_07",
-    "totalSolved": 106,
+    "totalSolved": 107,
     "easySolved": 47,
-    "mediumSolved": 49,
+    "mediumSolved": 50,
     "hardSolved": 10
   },
   {
@@ -3404,10 +3404,21 @@
     "url": "https://leetcode.com/u/Anay_Gupta45/",
     "section": "D",
     "username": "Anay_Gupta45",
-    "totalSolved": 106,
+    "totalSolved": 107,
     "easySolved": 42,
-    "mediumSolved": 56,
+    "mediumSolved": 57,
     "hardSolved": 8
+  },
+  {
+    "roll": "2215000052",
+    "name": "ABHISHEK KUMAR",
+    "url": "https://leetcode.com/u/Abhishek3230/",
+    "section": "D",
+    "username": "Abhishek3230",
+    "totalSolved": 106,
+    "easySolved": 48,
+    "mediumSolved": 52,
+    "hardSolved": 6
   },
   {
     "roll": "2215001134",
@@ -3421,25 +3432,14 @@
     "hardSolved": 0
   },
   {
-    "roll": "2215000052",
-    "name": "ABHISHEK KUMAR",
-    "url": "https://leetcode.com/u/Abhishek3230/",
-    "section": "D",
-    "username": "Abhishek3230",
+    "roll": "2215500146",
+    "name": "SHIVEN RASTOGI",
+    "url": "https://leetcode.com/u/Shiven_Rastogi/",
+    "section": "AC",
+    "username": "Shiven_Rastogi",
     "totalSolved": 104,
-    "easySolved": 48,
-    "mediumSolved": 50,
-    "hardSolved": 6
-  },
-  {
-    "roll": "2215001279",
-    "name": "PRASHANT CHAUDHARY",
-    "url": "https://leetcode.com/u/Prashant_Chaudhary_/",
-    "section": "E",
-    "username": "Prashant_Chaudhary_",
-    "totalSolved": 104,
-    "easySolved": 38,
-    "mediumSolved": 58,
+    "easySolved": 40,
+    "mediumSolved": 56,
     "hardSolved": 8
   },
   {
@@ -3454,6 +3454,39 @@
     "hardSolved": 4
   },
   {
+    "roll": "2215800008",
+    "name": "EKTA AGRAWAL",
+    "url": "https://leetcode.com/u/agrawalekta625/",
+    "section": "A(H)",
+    "username": "agrawalekta625",
+    "totalSolved": 104,
+    "easySolved": 68,
+    "mediumSolved": 35,
+    "hardSolved": 1
+  },
+  {
+    "roll": "2215000037",
+    "name": "ABHINAV TOMAR",
+    "url": "https://leetcode.com/u/Tomar_Abhinav/",
+    "section": "E",
+    "username": "Tomar_Abhinav",
+    "totalSolved": 103,
+    "easySolved": 47,
+    "mediumSolved": 49,
+    "hardSolved": 7
+  },
+  {
+    "roll": "2215000665",
+    "name": "GARVIT GAUR",
+    "url": "https://leetcode.com/u/garvitgaur/",
+    "section": "E",
+    "username": "garvitgaur",
+    "totalSolved": 103,
+    "easySolved": 40,
+    "mediumSolved": 51,
+    "hardSolved": 12
+  },
+  {
     "roll": "2215000888",
     "name": "KARTIKEYA SAXENA",
     "url": "https://leetcode.com/u/kartikeyasaxen2601/",
@@ -3465,37 +3498,26 @@
     "hardSolved": 2
   },
   {
-    "roll": "2215000037",
-    "name": "ABHINAV TOMAR",
-    "url": "https://leetcode.com/u/Tomar_Abhinav/",
-    "section": "E",
-    "username": "Tomar_Abhinav",
-    "totalSolved": 102,
-    "easySolved": 46,
-    "mediumSolved": 49,
-    "hardSolved": 7
-  },
-  {
-    "roll": "2215000665",
-    "name": "GARVIT GAUR",
-    "url": "https://leetcode.com/u/garvitgaur/",
-    "section": "E",
-    "username": "garvitgaur",
-    "totalSolved": 102,
-    "easySolved": 40,
-    "mediumSolved": 50,
-    "hardSolved": 12
-  },
-  {
-    "roll": "2215500146",
-    "name": "SHIVEN RASTOGI",
-    "url": "https://leetcode.com/u/Shiven_Rastogi/",
+    "roll": "2215500139",
+    "name": "SATYAM KUMAR SINGH",
+    "url": "https://leetcode.com/u/satyam_kumar_singh/",
     "section": "AC",
-    "username": "Shiven_Rastogi",
-    "totalSolved": 101,
-    "easySolved": 38,
-    "mediumSolved": 55,
-    "hardSolved": 8
+    "username": "satyam_kumar_singh",
+    "totalSolved": 102,
+    "easySolved": 36,
+    "mediumSolved": 60,
+    "hardSolved": 6
+  },
+  {
+    "roll": "2215000095",
+    "name": "ADITYA GURJAR",
+    "url": "https://leetcode.com/u/aditya_gurjar_123/",
+    "section": "G",
+    "username": "aditya_gurjar_123",
+    "totalSolved": 102,
+    "easySolved": 66,
+    "mediumSolved": 31,
+    "hardSolved": 5
   },
   {
     "roll": "2215001508",
@@ -3503,20 +3525,9 @@
     "url": "https://leetcode.com/u/SachinGola200/",
     "section": "C",
     "username": "SachinGola200",
-    "totalSolved": 100,
+    "totalSolved": 101,
     "easySolved": 41,
-    "mediumSolved": 53,
-    "hardSolved": 6
-  },
-  {
-    "roll": "2215500139",
-    "name": "SATYAM KUMAR SINGH",
-    "url": "https://leetcode.com/u/satyam_kumar_singh/",
-    "section": "AC",
-    "username": "satyam_kumar_singh",
-    "totalSolved": 100,
-    "easySolved": 36,
-    "mediumSolved": 58,
+    "mediumSolved": 54,
     "hardSolved": 6
   },
   {
@@ -3525,9 +3536,9 @@
     "url": "https://leetcode.com/u/Archie_Gupta/",
     "section": "AC",
     "username": "Archie_Gupta",
-    "totalSolved": 100,
+    "totalSolved": 101,
     "easySolved": 46,
-    "mediumSolved": 50,
+    "mediumSolved": 51,
     "hardSolved": 4
   },
   {
@@ -3536,10 +3547,21 @@
     "url": "https://leetcode.com/u/_Mukul_Dev_/",
     "section": "F",
     "username": "_Mukul_Dev_",
-    "totalSolved": 100,
+    "totalSolved": 101,
     "easySolved": 56,
-    "mediumSolved": 41,
+    "mediumSolved": 42,
     "hardSolved": 3
+  },
+  {
+    "roll": "2215000981",
+    "name": "LAKSHYA DWIVEDI",
+    "url": "https://leetcode.com/u/kamina_69/",
+    "section": "H",
+    "username": "kamina_69",
+    "totalSolved": 101,
+    "easySolved": 34,
+    "mediumSolved": 61,
+    "hardSolved": 6
   },
   {
     "roll": "2215500047",
@@ -3586,15 +3608,37 @@
     "hardSolved": 4
   },
   {
-    "roll": "2215000095",
-    "name": "ADITYA GURJAR",
-    "url": "https://leetcode.com/u/aditya_gurjar_123/",
-    "section": "G",
-    "username": "aditya_gurjar_123",
+    "roll": "2215500135",
+    "name": "SANDESH YADAV",
+    "url": "https://leetcode.com/u/sandesh_yadav_cse2026/",
+    "section": "AD",
+    "username": "sandesh_yadav_cse2026",
     "totalSolved": 99,
-    "easySolved": 65,
-    "mediumSolved": 29,
+    "easySolved": 66,
+    "mediumSolved": 31,
+    "hardSolved": 2
+  },
+  {
+    "roll": "2215001339",
+    "name": "PRIYANSHI GUPTA",
+    "url": "https://leetcode.com/u/priyaanshayy/",
+    "section": "G",
+    "username": "priyaanshayy",
+    "totalSolved": 98,
+    "easySolved": 56,
+    "mediumSolved": 37,
     "hardSolved": 5
+  },
+  {
+    "roll": "2215000509",
+    "name": "CHAMAN FAUJDAR",
+    "url": "https://leetcode.com/u/Chaman_faujdar/",
+    "section": "F",
+    "username": "Chaman_faujdar",
+    "totalSolved": 98,
+    "easySolved": 67,
+    "mediumSolved": 29,
+    "hardSolved": 2
   },
   {
     "roll": "2215500079",
@@ -3619,39 +3663,6 @@
     "hardSolved": 7
   },
   {
-    "roll": "2215000509",
-    "name": "CHAMAN FAUJDAR",
-    "url": "https://leetcode.com/u/Chaman_faujdar/",
-    "section": "F",
-    "username": "Chaman_faujdar",
-    "totalSolved": 97,
-    "easySolved": 67,
-    "mediumSolved": 28,
-    "hardSolved": 2
-  },
-  {
-    "roll": "2215500135",
-    "name": "SANDESH YADAV",
-    "url": "https://leetcode.com/u/sandesh_yadav_cse2026/",
-    "section": "AD",
-    "username": "sandesh_yadav_cse2026",
-    "totalSolved": 97,
-    "easySolved": 65,
-    "mediumSolved": 30,
-    "hardSolved": 2
-  },
-  {
-    "roll": "2215001339",
-    "name": "PRIYANSHI GUPTA",
-    "url": "https://leetcode.com/u/priyaanshayy/",
-    "section": "G",
-    "username": "priyaanshayy",
-    "totalSolved": 96,
-    "easySolved": 56,
-    "mediumSolved": 35,
-    "hardSolved": 5
-  },
-  {
     "roll": "2215001537",
     "name": "SAJAL SINGH",
     "url": "https://leetcode.com/u/user9189p/",
@@ -3661,17 +3672,6 @@
     "easySolved": 52,
     "mediumSolved": 35,
     "hardSolved": 9
-  },
-  {
-    "roll": "2215000981",
-    "name": "LAKSHYA DWIVEDI",
-    "url": "https://leetcode.com/u/kamina_69/",
-    "section": "H",
-    "username": "kamina_69",
-    "totalSolved": 96,
-    "easySolved": 31,
-    "mediumSolved": 59,
-    "hardSolved": 6
   },
   {
     "roll": "2215500156",
@@ -3696,6 +3696,17 @@
     "hardSolved": 8
   },
   {
+    "roll": "2315990033",
+    "name": "MANISH KUMAR",
+    "url": "https://leetcode.com/u/user6786ic/",
+    "section": "F",
+    "username": "user6786ic",
+    "totalSolved": 94,
+    "easySolved": 48,
+    "mediumSolved": 40,
+    "hardSolved": 6
+  },
+  {
     "roll": "2215500009",
     "name": "ADITYA YADAV",
     "url": "https://leetcode.com/u/hackgod_Aditya/",
@@ -3716,17 +3727,6 @@
     "easySolved": 36,
     "mediumSolved": 48,
     "hardSolved": 9
-  },
-  {
-    "roll": "2315990033",
-    "name": "MANISH KUMAR",
-    "url": "https://leetcode.com/u/user6786ic/",
-    "section": "F",
-    "username": "user6786ic",
-    "totalSolved": 93,
-    "easySolved": 48,
-    "mediumSolved": 39,
-    "hardSolved": 6
   },
   {
     "roll": "2215500176",
@@ -3751,6 +3751,17 @@
     "hardSolved": 8
   },
   {
+    "roll": "2215000144",
+    "name": "AKANKSHA SHAKYA",
+    "url": "https://leetcode.com/u/Akanksha_016/",
+    "section": "E",
+    "username": "Akanksha_016",
+    "totalSolved": 92,
+    "easySolved": 35,
+    "mediumSolved": 53,
+    "hardSolved": 4
+  },
+  {
     "roll": "2215000773",
     "name": "HARSHIT PARMAR",
     "url": "https://leetcode.com/u/harshit240205/",
@@ -3760,6 +3771,17 @@
     "easySolved": 63,
     "mediumSolved": 28,
     "hardSolved": 1
+  },
+  {
+    "roll": "2215500114",
+    "name": "PRIYANSHU BHARDWAJ",
+    "url": "https://leetcode.com/u/Priyanshu-Bhardwaj/",
+    "section": "AC",
+    "username": "Priyanshu-Bhardwaj",
+    "totalSolved": 92,
+    "easySolved": 44,
+    "mediumSolved": 45,
+    "hardSolved": 3
   },
   {
     "roll": "2215001366",
@@ -3773,26 +3795,37 @@
     "hardSolved": 8
   },
   {
-    "roll": "2215500114",
-    "name": "PRIYANSHU BHARDWAJ",
-    "url": "https://leetcode.com/u/Priyanshu-Bhardwaj/",
-    "section": "AC",
-    "username": "Priyanshu-Bhardwaj",
-    "totalSolved": 91,
-    "easySolved": 44,
-    "mediumSolved": 44,
-    "hardSolved": 3
+    "roll": "2215001775",
+    "name": "SRIJAN MANI TRIPATHI",
+    "url": "https://leetcode.com/u/srijan122/",
+    "section": "F",
+    "username": "srijan122",
+    "totalSolved": 90,
+    "easySolved": 53,
+    "mediumSolved": 35,
+    "hardSolved": 2
   },
   {
-    "roll": "2215000144",
-    "name": "AKANKSHA SHAKYA",
-    "url": "https://leetcode.com/u/Akanksha_016/",
-    "section": "E",
-    "username": "Akanksha_016",
+    "roll": "2215001723",
+    "name": "SHUBH SONAKIYA",
+    "url": "https://leetcode.com/u/Shubh_Sonakiya/",
+    "section": "F",
+    "username": "Shubh_Sonakiya",
     "totalSolved": 90,
-    "easySolved": 35,
-    "mediumSolved": 51,
-    "hardSolved": 4
+    "easySolved": 73,
+    "mediumSolved": 16,
+    "hardSolved": 1
+  },
+  {
+    "roll": "2215000211",
+    "name": "AMIT AGARWAL",
+    "url": "https://leetcode.com/u/amit_ag87/",
+    "section": "H",
+    "username": "amit_ag87",
+    "totalSolved": 90,
+    "easySolved": 65,
+    "mediumSolved": 22,
+    "hardSolved": 3
   },
   {
     "roll": "2215000300",
@@ -3806,6 +3839,17 @@
     "hardSolved": 7
   },
   {
+    "roll": "2215001926",
+    "name": "VANSH SINGHAL",
+    "url": "https://leetcode.com/u/vansh_singhal007/",
+    "section": "F",
+    "username": "vansh_singhal007",
+    "totalSolved": 90,
+    "easySolved": 52,
+    "mediumSolved": 37,
+    "hardSolved": 1
+  },
+  {
     "roll": "2215000483",
     "name": "BHASKAR GAUTAM",
     "url": "https://leetcode.com/u/BhaskarGautam24/",
@@ -3815,17 +3859,6 @@
     "easySolved": 49,
     "mediumSolved": 37,
     "hardSolved": 4
-  },
-  {
-    "roll": "2215000211",
-    "name": "AMIT AGARWAL",
-    "url": "https://leetcode.com/u/amit_ag87/",
-    "section": "H",
-    "username": "amit_ag87",
-    "totalSolved": 89,
-    "easySolved": 65,
-    "mediumSolved": 22,
-    "hardSolved": 2
   },
   {
     "roll": "2315990051",
@@ -3850,6 +3883,17 @@
     "hardSolved": 2
   },
   {
+    "roll": "2215001906",
+    "name": "VAIDEHI KHANDELWAL",
+    "url": "https://leetcode.com/u/Vaidehi_108/",
+    "section": "E",
+    "username": "Vaidehi_108",
+    "totalSolved": 88,
+    "easySolved": 62,
+    "mediumSolved": 23,
+    "hardSolved": 3
+  },
+  {
     "roll": "2215000355",
     "name": "ARUN KUMAR",
     "url": "https://leetcode.com/u/arunkumar56/",
@@ -3872,17 +3916,6 @@
     "hardSolved": 5
   },
   {
-    "roll": "2215001775",
-    "name": "SRIJAN MANI TRIPATHI",
-    "url": "https://leetcode.com/u/srijan122/",
-    "section": "F",
-    "username": "srijan122",
-    "totalSolved": 87,
-    "easySolved": 52,
-    "mediumSolved": 33,
-    "hardSolved": 2
-  },
-  {
     "roll": "2215500150",
     "name": "SHREYANSHI GARG",
     "url": "https://leetcode.com/u/shreyanshigarg/",
@@ -3892,17 +3925,6 @@
     "easySolved": 41,
     "mediumSolved": 40,
     "hardSolved": 6
-  },
-  {
-    "roll": "2215001723",
-    "name": "SHUBH SONAKIYA",
-    "url": "https://leetcode.com/u/Shubh_Sonakiya/",
-    "section": "F",
-    "username": "Shubh_Sonakiya",
-    "totalSolved": 87,
-    "easySolved": 72,
-    "mediumSolved": 14,
-    "hardSolved": 1
   },
   {
     "roll": "2215001559",
@@ -3916,26 +3938,15 @@
     "hardSolved": 2
   },
   {
-    "roll": "2215001906",
-    "name": "VAIDEHI KHANDELWAL",
-    "url": "https://leetcode.com/u/Vaidehi_108/",
+    "roll": "2215000681",
+    "name": "GAURI AGRAWAL",
+    "url": "https://leetcode.com/u/Gauri__Agrawal/",
     "section": "E",
-    "username": "Vaidehi_108",
+    "username": "Gauri__Agrawal",
     "totalSolved": 86,
-    "easySolved": 62,
-    "mediumSolved": 21,
+    "easySolved": 37,
+    "mediumSolved": 46,
     "hardSolved": 3
-  },
-  {
-    "roll": "2215001926",
-    "name": "VANSH SINGHAL",
-    "url": "https://leetcode.com/u/vansh_singhal007/",
-    "section": "F",
-    "username": "vansh_singhal007",
-    "totalSolved": 86,
-    "easySolved": 52,
-    "mediumSolved": 33,
-    "hardSolved": 1
   },
   {
     "roll": "2215001935",
@@ -3971,6 +3982,17 @@
     "hardSolved": 6
   },
   {
+    "roll": "2215001389",
+    "name": "RAHUL JADON",
+    "url": "https://leetcode.com/u/Rahul_Jadon/",
+    "section": "E",
+    "username": "Rahul_Jadon",
+    "totalSolved": 84,
+    "easySolved": 43,
+    "mediumSolved": 34,
+    "hardSolved": 7
+  },
+  {
     "roll": "2215001485",
     "name": "ROHIT CHOUDHARY",
     "url": "https://leetcode.com/u/Rohitchoudhary669/",
@@ -3991,17 +4013,6 @@
     "easySolved": 19,
     "mediumSolved": 50,
     "hardSolved": 15
-  },
-  {
-    "roll": "2215800021",
-    "name": "SAHIL GUPTA",
-    "url": "https://leetcode.com/u/Sahilgupta21/",
-    "section": "A(H)",
-    "username": "Sahilgupta21",
-    "totalSolved": 84,
-    "easySolved": 55,
-    "mediumSolved": 25,
-    "hardSolved": 4
   },
   {
     "roll": "2215500100",
@@ -4037,26 +4048,15 @@
     "hardSolved": 0
   },
   {
-    "roll": "2215001389",
-    "name": "RAHUL JADON",
-    "url": "https://leetcode.com/u/Rahul_Jadon/",
-    "section": "E",
-    "username": "Rahul_Jadon",
+    "roll": "2215500023",
+    "name": "ANSH KAPOOR",
+    "url": "https://leetcode.com/u/ansh75334/",
+    "section": "AD",
+    "username": "ansh75334",
     "totalSolved": 83,
-    "easySolved": 43,
-    "mediumSolved": 33,
-    "hardSolved": 7
-  },
-  {
-    "roll": "2215000681",
-    "name": "GAURI AGRAWAL",
-    "url": "https://leetcode.com/u/Gauri__Agrawal/",
-    "section": "E",
-    "username": "Gauri__Agrawal",
-    "totalSolved": 83,
-    "easySolved": 37,
-    "mediumSolved": 43,
-    "hardSolved": 3
+    "easySolved": 38,
+    "mediumSolved": 39,
+    "hardSolved": 6
   },
   {
     "roll": "2215001265",
@@ -4092,6 +4092,17 @@
     "hardSolved": 10
   },
   {
+    "roll": "2315990015",
+    "name": "BHARAT DIXIT",
+    "url": "https://leetcode.com/u/bharat010703/",
+    "section": "H",
+    "username": "bharat010703",
+    "totalSolved": 82,
+    "easySolved": 42,
+    "mediumSolved": 36,
+    "hardSolved": 4
+  },
+  {
     "roll": "2215500071",
     "name": "HARDIK ARORA",
     "url": "https://leetcode.com/u/hardik121/",
@@ -4125,14 +4136,25 @@
     "hardSolved": 1
   },
   {
-    "roll": "2315990015",
-    "name": "BHARAT DIXIT",
-    "url": "https://leetcode.com/u/bharat010703/",
+    "roll": "2215000428",
+    "name": "AYUSH AGNIHOTRI",
+    "url": "https://leetcode.com/u/Ayyush063/",
     "section": "H",
-    "username": "bharat010703",
-    "totalSolved": 81,
-    "easySolved": 42,
-    "mediumSolved": 35,
+    "username": "Ayyush063",
+    "totalSolved": 80,
+    "easySolved": 32,
+    "mediumSolved": 41,
+    "hardSolved": 7
+  },
+  {
+    "roll": "2215500025",
+    "name": "ANSHIKA AGARWAL",
+    "url": "https://leetcode.com/u/agarwalanshika74/",
+    "section": "AC",
+    "username": "agarwalanshika74",
+    "totalSolved": 80,
+    "easySolved": 31,
+    "mediumSolved": 45,
     "hardSolved": 4
   },
   {
@@ -4145,28 +4167,6 @@
     "easySolved": 40,
     "mediumSolved": 37,
     "hardSolved": 3
-  },
-  {
-    "roll": "2215500025",
-    "name": "ANSHIKA AGARWAL",
-    "url": "https://leetcode.com/u/agarwalanshika74/",
-    "section": "AC",
-    "username": "agarwalanshika74",
-    "totalSolved": 79,
-    "easySolved": 31,
-    "mediumSolved": 44,
-    "hardSolved": 4
-  },
-  {
-    "roll": "2215500023",
-    "name": "ANSH KAPOOR",
-    "url": "https://leetcode.com/u/ansh75334/",
-    "section": "AD",
-    "username": "ansh75334",
-    "totalSolved": 79,
-    "easySolved": 37,
-    "mediumSolved": 36,
-    "hardSolved": 6
   },
   {
     "roll": "2215000503",
@@ -4235,17 +4235,6 @@
     "hardSolved": 6
   },
   {
-    "roll": "2215000428",
-    "name": "AYUSH AGNIHOTRI",
-    "url": "https://leetcode.com/u/Ayyush063/",
-    "section": "H",
-    "username": "Ayyush063",
-    "totalSolved": 77,
-    "easySolved": 32,
-    "mediumSolved": 39,
-    "hardSolved": 6
-  },
-  {
     "roll": "2215500132",
     "name": "SAMBHAV TIWARI",
     "url": "https://leetcode.com/u/sambhavtiwari/",
@@ -4262,9 +4251,9 @@
     "url": "https://leetcode.com/u/harshit_gla/",
     "section": "AC",
     "username": "harshit_gla",
-    "totalSolved": 76,
+    "totalSolved": 77,
     "easySolved": 27,
-    "mediumSolved": 41,
+    "mediumSolved": 42,
     "hardSolved": 8
   },
   {
@@ -4273,10 +4262,32 @@
     "url": "https://leetcode.com/u/puneetsharma9651/",
     "section": "AE",
     "username": "puneetsharma9651",
-    "totalSolved": 76,
+    "totalSolved": 77,
     "easySolved": 21,
-    "mediumSolved": 39,
+    "mediumSolved": 40,
     "hardSolved": 16
+  },
+  {
+    "roll": "2215000542",
+    "name": "DEEPAK DUBEY",
+    "url": "https://leetcode.com/u/Deepak-Dubey-cs/",
+    "section": "F",
+    "username": "Deepak-Dubey-cs",
+    "totalSolved": 76,
+    "easySolved": 52,
+    "mediumSolved": 19,
+    "hardSolved": 5
+  },
+  {
+    "roll": "2215000392",
+    "name": "ASHISH KUMAR VERMA",
+    "url": "https://leetcode.com/u/Ashish_Kumar_Verma/",
+    "section": "F",
+    "username": "Ashish_Kumar_Verma",
+    "totalSolved": 76,
+    "easySolved": 54,
+    "mediumSolved": 22,
+    "hardSolved": 0
   },
   {
     "roll": "2215500121",
@@ -4287,6 +4298,17 @@
     "totalSolved": 75,
     "easySolved": 41,
     "mediumSolved": 30,
+    "hardSolved": 4
+  },
+  {
+    "roll": "2215500056",
+    "name": "DEV CHIKARA",
+    "url": "https://leetcode.com/u/devchikara05/",
+    "section": "AC",
+    "username": "devchikara05",
+    "totalSolved": 75,
+    "easySolved": 32,
+    "mediumSolved": 39,
     "hardSolved": 4
   },
   {
@@ -4301,47 +4323,14 @@
     "hardSolved": 7
   },
   {
-    "roll": "2215000392",
-    "name": "ASHISH KUMAR VERMA",
-    "url": "https://leetcode.com/u/Ashish_Kumar_Verma/",
-    "section": "F",
-    "username": "Ashish_Kumar_Verma",
-    "totalSolved": 75,
-    "easySolved": 54,
-    "mediumSolved": 21,
-    "hardSolved": 0
-  },
-  {
-    "roll": "2215500056",
-    "name": "DEV CHIKARA",
-    "url": "https://leetcode.com/u/devchikara05/",
-    "section": "AC",
-    "username": "devchikara05",
-    "totalSolved": 74,
-    "easySolved": 32,
-    "mediumSolved": 38,
-    "hardSolved": 4
-  },
-  {
-    "roll": "2215000542",
-    "name": "DEEPAK DUBEY",
-    "url": "https://leetcode.com/u/Deepak-Dubey-cs/",
-    "section": "F",
-    "username": "Deepak-Dubey-cs",
-    "totalSolved": 74,
-    "easySolved": 52,
-    "mediumSolved": 17,
-    "hardSolved": 5
-  },
-  {
     "roll": "2215000565",
     "name": "DEEPIKA RAWAT",
     "url": "https://leetcode.com/u/deepikarawat_cs22/",
     "section": "E",
     "username": "deepikarawat_cs22",
-    "totalSolved": 74,
+    "totalSolved": 75,
     "easySolved": 33,
-    "mediumSolved": 38,
+    "mediumSolved": 39,
     "hardSolved": 3
   },
   {
@@ -4367,6 +4356,17 @@
     "hardSolved": 5
   },
   {
+    "roll": "2215000628",
+    "name": "DIVYA PRAKASH SINGH",
+    "url": "https://leetcode.com/u/kashanra7/",
+    "section": "E",
+    "username": "kashanra7",
+    "totalSolved": 72,
+    "easySolved": 28,
+    "mediumSolved": 39,
+    "hardSolved": 5
+  },
+  {
     "roll": "2215500051",
     "name": "CHITRANSH BHARADWAJ",
     "url": "https://leetcode.com/u/Chitransh00052/",
@@ -4378,15 +4378,26 @@
     "hardSolved": 6
   },
   {
-    "roll": "2215000628",
-    "name": "DIVYA PRAKASH SINGH",
-    "url": "https://leetcode.com/u/kashanra7/",
-    "section": "E",
-    "username": "kashanra7",
-    "totalSolved": 70,
-    "easySolved": 28,
-    "mediumSolved": 37,
-    "hardSolved": 5
+    "roll": "2215000306",
+    "name": "ANUJ KUMAR",
+    "url": "https://leetcode.com/u/AXg0B2cViR/",
+    "section": "G",
+    "username": "AXg0B2cViR",
+    "totalSolved": 69,
+    "easySolved": 46,
+    "mediumSolved": 22,
+    "hardSolved": 1
+  },
+  {
+    "roll": "2215000992",
+    "name": "LOKESH KUMAR",
+    "url": "https://leetcode.com/u/lokesh2910/",
+    "section": "F",
+    "username": "lokesh2910",
+    "totalSolved": 69,
+    "easySolved": 37,
+    "mediumSolved": 28,
+    "hardSolved": 4
   },
   {
     "roll": "2215500152",
@@ -4400,25 +4411,14 @@
     "hardSolved": 4
   },
   {
-    "roll": "2215000306",
-    "name": "ANUJ KUMAR",
-    "url": "https://leetcode.com/u/AXg0B2cViR/",
-    "section": "G",
-    "username": "AXg0B2cViR",
-    "totalSolved": 68,
-    "easySolved": 46,
-    "mediumSolved": 21,
-    "hardSolved": 1
-  },
-  {
-    "roll": "2215000992",
-    "name": "LOKESH KUMAR",
-    "url": "https://leetcode.com/u/lokesh2910/",
+    "roll": "2215001768",
+    "name": "SOUMYA KUMAR GUPTA",
+    "url": "https://leetcode.com/u/soumya_kumar_gupta/",
     "section": "F",
-    "username": "lokesh2910",
+    "username": "soumya_kumar_gupta",
     "totalSolved": 68,
-    "easySolved": 37,
-    "mediumSolved": 27,
+    "easySolved": 36,
+    "mediumSolved": 28,
     "hardSolved": 4
   },
   {
@@ -4453,17 +4453,6 @@
     "easySolved": 31,
     "mediumSolved": 31,
     "hardSolved": 5
-  },
-  {
-    "roll": "2215001768",
-    "name": "SOUMYA KUMAR GUPTA",
-    "url": "https://leetcode.com/u/soumya_kumar_gupta/",
-    "section": "F",
-    "username": "soumya_kumar_gupta",
-    "totalSolved": 67,
-    "easySolved": 36,
-    "mediumSolved": 27,
-    "hardSolved": 4
   },
   {
     "roll": "2215001593",
@@ -4543,6 +4532,17 @@
     "hardSolved": 12
   },
   {
+    "roll": "2215500109",
+    "name": "PRASHANT CHAUHAN",
+    "url": "https://leetcode.com/u/prashantchauhan123/",
+    "section": "AE",
+    "username": "prashantchauhan123",
+    "totalSolved": 65,
+    "easySolved": 24,
+    "mediumSolved": 32,
+    "hardSolved": 9
+  },
+  {
     "roll": "2215500080",
     "name": "HIMANSHU MISHRA",
     "url": "https://leetcode.com/u/Ansh0007/",
@@ -4565,17 +4565,6 @@
     "hardSolved": 2
   },
   {
-    "roll": "2215500109",
-    "name": "PRASHANT CHAUHAN",
-    "url": "https://leetcode.com/u/prashantchauhan123/",
-    "section": "AE",
-    "username": "prashantchauhan123",
-    "totalSolved": 64,
-    "easySolved": 24,
-    "mediumSolved": 31,
-    "hardSolved": 9
-  },
-  {
     "roll": "2215500172",
     "name": "VIKKY KUSHWAH",
     "url": "https://leetcode.com/u/mrvikky_17/",
@@ -4595,6 +4584,17 @@
     "totalSolved": 64,
     "easySolved": 23,
     "mediumSolved": 35,
+    "hardSolved": 6
+  },
+  {
+    "roll": "2215500055",
+    "name": "DEEPAK YADAV",
+    "url": "https://leetcode.com/u/dy5055290/",
+    "section": "AD",
+    "username": "dy5055290",
+    "totalSolved": 63,
+    "easySolved": 31,
+    "mediumSolved": 26,
     "hardSolved": 6
   },
   {
@@ -4620,15 +4620,26 @@
     "hardSolved": 10
   },
   {
-    "roll": "2215500055",
-    "name": "DEEPAK YADAV",
-    "url": "https://leetcode.com/u/dy5055290/",
-    "section": "AD",
-    "username": "dy5055290",
+    "roll": "2215000081",
+    "name": "ADITEY RAI",
+    "url": "https://leetcode.com/u/Aditey19/",
+    "section": "G",
+    "username": "Aditey19",
     "totalSolved": 62,
-    "easySolved": 31,
-    "mediumSolved": 25,
-    "hardSolved": 6
+    "easySolved": 43,
+    "mediumSolved": 16,
+    "hardSolved": 3
+  },
+  {
+    "roll": "2215500118",
+    "name": "RAHUL GANGWAR",
+    "url": "https://leetcode.com/u/Rahul_Gangwar/",
+    "section": "AC",
+    "username": "Rahul_Gangwar",
+    "totalSolved": 62,
+    "easySolved": 28,
+    "mediumSolved": 32,
+    "hardSolved": 2
   },
   {
     "roll": "2215500014",
@@ -4653,6 +4664,17 @@
     "hardSolved": 1
   },
   {
+    "roll": "2215800026",
+    "name": "SHIVAM CHAUDHARY",
+    "url": "https://leetcode.com/u/shivam108108/",
+    "section": "A(H)",
+    "username": "shivam108108",
+    "totalSolved": 61,
+    "easySolved": 27,
+    "mediumSolved": 26,
+    "hardSolved": 8
+  },
+  {
     "roll": "2215500145",
     "name": "SHIVAM SINGH",
     "url": "https://leetcode.com/u/SinghShivam007/",
@@ -4673,17 +4695,6 @@
     "easySolved": 24,
     "mediumSolved": 29,
     "hardSolved": 7
-  },
-  {
-    "roll": "2215000081",
-    "name": "ADITEY RAI",
-    "url": "https://leetcode.com/u/Aditey19/",
-    "section": "G",
-    "username": "Aditey19",
-    "totalSolved": 59,
-    "easySolved": 41,
-    "mediumSolved": 16,
-    "hardSolved": 2
   },
   {
     "roll": "2215001235",
@@ -4735,21 +4746,10 @@
     "url": "https://leetcode.com/u/AkashS20/",
     "section": "F",
     "username": "AkashS20",
-    "totalSolved": 57,
+    "totalSolved": 58,
     "easySolved": 40,
-    "mediumSolved": 16,
+    "mediumSolved": 17,
     "hardSolved": 1
-  },
-  {
-    "roll": "2215500118",
-    "name": "RAHUL GANGWAR",
-    "url": "https://leetcode.com/u/Rahul_Gangwar/",
-    "section": "AC",
-    "username": "Rahul_Gangwar",
-    "totalSolved": 57,
-    "easySolved": 26,
-    "mediumSolved": 29,
-    "hardSolved": 2
   },
   {
     "roll": "2215001273",
@@ -4757,10 +4757,54 @@
     "url": "https://leetcode.com/u/PranjalVerma_01/",
     "section": "F",
     "username": "PranjalVerma_01",
-    "totalSolved": 56,
+    "totalSolved": 57,
     "easySolved": 42,
-    "mediumSolved": 13,
+    "mediumSolved": 14,
     "hardSolved": 1
+  },
+  {
+    "roll": "2215001557",
+    "name": "SAKSHI SINGH",
+    "url": "https://leetcode.com/u/sakshisingh_2910/",
+    "section": "F",
+    "username": "sakshisingh_2910",
+    "totalSolved": 57,
+    "easySolved": 30,
+    "mediumSolved": 23,
+    "hardSolved": 4
+  },
+  {
+    "roll": "2215001293",
+    "name": "PRASHANT SOLANKI",
+    "url": "https://leetcode.com/u/Prashant_753/",
+    "section": "E",
+    "username": "Prashant_753",
+    "totalSolved": 57,
+    "easySolved": 26,
+    "mediumSolved": 28,
+    "hardSolved": 3
+  },
+  {
+    "roll": "2215001008",
+    "name": "LUVYA SHARMA",
+    "url": "https://leetcode.com/u/LuvyaSharma/",
+    "section": "G",
+    "username": "LuvyaSharma",
+    "totalSolved": 57,
+    "easySolved": 13,
+    "mediumSolved": 39,
+    "hardSolved": 5
+  },
+  {
+    "roll": "2215000881",
+    "name": "KARTIK SAHA",
+    "url": "https://leetcode.com/u/sahakartik2952004/",
+    "section": "F",
+    "username": "sahakartik2952004",
+    "totalSolved": 57,
+    "easySolved": 27,
+    "mediumSolved": 26,
+    "hardSolved": 4
   },
   {
     "roll": "2215001924",
@@ -4774,28 +4818,6 @@
     "hardSolved": 1
   },
   {
-    "roll": "2215001293",
-    "name": "PRASHANT SOLANKI",
-    "url": "https://leetcode.com/u/Prashant_753/",
-    "section": "E",
-    "username": "Prashant_753",
-    "totalSolved": 56,
-    "easySolved": 26,
-    "mediumSolved": 27,
-    "hardSolved": 3
-  },
-  {
-    "roll": "2215000881",
-    "name": "KARTIK SAHA",
-    "url": "https://leetcode.com/u/sahakartik2952004/",
-    "section": "F",
-    "username": "sahakartik2952004",
-    "totalSolved": 56,
-    "easySolved": 27,
-    "mediumSolved": 25,
-    "hardSolved": 4
-  },
-  {
     "roll": "2215500018",
     "name": "ANANYA SHUKLA",
     "url": "https://leetcode.com/u/user6540cY/",
@@ -4805,17 +4827,6 @@
     "easySolved": 24,
     "mediumSolved": 26,
     "hardSolved": 5
-  },
-  {
-    "roll": "2215001557",
-    "name": "SAKSHI SINGH",
-    "url": "https://leetcode.com/u/sakshisingh_2910/",
-    "section": "F",
-    "username": "sakshisingh_2910",
-    "totalSolved": 55,
-    "easySolved": 30,
-    "mediumSolved": 21,
-    "hardSolved": 4
   },
   {
     "roll": "2215500158",
@@ -4829,15 +4840,26 @@
     "hardSolved": 1
   },
   {
-    "roll": "2215001008",
-    "name": "LUVYA SHARMA",
-    "url": "https://leetcode.com/u/LuvyaSharma/",
-    "section": "G",
-    "username": "LuvyaSharma",
+    "roll": "2215500153",
+    "name": "SIDDHI AGARWAL",
+    "url": "https://leetcode.com/u/siddhiagarwal1228/",
+    "section": "AC",
+    "username": "siddhiagarwal1228",
     "totalSolved": 55,
-    "easySolved": 13,
-    "mediumSolved": 37,
-    "hardSolved": 5
+    "easySolved": 31,
+    "mediumSolved": 22,
+    "hardSolved": 2
+  },
+  {
+    "roll": "2215000903",
+    "name": "KHUSHBOO AGRAWAL",
+    "url": "https://leetcode.com/u/khushiag565/",
+    "section": "F",
+    "username": "khushiag565",
+    "totalSolved": 54,
+    "easySolved": 32,
+    "mediumSolved": 20,
+    "hardSolved": 2
   },
   {
     "roll": "2215500044",
@@ -4851,28 +4873,6 @@
     "hardSolved": 8
   },
   {
-    "roll": "2215800008",
-    "name": "EKTA AGRAWAL",
-    "url": "https://leetcode.com/u/agrawalekta625/",
-    "section": "A(H)",
-    "username": "agrawalekta625",
-    "totalSolved": 54,
-    "easySolved": 36,
-    "mediumSolved": 18,
-    "hardSolved": 0
-  },
-  {
-    "roll": "2215500153",
-    "name": "SIDDHI AGARWAL",
-    "url": "https://leetcode.com/u/siddhiagarwal1228/",
-    "section": "AC",
-    "username": "siddhiagarwal1228",
-    "totalSolved": 54,
-    "easySolved": 31,
-    "mediumSolved": 21,
-    "hardSolved": 2
-  },
-  {
     "roll": "2215000571",
     "name": "DEV RISHI SHARMA",
     "url": "https://leetcode.com/u/Sdev76/",
@@ -4884,26 +4884,70 @@
     "hardSolved": 1
   },
   {
-    "roll": "2215000903",
-    "name": "KHUSHBOO AGRAWAL",
-    "url": "https://leetcode.com/u/khushiag565/",
-    "section": "F",
-    "username": "khushiag565",
-    "totalSolved": 53,
-    "easySolved": 32,
-    "mediumSolved": 19,
-    "hardSolved": 2
-  },
-  {
     "roll": "2215500167",
     "name": "VAIBHAVI VARSHNEY",
     "url": "https://leetcode.com/u/vaibhavi_01/",
     "section": "AD",
     "username": "vaibhavi_01",
-    "totalSolved": 51,
+    "totalSolved": 52,
     "easySolved": 31,
-    "mediumSolved": 16,
+    "mediumSolved": 17,
     "hardSolved": 4
+  },
+  {
+    "roll": "2215002017",
+    "name": "YASH DWIVEDI",
+    "url": "https://leetcode.com/u/Unknown69/",
+    "section": "G",
+    "username": "Unknown69",
+    "totalSolved": 52,
+    "easySolved": 41,
+    "mediumSolved": 11,
+    "hardSolved": 0
+  },
+  {
+    "roll": "2215001140",
+    "name": "NAVYA YADAV",
+    "url": "https://leetcode.com/u/Navyaa_24/",
+    "section": "F",
+    "username": "Navyaa_24",
+    "totalSolved": 52,
+    "easySolved": 35,
+    "mediumSolved": 14,
+    "hardSolved": 3
+  },
+  {
+    "roll": "2215001597",
+    "name": "SARTHAK SINHA",
+    "url": "https://leetcode.com/u/Sarthak-Sinha/",
+    "section": "G",
+    "username": "Sarthak-Sinha",
+    "totalSolved": 52,
+    "easySolved": 36,
+    "mediumSolved": 16,
+    "hardSolved": 0
+  },
+  {
+    "roll": "2215500043",
+    "name": "AYUSHMAN VERMA",
+    "url": "https://leetcode.com/u/Ayushman_Verma9/",
+    "section": "AD",
+    "username": "Ayushman_Verma9",
+    "totalSolved": 52,
+    "easySolved": 23,
+    "mediumSolved": 25,
+    "hardSolved": 4
+  },
+  {
+    "roll": "2215001443",
+    "name": "RISHABH GUPTA",
+    "url": "https://leetcode.com/u/rishabhgupta1_cs22/",
+    "section": "F",
+    "username": "rishabhgupta1_cs22",
+    "totalSolved": 51,
+    "easySolved": 36,
+    "mediumSolved": 12,
+    "hardSolved": 3
   },
   {
     "roll": "2215001329",
@@ -4917,48 +4961,37 @@
     "hardSolved": 1
   },
   {
-    "roll": "2215001140",
-    "name": "NAVYA YADAV",
-    "url": "https://leetcode.com/u/Navyaa_24/",
-    "section": "F",
-    "username": "Navyaa_24",
-    "totalSolved": 51,
-    "easySolved": 35,
-    "mediumSolved": 13,
-    "hardSolved": 3
-  },
-  {
-    "roll": "2215001597",
-    "name": "SARTHAK SINHA",
-    "url": "https://leetcode.com/u/Sarthak-Sinha/",
-    "section": "G",
-    "username": "Sarthak-Sinha",
-    "totalSolved": 51,
-    "easySolved": 35,
-    "mediumSolved": 16,
-    "hardSolved": 0
-  },
-  {
-    "roll": "2215001443",
-    "name": "RISHABH GUPTA",
-    "url": "https://leetcode.com/u/rishabhgupta1_cs22/",
-    "section": "F",
-    "username": "rishabhgupta1_cs22",
-    "totalSolved": 50,
-    "easySolved": 36,
-    "mediumSolved": 11,
-    "hardSolved": 3
-  },
-  {
     "roll": "2215001053",
     "name": "MANYA ARJARIYA",
     "url": "https://leetcode.com/u/Manya_77/",
     "section": "F",
     "username": "Manya_77",
-    "totalSolved": 50,
+    "totalSolved": 51,
     "easySolved": 23,
-    "mediumSolved": 22,
+    "mediumSolved": 23,
     "hardSolved": 5
+  },
+  {
+    "roll": "2215001452",
+    "name": "RISHABH SINGH",
+    "url": "https://leetcode.com/u/Rishabh_singhcs22/",
+    "section": "F",
+    "username": "Rishabh_singhcs22",
+    "totalSolved": 51,
+    "easySolved": 33,
+    "mediumSolved": 16,
+    "hardSolved": 2
+  },
+  {
+    "roll": "2215800013",
+    "name": "KIRTI",
+    "url": "https://leetcode.com/u/kirtichauhan3963/",
+    "section": "A(H)",
+    "username": "kirtichauhan3963",
+    "totalSolved": 50,
+    "easySolved": 13,
+    "mediumSolved": 35,
+    "hardSolved": 2
   },
   {
     "roll": "2215500015",
@@ -4972,17 +5005,6 @@
     "hardSolved": 2
   },
   {
-    "roll": "2215500043",
-    "name": "AYUSHMAN VERMA",
-    "url": "https://leetcode.com/u/Ayushman_Verma9/",
-    "section": "AD",
-    "username": "Ayushman_Verma9",
-    "totalSolved": 50,
-    "easySolved": 22,
-    "mediumSolved": 24,
-    "hardSolved": 4
-  },
-  {
     "roll": "2215500005",
     "name": "ABHINAV YADAV",
     "url": "https://leetcode.com/u/abhinav-yadav-16/",
@@ -4994,37 +5016,48 @@
     "hardSolved": 3
   },
   {
-    "roll": "2215002017",
-    "name": "YASH DWIVEDI",
-    "url": "https://leetcode.com/u/Unknown69/",
-    "section": "G",
-    "username": "Unknown69",
-    "totalSolved": 49,
-    "easySolved": 38,
-    "mediumSolved": 11,
-    "hardSolved": 0
-  },
-  {
-    "roll": "2215001452",
-    "name": "RISHABH SINGH",
-    "url": "https://leetcode.com/u/Rishabh_singhcs22/",
-    "section": "F",
-    "username": "Rishabh_singhcs22",
-    "totalSolved": 48,
-    "easySolved": 32,
-    "mediumSolved": 14,
-    "hardSolved": 2
-  },
-  {
     "roll": "2215001388",
     "name": "RAHUL GUPTA",
     "url": "https://leetcode.com/u/rahulgupta00/",
     "section": "H",
     "username": "rahulgupta00",
-    "totalSolved": 48,
-    "easySolved": 27,
+    "totalSolved": 49,
+    "easySolved": 28,
     "mediumSolved": 18,
     "hardSolved": 3
+  },
+  {
+    "roll": "2215001763",
+    "name": "SONU",
+    "url": "https://leetcode.com/u/SonuSingh7869/",
+    "section": "F",
+    "username": "SonuSingh7869",
+    "totalSolved": 48,
+    "easySolved": 25,
+    "mediumSolved": 22,
+    "hardSolved": 1
+  },
+  {
+    "roll": "2215001699",
+    "name": "SHREEYA GUPTA",
+    "url": "https://leetcode.com/u/shreeyagupta6342/",
+    "section": "F",
+    "username": "shreeyagupta6342",
+    "totalSolved": 48,
+    "easySolved": 34,
+    "mediumSolved": 13,
+    "hardSolved": 1
+  },
+  {
+    "roll": "2215500142",
+    "name": "SHAILENDRA KUMAR YADAV",
+    "url": "https://leetcode.com/u/shortss124/",
+    "section": "AD",
+    "username": "shortss124",
+    "totalSolved": 48,
+    "easySolved": 25,
+    "mediumSolved": 21,
+    "hardSolved": 2
   },
   {
     "roll": "2215500048",
@@ -5036,17 +5069,6 @@
     "easySolved": 25,
     "mediumSolved": 19,
     "hardSolved": 3
-  },
-  {
-    "roll": "2215001699",
-    "name": "SHREEYA GUPTA",
-    "url": "https://leetcode.com/u/shreeyagupta6342/",
-    "section": "F",
-    "username": "shreeyagupta6342",
-    "totalSolved": 47,
-    "easySolved": 34,
-    "mediumSolved": 12,
-    "hardSolved": 1
   },
   {
     "roll": "2215000283",
@@ -5071,26 +5093,15 @@
     "hardSolved": 3
   },
   {
-    "roll": "2215001763",
-    "name": "SONU",
-    "url": "https://leetcode.com/u/SonuSingh7869/",
-    "section": "F",
-    "username": "SonuSingh7869",
+    "roll": "2215001465",
+    "name": "RISHIT KESHARWANI",
+    "url": "https://leetcode.com/u/Rishitkesharwani/",
+    "section": "H",
+    "username": "Rishitkesharwani",
     "totalSolved": 46,
-    "easySolved": 24,
-    "mediumSolved": 21,
+    "easySolved": 33,
+    "mediumSolved": 12,
     "hardSolved": 1
-  },
-  {
-    "roll": "2215500142",
-    "name": "SHAILENDRA KUMAR YADAV",
-    "url": "https://leetcode.com/u/shortss124/",
-    "section": "AD",
-    "username": "shortss124",
-    "totalSolved": 46,
-    "easySolved": 23,
-    "mediumSolved": 21,
-    "hardSolved": 2
   },
   {
     "roll": "2215500130",
@@ -5104,14 +5115,14 @@
     "hardSolved": 3
   },
   {
-    "roll": "2215001465",
-    "name": "RISHIT KESHARWANI",
-    "url": "https://leetcode.com/u/Rishitkesharwani/",
-    "section": "H",
-    "username": "Rishitkesharwani",
+    "roll": "2215001832",
+    "name": "TANISHA SINGH",
+    "url": "https://leetcode.com/u/Tanisha_016/",
+    "section": "F",
+    "username": "Tanisha_016",
     "totalSolved": 45,
-    "easySolved": 33,
-    "mediumSolved": 11,
+    "easySolved": 27,
+    "mediumSolved": 17,
     "hardSolved": 1
   },
   {
@@ -5137,14 +5148,36 @@
     "hardSolved": 1
   },
   {
-    "roll": "2215001832",
-    "name": "TANISHA SINGH",
-    "url": "https://leetcode.com/u/Tanisha_016/",
-    "section": "F",
-    "username": "Tanisha_016",
+    "roll": "2115500102",
+    "name": "NIKHIL DUBEY",
+    "url": "https://leetcode.com/u/Niikhiil1/",
+    "section": "AE",
+    "username": "Niikhiil1",
     "totalSolved": 44,
     "easySolved": 27,
-    "mediumSolved": 16,
+    "mediumSolved": 15,
+    "hardSolved": 2
+  },
+  {
+    "roll": "2215000401",
+    "name": "ASHVANI SHARMA",
+    "url": "https://leetcode.com/u/ashvani807771/",
+    "section": "H",
+    "username": "ashvani807771",
+    "totalSolved": 44,
+    "easySolved": 25,
+    "mediumSolved": 19,
+    "hardSolved": 0
+  },
+  {
+    "roll": "2215001130",
+    "name": "NANDINI SOLANKI",
+    "url": "https://leetcode.com/u/nandini_solanki8282/",
+    "section": "G",
+    "username": "nandini_solanki8282",
+    "totalSolved": 44,
+    "easySolved": 30,
+    "mediumSolved": 13,
     "hardSolved": 1
   },
   {
@@ -5159,17 +5192,6 @@
     "hardSolved": 3
   },
   {
-    "roll": "2115500102",
-    "name": "NIKHIL DUBEY",
-    "url": "https://leetcode.com/u/Niikhiil1/",
-    "section": "AE",
-    "username": "Niikhiil1",
-    "totalSolved": 43,
-    "easySolved": 26,
-    "mediumSolved": 15,
-    "hardSolved": 2
-  },
-  {
     "roll": "2215001353",
     "name": "PRIYANSHU SHARMA",
     "url": "https://leetcode.com/u/priyanshusharm1cs/",
@@ -5179,17 +5201,6 @@
     "easySolved": 26,
     "mediumSolved": 16,
     "hardSolved": 1
-  },
-  {
-    "roll": "2215001130",
-    "name": "NANDINI SOLANKI",
-    "url": "https://leetcode.com/u/nandini_solanki8282/",
-    "section": "G",
-    "username": "nandini_solanki8282",
-    "totalSolved": 43,
-    "easySolved": 30,
-    "mediumSolved": 13,
-    "hardSolved": 0
   },
   {
     "roll": "2215500066",
@@ -5214,17 +5225,6 @@
     "hardSolved": 4
   },
   {
-    "roll": "2215000401",
-    "name": "ASHVANI SHARMA",
-    "url": "https://leetcode.com/u/ashvani807771/",
-    "section": "H",
-    "username": "ashvani807771",
-    "totalSolved": 42,
-    "easySolved": 25,
-    "mediumSolved": 17,
-    "hardSolved": 0
-  },
-  {
     "roll": "2215500091",
     "name": "LAKSHYA KHANDELWAL",
     "url": "https://leetcode.com/u/lakshyak1805/",
@@ -5236,6 +5236,17 @@
     "hardSolved": 0
   },
   {
+    "roll": "2215001132",
+    "name": "NARENDRA SINGH",
+    "url": "https://leetcode.com/u/narendrasingh21208/",
+    "section": "E",
+    "username": "narendrasingh21208",
+    "totalSolved": 41,
+    "easySolved": 19,
+    "mediumSolved": 19,
+    "hardSolved": 3
+  },
+  {
     "roll": "2215001462",
     "name": "RISHIKA PAWARIA",
     "url": "https://leetcode.com/u/Rishika_Pawaria/",
@@ -5245,17 +5256,6 @@
     "easySolved": 15,
     "mediumSolved": 20,
     "hardSolved": 6
-  },
-  {
-    "roll": "2215001132",
-    "name": "NARENDRA SINGH",
-    "url": "https://leetcode.com/u/narendrasingh21208/",
-    "section": "E",
-    "username": "narendrasingh21208",
-    "totalSolved": 40,
-    "easySolved": 19,
-    "mediumSolved": 18,
-    "hardSolved": 3
   },
   {
     "roll": "2215500017",
@@ -5313,6 +5313,17 @@
     "hardSolved": 4
   },
   {
+    "roll": "2215001413",
+    "name": "RAJAT PATHAK",
+    "url": "https://leetcode.com/u/RajatPathak31/",
+    "section": "H",
+    "username": "RajatPathak31",
+    "totalSolved": 37,
+    "easySolved": 25,
+    "mediumSolved": 12,
+    "hardSolved": 0
+  },
+  {
     "roll": "2115500154",
     "name": "TEJPRATAP SINGH",
     "url": "https://leetcode.com/u/2115500154/",
@@ -5333,17 +5344,6 @@
     "easySolved": 21,
     "mediumSolved": 14,
     "hardSolved": 1
-  },
-  {
-    "roll": "2215001413",
-    "name": "RAJAT PATHAK",
-    "url": "https://leetcode.com/u/RajatPathak31/",
-    "section": "H",
-    "username": "RajatPathak31",
-    "totalSolved": 36,
-    "easySolved": 25,
-    "mediumSolved": 11,
-    "hardSolved": 0
   },
   {
     "roll": "2215001693",
@@ -5399,17 +5399,6 @@
     "easySolved": 23,
     "mediumSolved": 10,
     "hardSolved": 0
-  },
-  {
-    "roll": "2215800026",
-    "name": "SHIVAM CHAUDHARY",
-    "url": "https://leetcode.com/u/shivam108108/",
-    "section": "A(H)",
-    "username": "shivam108108",
-    "totalSolved": 33,
-    "easySolved": 9,
-    "mediumSolved": 16,
-    "hardSolved": 8
   },
   {
     "roll": "2215000866",
@@ -5478,6 +5467,17 @@
     "hardSolved": 4
   },
   {
+    "roll": "2215800028",
+    "name": "SRISHTI AGARWAL",
+    "url": "https://leetcode.com/u/srishti0902/",
+    "section": "A(H)",
+    "username": "srishti0902",
+    "totalSolved": 32,
+    "easySolved": 19,
+    "mediumSolved": 11,
+    "hardSolved": 2
+  },
+  {
     "roll": "2215000423",
     "name": "AVNISH",
     "url": "https://leetcode.com/u/Avnish2510/",
@@ -5487,6 +5487,17 @@
     "easySolved": 16,
     "mediumSolved": 16,
     "hardSolved": 0
+  },
+  {
+    "roll": "2215001377",
+    "name": "RADHIKA MITTAL",
+    "url": "https://leetcode.com/u/Radhika_Mittal_516/",
+    "section": "G",
+    "username": "Radhika_Mittal_516",
+    "totalSolved": 31,
+    "easySolved": 18,
+    "mediumSolved": 9,
+    "hardSolved": 4
   },
   {
     "roll": "2215500151",
@@ -5500,6 +5511,17 @@
     "hardSolved": 4
   },
   {
+    "roll": "2215000935",
+    "name": "KRISHNA PUNJ SINGH",
+    "url": "https://leetcode.com/u/krishna143143/",
+    "section": "F",
+    "username": "krishna143143",
+    "totalSolved": 31,
+    "easySolved": 21,
+    "mediumSolved": 10,
+    "hardSolved": 0
+  },
+  {
     "roll": "2215000411",
     "name": "ATUL KUMAR",
     "url": "https://leetcode.com/u/AtulK09/",
@@ -5509,39 +5531,6 @@
     "easySolved": 17,
     "mediumSolved": 12,
     "hardSolved": 1
-  },
-  {
-    "roll": "2215000935",
-    "name": "KRISHNA PUNJ SINGH",
-    "url": "https://leetcode.com/u/krishna143143/",
-    "section": "F",
-    "username": "krishna143143",
-    "totalSolved": 30,
-    "easySolved": 21,
-    "mediumSolved": 9,
-    "hardSolved": 0
-  },
-  {
-    "roll": "2215800013",
-    "name": "KIRTI",
-    "url": "https://leetcode.com/u/kirtichauhan3963/",
-    "section": "A(H)",
-    "username": "kirtichauhan3963",
-    "totalSolved": 30,
-    "easySolved": 11,
-    "mediumSolved": 18,
-    "hardSolved": 1
-  },
-  {
-    "roll": "2215001377",
-    "name": "RADHIKA MITTAL",
-    "url": "https://leetcode.com/u/Radhika_Mittal_516/",
-    "section": "G",
-    "username": "Radhika_Mittal_516",
-    "totalSolved": 29,
-    "easySolved": 18,
-    "mediumSolved": 9,
-    "hardSolved": 2
   },
   {
     "roll": "2215800020",
@@ -5599,6 +5588,28 @@
     "hardSolved": 0
   },
   {
+    "roll": "2215001407",
+    "name": "RAJ SRIVASTAVA",
+    "url": "https://leetcode.com/u/Raj_Srivastava20505/",
+    "section": "F",
+    "username": "Raj_Srivastava20505",
+    "totalSolved": 27,
+    "easySolved": 15,
+    "mediumSolved": 11,
+    "hardSolved": 1
+  },
+  {
+    "roll": "2215500155",
+    "name": "SPARSH GOYAL",
+    "url": "https://leetcode.com/u/Sparsh_Goyal/",
+    "section": "AD",
+    "username": "Sparsh_Goyal",
+    "totalSolved": 27,
+    "easySolved": 12,
+    "mediumSolved": 15,
+    "hardSolved": 0
+  },
+  {
     "roll": "2215500081",
     "name": "HIMANSHU SINGH",
     "url": "https://leetcode.com/u/happy04/",
@@ -5630,28 +5641,6 @@
     "easySolved": 13,
     "mediumSolved": 11,
     "hardSolved": 3
-  },
-  {
-    "roll": "2215001407",
-    "name": "RAJ SRIVASTAVA",
-    "url": "https://leetcode.com/u/Raj_Srivastava20505/",
-    "section": "F",
-    "username": "Raj_Srivastava20505",
-    "totalSolved": 26,
-    "easySolved": 15,
-    "mediumSolved": 10,
-    "hardSolved": 1
-  },
-  {
-    "roll": "2215500155",
-    "name": "SPARSH GOYAL",
-    "url": "https://leetcode.com/u/Sparsh_Goyal/",
-    "section": "AD",
-    "username": "Sparsh_Goyal",
-    "totalSolved": 26,
-    "easySolved": 12,
-    "mediumSolved": 14,
-    "hardSolved": 0
   },
   {
     "roll": "2215000623",
@@ -5696,17 +5685,6 @@
     "easySolved": 15,
     "mediumSolved": 9,
     "hardSolved": 0
-  },
-  {
-    "roll": "2215800028",
-    "name": "SRISHTI AGARWAL",
-    "url": "https://leetcode.com/u/srishti0902/",
-    "section": "A(H)",
-    "username": "srishti0902",
-    "totalSolved": 24,
-    "easySolved": 14,
-    "mediumSolved": 9,
-    "hardSolved": 1
   },
   {
     "roll": "2215001860",
@@ -5786,6 +5764,17 @@
     "hardSolved": 0
   },
   {
+    "roll": "2215002036",
+    "name": "YASH VISHWAKARMA",
+    "url": "https://leetcode.com/u/yashhvishwakarma/",
+    "section": "G",
+    "username": "yashhvishwakarma",
+    "totalSolved": 22,
+    "easySolved": 12,
+    "mediumSolved": 10,
+    "hardSolved": 0
+  },
+  {
     "roll": "2215000861",
     "name": "KALPIT CHAUDHARY",
     "url": "https://leetcode.com/u/kalpit_chaudhary_cs/",
@@ -5795,6 +5784,17 @@
     "easySolved": 8,
     "mediumSolved": 12,
     "hardSolved": 2
+  },
+  {
+    "roll": "2215000765",
+    "name": "HARSHIKA GARG",
+    "url": "https://leetcode.com/u/harshikaagrawal852/",
+    "section": "H",
+    "username": "harshikaagrawal852",
+    "totalSolved": 22,
+    "easySolved": 18,
+    "mediumSolved": 4,
+    "hardSolved": 0
   },
   {
     "roll": "2215500140",
@@ -5819,25 +5819,25 @@
     "hardSolved": 0
   },
   {
-    "roll": "2215002036",
-    "name": "YASH VISHWAKARMA",
-    "url": "https://leetcode.com/u/yashhvishwakarma/",
+    "roll": "2215000058",
+    "name": "ABHISHEK PATHAK",
+    "url": "https://leetcode.com/u/abhipathak4546/",
     "section": "G",
-    "username": "yashhvishwakarma",
-    "totalSolved": 20,
-    "easySolved": 12,
-    "mediumSolved": 8,
-    "hardSolved": 0
-  },
-  {
-    "roll": "2215000765",
-    "name": "HARSHIKA GARG",
-    "url": "https://leetcode.com/u/harshikaagrawal852/",
-    "section": "H",
-    "username": "harshikaagrawal852",
+    "username": "abhipathak4546",
     "totalSolved": 20,
     "easySolved": 16,
     "mediumSolved": 4,
+    "hardSolved": 0
+  },
+  {
+    "roll": "2215001774",
+    "name": "SRAVAN KUMAR",
+    "url": "https://leetcode.com/u/3-shravan/",
+    "section": "F",
+    "username": "3-shravan",
+    "totalSolved": 19,
+    "easySolved": 13,
+    "mediumSolved": 6,
     "hardSolved": 0
   },
   {
@@ -5860,17 +5860,6 @@
     "totalSolved": 18,
     "easySolved": 8,
     "mediumSolved": 10,
-    "hardSolved": 0
-  },
-  {
-    "roll": "2215001774",
-    "name": "SRAVAN KUMAR",
-    "url": "https://leetcode.com/u/3-shravan/",
-    "section": "F",
-    "username": "3-shravan",
-    "totalSolved": 18,
-    "easySolved": 13,
-    "mediumSolved": 5,
     "hardSolved": 0
   },
   {
@@ -5907,6 +5896,17 @@
     "hardSolved": 0
   },
   {
+    "roll": "2215000039",
+    "name": "ABHINENDRA SINGH",
+    "url": "https://leetcode.com/u/abhinendrasingh/",
+    "section": "F",
+    "username": "abhinendrasingh",
+    "totalSolved": 17,
+    "easySolved": 12,
+    "mediumSolved": 4,
+    "hardSolved": 1
+  },
+  {
     "roll": "2215500159",
     "name": "SWASTI AGRAWAL",
     "url": "https://leetcode.com/u/swasti_cs22/",
@@ -5916,17 +5916,6 @@
     "easySolved": 9,
     "mediumSolved": 5,
     "hardSolved": 3
-  },
-  {
-    "roll": "2215000058",
-    "name": "ABHISHEK PATHAK",
-    "url": "https://leetcode.com/u/abhipathak4546/",
-    "section": "G",
-    "username": "abhipathak4546",
-    "totalSolved": 17,
-    "easySolved": 15,
-    "mediumSolved": 2,
-    "hardSolved": 0
   },
   {
     "roll": "2215500053",
@@ -5948,17 +5937,6 @@
     "totalSolved": 16,
     "easySolved": 9,
     "mediumSolved": 6,
-    "hardSolved": 1
-  },
-  {
-    "roll": "2215000039",
-    "name": "ABHINENDRA SINGH",
-    "url": "https://leetcode.com/u/abhinendrasingh/",
-    "section": "F",
-    "username": "abhinendrasingh",
-    "totalSolved": 16,
-    "easySolved": 12,
-    "mediumSolved": 3,
     "hardSolved": 1
   },
   {
@@ -6138,6 +6116,17 @@
     "hardSolved": 1
   },
   {
+    "roll": "2215800030",
+    "name": "TEEKAM",
+    "url": "https://leetcode.com/u/z6EmVUzrBN/",
+    "section": "A(H)",
+    "username": "z6EmVUzrBN",
+    "totalSolved": 5,
+    "easySolved": 4,
+    "mediumSolved": 1,
+    "hardSolved": 0
+  },
+  {
     "roll": "2215500065",
     "name": "DIVYANSHU KHANDAGRE",
     "url": "https://leetcode.com/u/divyanshu1604/",
@@ -6146,28 +6135,6 @@
     "totalSolved": 4,
     "easySolved": 3,
     "mediumSolved": 1,
-    "hardSolved": 0
-  },
-  {
-    "roll": "2215800030",
-    "name": "TEEKAM",
-    "url": "https://leetcode.com/u/z6EmVUzrBN/",
-    "section": "A(H)",
-    "username": "z6EmVUzrBN",
-    "totalSolved": 3,
-    "easySolved": 3,
-    "mediumSolved": 0,
-    "hardSolved": 0
-  },
-  {
-    "roll": "2215800002",
-    "name": "AKRISHNA AGNIHOTRI",
-    "url": "https://leetcode.com/u/Akrishna_Agnihotri/",
-    "section": "A(H)",
-    "username": "Akrishna_Agnihotri",
-    "totalSolved": 3,
-    "easySolved": 1,
-    "mediumSolved": 2,
     "hardSolved": 0
   },
   {
@@ -6485,11 +6452,29 @@
     "info": "No LeetCode data available"
   },
   {
+    "roll": "2215001606",
+    "name": "SATYAM KARN",
+    "url": "https://leetcode.com/u/Karnsaty/",
+    "section": "D"
+  },
+  {
     "roll": "2215000426",
     "name": "AYUSH",
     "url": "https://leetcode.com/problemset/",
     "section": "E",
     "info": "No LeetCode data available"
+  },
+  {
+    "roll": "2215800002",
+    "name": "AKRISHNA AGNIHOTRI",
+    "url": "https://leetcode.com/u/Akrishna_Agnihotri/",
+    "section": "A(H)"
+  },
+  {
+    "roll": "2215800021",
+    "name": "SAHIL GUPTA",
+    "url": "https://leetcode.com/u/Sahilgupta21/",
+    "section": "A(H)"
   },
   {
     "roll": "2215000460",
