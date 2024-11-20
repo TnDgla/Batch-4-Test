@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         let filteredData = [...data]; // Keep original data separate
         const leaderboardBody = document.getElementById('leaderboard-body');
         const sectionFilter = document.getElementById('section-filter');
+        const oldData = fs.readFileSync('../oldData.txt', 'utf-8').split('\n').map(line => line.trim()).filter(Boolean);
 
         // Populate section filter dropdown
         const populateSectionFilter = () => {
@@ -20,14 +21,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Function to export data to CSV
         const exportToCSV = (data) => {
-            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved', 'Easy', 'Medium', 'Hard', 'LeetCode URL'];
+            const headers = ['Rank', 'Roll Number', 'Name', 'Section', 'Total Solved Before','Total Solved Updated', 'Easy', 'Medium', 'Hard', 'LeetCode URL'];
             const csvRows = data.map((student, index) => {
                 return [
                     index + 1,
                     student.roll,
                     student.name,
                     student.section || 'N/A',
-                    student.totalSolved || 'N/A',
+                    student.totalSolvedBefore || 'N/A',
+                    student.totalSolvedUpdated || 'N/A',
                     student.easySolved || 'N/A',
                     student.mediumSolved || 'N/A',
                     student.hardSolved || 'N/A',
@@ -62,7 +64,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                             : `<div class="text-red-500">${student.name}</div>`}
                     </td>
                     <td class="p-4">${student.section || 'N/A'}</td>
-                    <td class="p-4">${student.totalSolved || 'N/A'}</td>
+                    <td class="p-4">${student.totalSolvedBefore || 'N/A'}</td>
+                    <td class="p-4">${student.totalSolvedUpdated || 'N/A'}</td>
                     <td class="p-4 text-green-400">${student.easySolved || 'N/A'}</td>
                     <td class="p-4 text-yellow-400">${student.mediumSolved || 'N/A'}</td>
                     <td class="p-4 text-red-400">${student.hardSolved || 'N/A'}</td>
@@ -80,7 +83,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
 
         // Sorting logic with ascending and descending functionality
-        let totalSolvedDirection = 'desc';
+        let totalSolvedBeforeDirection = 'desc';
+        let totalSolvedUpdatedDirection = 'desc';
         let easySolvedDirection = 'desc';
         let mediumSolvedDirection = 'desc';
         let hardSolvedDirection = 'desc';
@@ -118,10 +122,15 @@ document.addEventListener('DOMContentLoaded', async () => {
             const sortedData = sortData(filteredData, 'section', sectionDirection, false);
             renderLeaderboard(sortedData);
         });
+        document.getElementById('sort-total-before').addEventListener('click', () => {
+            totalSolvedBeforeDirection = totalSolvedBeforeDirection === 'desc' ? 'asc' : 'desc';
+            const sortedData = sortData(filteredData, 'totalSolvedBefore', totalSolvedBeforeDirection, true);
+            renderLeaderboard(sortedData);
+        });
 
-        document.getElementById('sort-total').addEventListener('click', () => {
-            totalSolvedDirection = totalSolvedDirection === 'desc' ? 'asc' : 'desc';
-            const sortedData = sortData(filteredData, 'totalSolved', totalSolvedDirection, true);
+        document.getElementById('sort-total-updated').addEventListener('click', () => {
+            totalSolvedUpdatedDirection = totalSolvedUpdatedDirection === 'desc' ? 'asc' : 'desc';
+            const sortedData = sortData(filteredData, 'totalSolvedUpdated', totalSolvedUpdatedDirection, true);
             renderLeaderboard(sortedData);
         });
 
