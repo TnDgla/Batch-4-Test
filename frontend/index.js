@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         const leaderboardBody = document.getElementById('leaderboard-body');
         const sectionFilter = document.getElementById('section-filter');
 
+        
+
         // Populate section filter dropdown
         const populateSectionFilter = () => {
             const sections = [...new Set(data.map(student => student.section || 'N/A'))].sort();
@@ -17,6 +19,18 @@ document.addEventListener('DOMContentLoaded', async () => {
                 sectionFilter.appendChild(option);
             });
         };
+
+
+        const searchbar = document.getElementById("search-bar")
+        searchbar.addEventListener('input',(e) => {
+            const q = e.target.value.toLowerCase().trim();
+            const filtered = data.filter(student =>
+            (student.name && student.name.toLowerCase().includes(q)) || 
+            (student.roll && student.roll.toLowerCase().includes(q))
+            );
+            renderLeaderboard(filtered);
+        });
+
 
         // Function to export data to CSV
         const exportToCSV = (data) => {
