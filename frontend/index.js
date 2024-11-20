@@ -698,7 +698,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Filter function
         const filterData = (section) => {
             filteredData = section === 'all' 
-                ? [...data]
+                ? [...data]:section==='Hostellers'?data.filter(student=>(student.residence || 'N/A')===section)
+                :section==='Day Scholars'?data.filter(student=>(student.residence || 'N/A')===section)
                 : data.filter(student => (student.section || 'N/A') === section);
             renderLeaderboard(filteredData);
         };
