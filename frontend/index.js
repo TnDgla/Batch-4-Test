@@ -142,6 +142,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             const sortedData = sortData(filteredData, 'hardSolved', hardSolvedDirection, true);
             renderLeaderboard(sortedData);
         });
+        
+        const sri = document.getElementById('search');  
+        const search = () => {  
+            let str = sri.value;
+            let ns = str.toUpperCase();
+            const newData = data.filter(student => student.name.toUpperCase().startsWith(ns));  
+            renderLeaderboard(newData);
+        }; 
+        sri.addEventListener('keyup', search);  
+        renderLeaderboard(data);
 
     } catch (error) {
         console.error('Error fetching data:', error);
